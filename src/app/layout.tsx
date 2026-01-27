@@ -1,18 +1,29 @@
 import type { ReactNode } from 'react';
 
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import localFont from 'next/font/local';
 
 import { ThemeProvider } from 'next-themes';
 
-import NavigationBar from '@/app/(delete-this-and-modify-page.tsx)/NavigationBar';
 import '@/app/globals.css';
+import SiteFooter from '@/components/layout/site-footer';
+import SiteHeader from '@/components/layout/site-header';
+import { Analytics } from '@/components/analytics';
+import { CookieConsentProvider } from '@/components/cookie-consent/cookie-consent-provider';
+import { CookieConsentBanner } from '@/components/cookie-consent/cookie-consent-banner';
+import { OrganizationJsonLd, LocalBusinessJsonLd, WebSiteJsonLd } from '@/components/seo/json-ld';
 import { Toaster } from '@/registry/new-york-v4/ui/sonner';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
     variable: '--font-geist-sans',
     weight: '100 900'
+});
+const inter = Inter({
+    variable: '--font-inter',
+    subsets: ['latin'],
+    display: 'swap'
 });
 const geistMono = localFont({
     src: './fonts/GeistMonoVF.woff',
@@ -31,11 +42,19 @@ const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
         // ? https://react.dev/reference/react-dom/client/hydrateRoot#suppressing-unavoidable-hydration-mismatch-errors
         <html suppressHydrationWarning lang='en'>
             <body
-                className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground overscroll-none antialiased`}>
+                className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} bg-background text-foreground overscroll-none antialiased`}>
                 <ThemeProvider attribute='class'>
-                    <NavigationBar />
-                    {children}
-                    <Toaster />
+                    <CookieConsentProvider>
+                        <OrganizationJsonLd />
+                        <LocalBusinessJsonLd />
+                        <WebSiteJsonLd />
+                        <SiteHeader />
+                        <main className='min-h-screen bg-background/80'>{children}</main>
+                        <SiteFooter />
+                        <Analytics />
+                        <CookieConsentBanner />
+                        <Toaster />
+                    </CookieConsentProvider>
                 </ThemeProvider>
             </body>
         </html>

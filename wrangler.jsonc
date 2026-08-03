@@ -1,0 +1,23 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "capiflo",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2026-07-01",
+    "compatibility_flags": ["nodejs_compat"],
+    // Zone routes, not custom domains: the zone still carries the imported
+    // parking DNS records (proxied), and the routes intercept ahead of them.
+    // The custom-domains API refuses hostnames with "externally managed"
+    // records, so don't switch these to custom_domain without deleting the
+    // parking A/CNAME records in the Cloudflare dashboard first.
+    "routes": [
+        { "pattern": "capiflo.co.uk/*", "zone_id": "4ea00e44dbcadf4e828e9d76a2f19e5e" },
+        { "pattern": "www.capiflo.co.uk/*", "zone_id": "4ea00e44dbcadf4e828e9d76a2f19e5e" }
+    ],
+    "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+    },
+    "observability": {
+        "enabled": true
+    }
+}

@@ -1,155 +1,122 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
-import { Shield, Award, CheckCircle } from 'lucide-react';
 
 import { Button } from '@/registry/new-york-v4/ui/button';
 
+// True, checkable positioning only. No ratings, no awards, no authorisation
+// claims: Capiflo is a broker, not a lender, and is not FCA authorised.
+const TRUST_POINTS = ['120+ lender panel', 'No hard credit checks at enquiry', 'Broker, not a lender'];
+
+// The signature element: an indicative term sheet. Rows fill in on load like a
+// broker completing a deal file. All values are ranges or service facts.
+const TERM_ROWS = [
+    { label: 'Coverage', value: 'Whole of market' },
+    { label: 'Amount', value: '£25k to £5m' },
+    { label: 'First response', value: 'Same working day' },
+    { label: 'Lenders compared', value: '120+' },
+    { label: 'Credit impact at enquiry', value: 'None' }
+];
+
 const Hero = () => {
     return (
-        <section className='relative flex min-h-[85vh] items-center px-4 pt-20 lg:px-8 lg:pt-24 overflow-hidden'>
-            {/* Aurora mesh gradient background */}
-            <div className='absolute inset-0 -z-10'>
-                {/* Animated gradient orbs */}
-                <div 
-                    className='absolute left-1/4 top-1/4 h-[500px] w-[500px] rounded-full opacity-60 blur-3xl'
-                    style={{
-                        background: 'radial-gradient(circle, rgba(255,77,184,0.4) 0%, transparent 70%)',
-                        animation: 'aurora-float-1 12s ease-in-out infinite'
-                    }}
-                />
-                <div 
-                    className='absolute right-1/4 top-1/3 h-[400px] w-[400px] rounded-full opacity-50 blur-3xl'
-                    style={{
-                        background: 'radial-gradient(circle, rgba(139,92,246,0.3) 0%, transparent 70%)',
-                        animation: 'aurora-float-2 15s ease-in-out infinite'
-                    }}
-                />
-                <div 
-                    className='absolute left-1/2 bottom-1/4 h-[350px] w-[350px] -translate-x-1/2 rounded-full opacity-40 blur-3xl'
-                    style={{
-                        background: 'radial-gradient(circle, rgba(47,107,255,0.25) 0%, transparent 70%)',
-                        animation: 'aurora-float-3 10s ease-in-out infinite'
-                    }}
-                />
-            </div>
-
-            {/* Keyframe animations */}
-            <style jsx>{`
-                @keyframes aurora-float-1 {
-                    0%, 100% { transform: translate(0, 0) scale(1); }
-                    33% { transform: translate(30px, -20px) scale(1.05); }
-                    66% { transform: translate(-20px, 20px) scale(0.95); }
-                }
-                @keyframes aurora-float-2 {
-                    0%, 100% { transform: translate(0, 0) scale(1); }
-                    33% { transform: translate(-25px, 25px) scale(1.1); }
-                    66% { transform: translate(25px, -15px) scale(0.9); }
-                }
-                @keyframes aurora-float-3 {
-                    0%, 100% { transform: translateX(-50%) translateY(0) scale(1); }
-                    50% { transform: translateX(-50%) translateY(-30px) scale(1.1); }
-                }
-            `}</style>
-
-            <div className='mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16'>
-                {/* Left: Copy */}
-                <div className='flex flex-col justify-center animate-in fade-in slide-in-from-bottom-6 duration-700'>
-                    <p className='text-sm font-medium uppercase tracking-widest text-muted-foreground'>
-                        Capiflo
-                    </p>
-                    {/* Gradient headline */}
-                    <h1 
-                        className='mt-4 text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl'
-                        style={{
-                            background: 'linear-gradient(135deg, var(--foreground) 0%, var(--foreground) 50%, #ff4db8 100%)',
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                            backgroundClip: 'text'
-                        }}>
-                        We compare 120+ lenders to find your best rate in 60 minutes.
+        <section className='px-4 pt-24 lg:px-8 lg:pt-32'>
+            <div className='mx-auto grid max-w-6xl gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20'>
+                {/* Left: the pitch */}
+                <div className='animate-in fade-in slide-in-from-bottom-4 flex flex-col justify-center duration-700'>
+                    <p className='ledger-eyebrow'>Capiflo · UK SME finance</p>
+                    <h1 className='font-display text-foreground mt-6 text-4xl leading-[1.05] font-semibold sm:text-5xl lg:text-[3.4rem]'>
+                        The UK&apos;s specialist business finance broker. 120+ lenders, your best rate in 60 minutes.
                     </h1>
-                    <p className='mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground lg:text-xl'>
-                        Fast, transparent funding decisions for UK SMEs. Expert guidance, no jargon, no hard credit checks.
+                    <p className='text-muted-foreground mt-6 max-w-xl text-lg leading-relaxed'>
+                        Tell us what the money&apos;s for. We&apos;ll put the whole market on one page, tell
+                        you what each route really costs, and if borrowing&apos;s a bad idea we&apos;ll say
+                        that too.
                     </p>
 
-                    <div className='mt-10 flex flex-col gap-4 sm:flex-row'>
-                        <Button
-                            size='lg'
-                            className='h-12 px-8 text-base shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/30'
-                            asChild>
-                            <Link href='/contact'>Get Funded Now</Link>
+                    <div className='mt-10 flex flex-col gap-3 sm:flex-row'>
+                        <Button size='lg' className='h-12 px-8 text-base' asChild>
+                            <Link href='/contact'>Start an eligibility check</Link>
                         </Button>
-                        <Button
-                            size='lg'
-                            variant='outline'
-                            className='h-12 px-8 text-base transition-all hover:-translate-y-0.5'
-                            asChild>
-                            <Link href='/calculators'>Check Eligibility</Link>
+                        <Button size='lg' variant='outline' className='h-12 px-8 text-base' asChild>
+                            <Link href='/calculators'>Run the numbers first</Link>
                         </Button>
                     </div>
 
-                    {/* Trust indicators */}
-                    <div className='mt-8 flex flex-wrap items-center gap-4'>
-                        <span className='inline-flex items-center gap-2 text-sm text-muted-foreground'>
-                            <span className='inline-block h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse' />
-                            Trustpilot 4.9/5
-                        </span>
-                        <span className='text-border'>·</span>
-                        <span className='text-sm text-muted-foreground'>5,000+ UK SMEs funded</span>
-                    </div>
-
-                    {/* Trust badges row */}
-                    <div className='mt-6 flex flex-wrap items-center gap-3'>
-                        <div className='inline-flex items-center gap-2 rounded-full border border-border/50 bg-card/80 px-3 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur-sm transition-colors hover:border-primary/30'>
-                            <Shield className='h-3.5 w-3.5 text-primary' />
-                            FCA Authorised
-                        </div>
-                        <div className='inline-flex items-center gap-2 rounded-full border border-border/50 bg-card/80 px-3 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur-sm transition-colors hover:border-primary/30'>
-                            <Award className='h-3.5 w-3.5 text-primary' />
-                            Award Winning
-                        </div>
-                        <div className='inline-flex items-center gap-2 rounded-full border border-border/50 bg-card/80 px-3 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur-sm transition-colors hover:border-primary/30'>
-                            <CheckCircle className='h-3.5 w-3.5 text-primary' />
-                            No Credit Impact
-                        </div>
-                    </div>
+                    <ul className='mt-10 flex flex-wrap gap-x-6 gap-y-2'>
+                        {TRUST_POINTS.map((point) => (
+                            <li
+                                key={point}
+                                className='text-muted-foreground flex items-center gap-2 font-mono text-xs tracking-wider uppercase'>
+                                <span className='bg-primary inline-block h-1.5 w-1.5' aria-hidden />
+                                {point}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
 
-                {/* Right: Image */}
-                <div className='relative animate-in fade-in slide-in-from-bottom-8 delay-150 duration-700'>
-                    <div className='relative overflow-hidden rounded-3xl border border-border/50 bg-card shadow-elevated'>
-                        <div className='relative aspect-[4/5] w-full overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10'>
+                {/* Right: the deal file. One document: photo band on top, terms beneath. */}
+                <div className='animate-in fade-in slide-in-from-bottom-6 flex flex-col justify-center delay-150 duration-700'>
+                    <div className='border-border bg-card shadow-elevated relative w-full border'>
+                        {/* Decorative portrait band, part of the file itself */}
+                        <div className='border-border relative aspect-[16/8] w-full overflow-hidden border-b'>
                             <Image
-                                src='/images/capiflo-hero-pink.png'
-                                alt='Capiflo funding advisor'
+                                src='/images/capiflo-hero-sage.png'
+                                alt=''
                                 fill
-                                className='object-cover object-top'
                                 priority
+                                className='object-cover object-top'
                             />
-                            <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent' />
+                        </div>
+                        {/* Document header */}
+                        <div className='border-border flex items-center justify-between border-b px-6 py-4'>
+                            <p className='text-foreground font-mono text-xs font-medium tracking-[0.22em] uppercase'>
+                                Indicative terms
+                            </p>
+                            <p className='text-muted-foreground font-mono text-xs tracking-wider uppercase'>Draft</p>
                         </div>
 
-                        {/* Floating quote with enhanced glassmorphism */}
-                        <div className='absolute bottom-6 left-6 right-6 rounded-2xl border border-white/20 bg-black/50 px-5 py-4 backdrop-blur-xl shadow-xl'>
-                            <p className='text-sm font-medium text-white'>
-                                "We knew our funding range before the lender call."
-                            </p>
-                            <p className='mt-1 text-xs text-white/70'>
-                                Hannah · Retail founder
-                            </p>
-                        </div>
-                    </div>
+                        {/* Ruled rows */}
+                        <dl className='px-6 pt-2 pb-6'>
+                            {TERM_ROWS.map((row, index) => (
+                                <div
+                                    key={row.label}
+                                    className='ledger-row animate-in fade-in slide-in-from-bottom-2 fill-mode-both last:border-b-0'
+                                    style={{ animationDelay: `${index * 120 + 300}ms`, animationDuration: '500ms' }}>
+                                    <dt className='text-muted-foreground text-sm'>{row.label}</dt>
+                                    <dd className='text-foreground font-mono text-sm font-medium tabular-nums'>
+                                        {row.value}
+                                    </dd>
+                                </div>
+                            ))}
+                        </dl>
 
-                    {/* Decorative badge with glow */}
-                    <div 
-                        className='absolute -right-4 -top-4 rounded-2xl border border-primary/30 bg-card px-4 py-2 shadow-lg lg:-right-6 lg:-top-6'
-                        style={{ boxShadow: '0 10px 40px -10px rgba(255, 77, 184, 0.3)' }}>
-                        <p className='text-xs font-medium uppercase tracking-wider text-muted-foreground'>
-                            Decisions in
+                        {/* Handwritten margin note: the one hand-touched thing on the page */}
+                        <p
+                            className='font-hand animate-in fade-in fill-mode-both absolute -bottom-12 left-4 hidden -rotate-2 text-xl leading-snug text-primary sm:block'
+                            style={{ animationDelay: '1300ms', animationDuration: '500ms' }}
+                            aria-hidden>
+                            checked against the whole panel, not just the banks
                         </p>
-                        <p className='text-2xl font-semibold text-foreground'>24hrs</p>
+
+                        {/* Perforated foot with the disclosure that matters */}
+                        <div className='border-border border-t border-dashed px-6 py-4 pr-24'>
+                            <p className='text-muted-foreground text-xs leading-relaxed'>
+                                Unregulated business lending, arranged for business purposes only and subject to status.
+                                Capiflo is a broker, not a lender.
+                            </p>
+                        </div>
+
+                        {/* Brass seal, stamped at the document's foot */}
+                        <div
+                            className='border-brass bg-background animate-in fade-in zoom-in-75 fill-mode-both absolute -right-5 -bottom-6 flex h-20 w-20 rotate-6 items-center justify-center rounded-full border-2 text-center'
+                            style={{ animationDelay: '1100ms', animationDuration: '400ms' }}
+                            aria-hidden>
+                            <p className='text-brass font-mono text-[9px] leading-tight font-semibold tracking-[0.18em] uppercase'>
+                                Broker
+                                <br />
+                                arranged
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,21 @@
+import type { Metadata } from 'next';
+
 import BentoGrid from '@/components/home/bento-grid';
 import CalculatorEntries from '@/components/home/calculator-entries';
 import FinalCTA from '@/components/home/final-cta';
 import Hero from '@/components/home/hero';
 import HowItWorks from '@/components/home/how-it-works';
 import ImpactStats from '@/components/home/impact-stats';
-import MobileMockup from '@/components/home/mobile-mockup';
-import FundingTeamSection from '@/components/home/team';
-import TestimonialsSection from '@/components/home/testimonials';
-import TrustPanel from '@/components/home/trust-panel';
-import WhyCapifloSection from '@/components/home/why-capiflo';
+import StraightAnswers from '@/components/home/straight-answers';
+
+// Benner true-statement rule: no physical premises, so the homepage is optimised
+// for the largest true area entity — the United Kingdom. Title ≠ H1 (hero.tsx).
+export const metadata: Metadata = {
+    title: { absolute: 'Business Loans UK | SME & Commercial Finance Broker | Capiflo' },
+    description:
+        'Capiflo arranges business finance for UK SMEs. Compare business loans, asset finance, invoice finance and commercial mortgages from 120+ lenders in 60 minutes.',
+    alternates: { canonical: '/' }
+};
 
 const Page = () => {
     return (
@@ -17,12 +24,8 @@ const Page = () => {
             <ImpactStats />
             <BentoGrid />
             <HowItWorks />
-            <MobileMockup />
-            <TrustPanel />
-            <TestimonialsSection />
-            <FundingTeamSection />
-            <WhyCapifloSection />
             <CalculatorEntries />
+            <StraightAnswers />
             <FinalCTA />
         </div>
     );

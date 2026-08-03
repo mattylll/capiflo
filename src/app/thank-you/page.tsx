@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle2, Clock, Mail, Phone } from 'lucide-react';
 
 import { Button } from '@/registry/new-york-v4/ui/button';
 import { Card } from '@/registry/new-york-v4/ui/card';
+import { getFormattedPhone, getTelHref, hasRealPhone } from '@/data/business-config';
 
 export const metadata: Metadata = {
     title: 'Thank You | Capiflo',
@@ -104,12 +105,14 @@ const ThankYouPage = async ({ searchParams }: ThankYouPageProps) => {
                                 <Mail className='h-4 w-4' />
                                 {isIntroducer ? 'partners@capiflo.co.uk' : 'hello@capiflo.co.uk'}
                             </a>
-                            <a
-                                href='tel:+442012345678'
-                                className='flex items-center gap-2 text-foreground transition-colors hover:text-primary'>
-                                <Phone className='h-4 w-4' />
-                                020 1234 5678
-                            </a>
+                            {hasRealPhone() && (
+                                <a
+                                    href={getTelHref()}
+                                    className='flex items-center gap-2 text-foreground transition-colors hover:text-primary'>
+                                    <Phone className='h-4 w-4' />
+                                    {getFormattedPhone()}
+                                </a>
+                            )}
                         </div>
 
                         <div className='mt-8 flex flex-col gap-4 sm:flex-row'>

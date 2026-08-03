@@ -21,7 +21,7 @@ const sections = [
     },
     {
         title: 'Retention & rights',
-        body: 'Records are stored for up to six years to meet FCA and HMRC guidelines. Email hello@capiflo.co to request deletion or updates.'
+        body: 'Records are stored for up to six years in line with HMRC record-keeping guidelines. Email hello@capiflo.co.uk to request deletion or updates.'
     },
     {
         title: 'Cookies',
@@ -29,7 +29,7 @@ const sections = [
     },
     {
         title: 'Third parties',
-        body: 'We may share your data with FCA-authorised lenders, credit reference agencies (soft searches only at enquiry stage), and technology partners who help us deliver our services.'
+        body: 'We may share your data with the lenders and funding providers on our panel, credit reference agencies (soft searches only at enquiry stage), and technology partners who help us deliver our services.'
     }
 ];
 
@@ -78,9 +78,9 @@ const PrivacyPage = () => {
                             Capiflo is a trading style of Capiflo Ltd, registered in England & Wales. For
                             any concerns about how we handle your data, contact{' '}
                             <a
-                                href='mailto:hello@capiflo.co'
+                                href='mailto:hello@capiflo.co.uk'
                                 className='font-medium text-primary hover:underline'>
-                                hello@capiflo.co
+                                hello@capiflo.co.uk
                             </a>
                             .
                         </p>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { CheckCircle2, Clock, Mail, Phone, Shield } from 'lucide-react';
 
 import { ContactForm } from '@/components/forms/contact-form';
+import { getFormattedPhone, getTelHref, hasRealPhone } from '@/data/business-config';
 import { Button } from '@/registry/new-york-v4/ui/button';
 import { Card } from '@/registry/new-york-v4/ui/card';
 
@@ -84,12 +85,14 @@ const ContactPage = () => {
                                     <Mail className='h-4 w-4' />
                                     hello@capiflo.co.uk
                                 </a>
-                                <a
-                                    href='tel:+442012345678'
-                                    className='flex items-center gap-2 transition-colors hover:text-primary'>
-                                    <Phone className='h-4 w-4' />
-                                    020 1234 5678
-                                </a>
+                                {hasRealPhone() && (
+                                    <a
+                                        href={getTelHref()}
+                                        className='flex items-center gap-2 transition-colors hover:text-primary'>
+                                        <Phone className='h-4 w-4' />
+                                        {getFormattedPhone()}
+                                    </a>
+                                )}
                             </div>
                         </div>
 

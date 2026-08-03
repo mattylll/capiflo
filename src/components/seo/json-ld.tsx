@@ -1,5 +1,7 @@
 import Script from 'next/script';
 import { generateOrganizationSchema } from '@/lib/schema-generators';
+import { authorSchemaNode } from '@/data/authors';
+import { businessConfig, hasRealAddress, hasRealPhone } from '@/data/business-config';
 
 // Organization Schema - for site-wide use
 // Now uses centralized schema generator from @/lib/schema-generators
@@ -15,34 +17,45 @@ export function OrganizationJsonLd() {
     );
 }
 
-// LocalBusiness Schema - for local SEO
+// LocalBusiness Schema - for local SEO.
+// Only emitted once the real NAP is in business-config: shipping a placeholder
+// address/phone as structured data on every page is worse than emitting none.
 export function LocalBusinessJsonLd() {
+    if (!hasRealAddress()) return null;
+
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'FinancialService',
-        name: 'Capiflo',
-        image: 'https://capiflo.co.uk/logo.png',
-        '@id': 'https://capiflo.co.uk',
-        url: 'https://capiflo.co.uk',
-        telephone: '+442012345678',
-        email: 'hello@capiflo.co.uk',
+        name: businessConfig.name,
+        image: businessConfig.logo,
+        '@id': businessConfig.website,
+        url: businessConfig.website,
+        ...(hasRealPhone() ? { telephone: businessConfig.telephone } : {}),
+        email: businessConfig.email,
         address: {
             '@type': 'PostalAddress',
-            addressLocality: 'London',
-            addressCountry: 'GB'
+            streetAddress: businessConfig.address.streetAddress,
+            addressLocality: businessConfig.address.addressLocality,
+            addressRegion: businessConfig.address.addressRegion,
+            postalCode: businessConfig.address.postalCode,
+            addressCountry: businessConfig.address.addressCountry
         },
-        geo: {
-            '@type': 'GeoCoordinates',
-            latitude: 51.5074,
-            longitude: -0.1278
-        },
+        ...(businessConfig.geo
+            ? {
+                  geo: {
+                      '@type': 'GeoCoordinates',
+                      latitude: businessConfig.geo.latitude,
+                      longitude: businessConfig.geo.longitude
+                  }
+              }
+            : {}),
         openingHoursSpecification: {
             '@type': 'OpeningHoursSpecification',
             dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
             opens: '09:00',
             closes: '17:30'
         },
-        priceRange: '$$'
+        priceRange: businessConfig.priceRange
     };
 
     return (
@@ -56,19 +69,12 @@ export function LocalBusinessJsonLd() {
 
 // WebSite Schema - for sitelinks search box
 export function WebSiteJsonLd() {
+    // No SearchAction: the site has no /search route. Never declare one that 404s.
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'Capiflo',
-        url: 'https://capiflo.co.uk',
-        potentialAction: {
-            '@type': 'SearchAction',
-            target: {
-                '@type': 'EntryPoint',
-                urlTemplate: 'https://capiflo.co.uk/search?q={search_term_string}'
-            },
-            'query-input': 'required name=search_term_string'
-        }
+        url: 'https://capiflo.co.uk'
     };
 
     return (
@@ -222,6 +228,101 @@ export function ArticleJsonLd({
     return (
         <Script
             id='article-jsonld'
+            type='application/ld+json'
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+    );
+}
+
+// Guide Article Schema - E-E-A-T byline with author + reviewedBy + freshness
+interface GuideArticleJsonLdProps {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    datePublished: string;
+    dateModified: string;
+    keywords?: string[];
+    image?: string;
+}
+
+export function GuideArticleJsonLd({
+    id,
+    title,
+    description,
+    url,
+    datePublished,
+    dateModified,
+    keywords,
+    image
+}: GuideArticleJsonLdProps) {
+    const author = authorSchemaNode();
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: title,
+        description,
+        url: `https://capiflo.co.uk${url}`,
+        mainEntityOfPage: `https://capiflo.co.uk${url}`,
+        datePublished,
+        dateModified,
+        ...(keywords && keywords.length ? { keywords: keywords.join(', ') } : {}),
+        image: image || 'https://capiflo.co.uk/og-image.png',
+        author,
+        reviewedBy: author,
+        publisher: {
+            '@type': 'Organization',
+            name: 'Capiflo',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://capiflo.co.uk/logo.png'
+            }
+        }
+    };
+
+    return (
+        <Script
+            id={`guide-jsonld-${id}`}
+            type='application/ld+json'
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+    );
+}
+
+// WebApplication Schema - for interactive calculator tools
+interface CalculatorJsonLdProps {
+    id: string;
+    name: string;
+    description: string;
+    url: string;
+}
+
+export function CalculatorJsonLd({ id, name, description, url }: CalculatorJsonLdProps) {
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebApplication',
+        name,
+        description,
+        url: `https://capiflo.co.uk${url}`,
+        applicationCategory: 'FinanceApplication',
+        operatingSystem: 'Web browser',
+        browserRequirements: 'Requires JavaScript',
+        isAccessibleForFree: true,
+        offers: {
+            '@type': 'Offer',
+            price: '0',
+            priceCurrency: 'GBP'
+        },
+        provider: {
+            '@type': 'Organization',
+            name: 'Capiflo',
+            url: 'https://capiflo.co.uk'
+        }
+    };
+
+    return (
+        <Script
+            id={`calculator-jsonld-${id}`}
             type='application/ld+json'
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />

@@ -8,10 +8,11 @@ import { useCookieConsent } from './cookie-consent-provider';
 import { Button } from '@/registry/new-york-v4/ui/button';
 
 export function CookieConsentBanner() {
-    const { consent, acceptCookies, rejectCookies } = useCookieConsent();
+    const { consent, isLoaded, acceptCookies, rejectCookies } = useCookieConsent();
 
-    // Don't show banner if consent has already been given
-    if (consent !== 'pending') {
+    // Wait for the cookie read (prevents a flash for returning visitors), and
+    // don't show the banner if consent has already been given.
+    if (!isLoaded || consent !== 'pending') {
         return null;
     }
 

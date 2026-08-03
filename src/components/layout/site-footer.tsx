@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+import { businessConfig, getFormattedPhone, hasRealPhone } from '@/data/business-config';
+import { livePortfolioSites } from '@/data/portfolio';
+
 const PRIMARY_LINKS = [
     { label: 'Business Loans', href: '/funding/business-loans' },
     { label: 'Invoice Finance', href: '/funding/invoice-finance' },
@@ -17,7 +20,7 @@ const SECTOR_LINKS = [
 
 const SUPPORT_LINKS = [
     { label: 'Calculators', href: '/calculators' },
-    { label: 'Knowledge Centre', href: '/blog' },
+    { label: 'Guides', href: '/guides' },
     { label: 'Introducers', href: '/introducers' },
     { label: 'Privacy', href: '/legal/privacy' },
     { label: 'Terms', href: '/legal/terms' }
@@ -25,21 +28,23 @@ const SUPPORT_LINKS = [
 
 const SiteFooter = () => {
     return (
-        <footer className='border-t border-white/10 bg-card/70 text-sm text-muted-foreground backdrop-blur-xl'>
+        <footer className='border-t border-border bg-card text-sm text-muted-foreground'>
             <div className='mx-auto max-w-6xl px-4 py-12 lg:px-8'>
                 <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-4'>
                     <div>
-                        <p className='text-lg font-semibold text-foreground'>Capiflo</p>
+                        <p className='font-display text-lg font-semibold text-foreground'>Capiflo</p>
                         <p className='mt-4 max-w-sm'>
-                            UK SME funding platform connecting businesses with 120+ lenders for fast, flexible finance.
+                            UK SME finance broker comparing 120+ lenders to arrange fast, flexible business
+                            funding.
                         </p>
                         <p className='mt-4 text-xs'>
-                            hello@capiflo.co · +44 (0)20 1234 5678
+                            {businessConfig.email}
+                            {hasRealPhone() && <> · {getFormattedPhone()}</>}
                         </p>
-                        <p className='mt-2 text-xs uppercase tracking-[0.3em] text-muted-foreground'>London · UK</p>
+                        <p className='mt-2 text-xs uppercase tracking-[0.22em] text-muted-foreground'>London · UK</p>
                     </div>
                     <div>
-                        <p className='text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground'>Funding</p>
+                        <p className='font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground'>Funding</p>
                         <ul className='mt-4 space-y-2'>
                             {PRIMARY_LINKS.map((link) => (
                                 <li key={link.label}>
@@ -51,7 +56,7 @@ const SiteFooter = () => {
                         </ul>
                     </div>
                     <div>
-                        <p className='text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground'>Sectors</p>
+                        <p className='font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground'>Sectors</p>
                         <ul className='mt-4 space-y-2'>
                             {SECTOR_LINKS.map((link) => (
                                 <li key={link.label}>
@@ -63,7 +68,7 @@ const SiteFooter = () => {
                         </ul>
                     </div>
                     <div>
-                        <p className='text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground'>Resources</p>
+                        <p className='font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground'>Resources</p>
                         <ul className='mt-4 space-y-2'>
                             {SUPPORT_LINKS.map((link) => (
                                 <li key={link.label}>
@@ -75,9 +80,39 @@ const SiteFooter = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between'>
+                {livePortfolioSites.length > 0 && (
+                    <div className='mt-10 border-t border-border pt-6'>
+                        <p className='font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground'>
+                            Portfolio
+                        </p>
+                        <ul className='mt-4 flex flex-wrap gap-x-6 gap-y-2'>
+                            {livePortfolioSites.map((site) => (
+                                <li key={site.url}>
+                                    <a
+                                        href={site.url}
+                                        rel='noopener'
+                                        className='transition hover:text-foreground'>
+                                        {site.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+                <div className='mt-10 space-y-3 border-t border-border pt-6 text-xs text-muted-foreground'>
+                    <p>
+                        {businessConfig.legalName} is a commercial finance broker, not a lender. We introduce
+                        businesses seeking finance to a panel of lenders and funding providers and may receive a
+                        commission from the lender if a facility completes. All finance is unregulated business
+                        lending, arranged for business purposes only and subject to status; it is not regulated by
+                        the Financial Conduct Authority, and Financial Ombudsman Service and FSCS protections do not
+                        apply.
+                    </p>
+                    <p>
+                        {businessConfig.legalName} is registered in England and Wales
+                        {businessConfig.companyNumber && <>, company number {businessConfig.companyNumber}</>}.
+                    </p>
                     <p>© {new Date().getFullYear()} Capiflo. All rights reserved.</p>
-                    <p>Built with Next.js 16 · ShadCN UI · Agent-led sprints.</p>
                 </div>
             </div>
         </footer>

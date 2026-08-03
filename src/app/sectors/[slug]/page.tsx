@@ -21,6 +21,7 @@ export const generateMetadata = async ({ params }: { params: Params }): Promise<
         title: sector.metaTitle || `${sector.title} | UK Business Funding | Capiflo`,
         description: sector.metaDescription || sector.description,
         keywords: sector.keywords,
+        alternates: { canonical: `/sectors/${sector.slug}` },
         openGraph: {
             title: sector.metaTitle || sector.title,
             description: sector.metaDescription || sector.description,

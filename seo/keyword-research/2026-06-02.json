@@ -1,0 +1,1788 @@
+{
+  "date": "2026-06-02",
+  "location_code": 2826,
+  "seeds": [
+    {
+      "keyword": "business loan",
+      "search_volume": 27100,
+      "cpc": 62.29,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan edinburgh",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan glasgow",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan in london",
+      "search_volume": 70,
+      "cpc": 42.93,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan london",
+      "search_volume": 70,
+      "cpc": 42.93,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan manchester",
+      "search_volume": 20,
+      "cpc": 25.9,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loan sheffield",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans",
+      "search_volume": 27100,
+      "cpc": 62.29,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans birmingham",
+      "search_volume": 30,
+      "cpc": 20.24,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans bristol",
+      "search_volume": 10,
+      "cpc": 14.81,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans edinburgh",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans essex",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans glasgow",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans in london",
+      "search_volume": 70,
+      "cpc": 42.93,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans in nottingham",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans kent",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans leicester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans london",
+      "search_volume": 70,
+      "cpc": 42.93,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans manchester",
+      "search_volume": 20,
+      "cpc": 25.9,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans sheffield",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans surrey",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business loans yorkshire",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "small business loans",
+      "search_volume": 5400,
+      "cpc": 34.69,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "small business loans birmingham",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "small business loans edinburgh",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "small business loans glasgow",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "small business loans london",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "sme loans",
+      "search_volume": 320,
+      "cpc": 38.02,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance",
+      "search_volume": 1900,
+      "cpc": 31.6,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance birmingham",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance bristol",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance edinburgh",
+      "search_volume": 30,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance essex",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance glasgow",
+      "search_volume": 20,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance hampshire",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance kent",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance leeds",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance leicester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance liverpool",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance london",
+      "search_volume": 50,
+      "cpc": 2.71,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "asset finance manchester",
+      "search_volume": 30,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "asset finance yorkshire",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance",
+      "search_volume": 2400,
+      "cpc": 85.87,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "business finance birmingham",
+      "search_volume": 10,
+      "cpc": 9.39,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance bristol",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance essex",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance glasgow",
+      "search_volume": 10,
+      "cpc": 68.52,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance leicester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance liverpool",
+      "search_volume": 10,
+      "cpc": 61.79,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance london",
+      "search_volume": 10,
+      "cpc": 7.99,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "business finance manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance nottingham",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business finance yorkshire",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "equipment finance",
+      "search_volume": 320,
+      "cpc": 31.35,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "equipment leasing",
+      "search_volume": 210,
+      "cpc": 14.54,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hire purchase",
+      "search_volume": 5400,
+      "cpc": 7.14,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "hire purchase edinburgh",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hire purchase leeds",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hire purchase manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "invoice finance",
+      "search_volume": 1900,
+      "cpc": 75.88,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "invoice finance london",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "debtor finance",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "invoice discounting",
+      "search_volume": 880,
+      "cpc": 75.69,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "invoice factoring",
+      "search_volume": 1600,
+      "cpc": 125.48,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "invoice factoring manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "invoice finance birmingham",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "invoice finance bristol",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "invoice finance essex",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "invoice finance glasgow",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "invoice finance manchester",
+      "search_volume": 20,
+      "cpc": 77.59,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "business cash advance",
+      "search_volume": 390,
+      "cpc": 52.01,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "merchant cash advance",
+      "search_volume": 1300,
+      "cpc": 47.42,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "revenue based finance",
+      "search_volume": 70,
+      "cpc": 37.15,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "commercial mortgage",
+      "search_volume": 4400,
+      "cpc": 13.63,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage birmingham",
+      "search_volume": 20,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage edinburgh",
+      "search_volume": 40,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage leeds",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage leicester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage london",
+      "search_volume": 40,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgage manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages",
+      "search_volume": 4400,
+      "cpc": 13.63,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages birmingham",
+      "search_volume": 20,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages bristol",
+      "search_volume": 20,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages leicester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages liverpool",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages london",
+      "search_volume": 40,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial mortgages manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "property finance",
+      "search_volume": 390,
+      "cpc": 7.25,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "property finance london",
+      "search_volume": 20,
+      "cpc": null,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "property finance manchester",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial property finance",
+      "search_volume": 320,
+      "cpc": 21.67,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "vat loan",
+      "search_volume": 480,
+      "cpc": 66.97,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "vat loans",
+      "search_volume": 480,
+      "cpc": 66.97,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "start up loan",
+      "search_volume": 5400,
+      "cpc": 7.27,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "start up loan manchester",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "tax loan",
+      "search_volume": 90,
+      "cpc": 41.91,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "vat funding",
+      "search_volume": 50,
+      "cpc": 43.82,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "new business loan",
+      "search_volume": 2400,
+      "cpc": 20.14,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "start up business loan",
+      "search_volume": 8100,
+      "cpc": 11.71,
+      "competition_level": "HIGH",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "startup funding",
+      "search_volume": 590,
+      "cpc": 11.61,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "startup funding edinburgh",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "startup funding london",
+      "search_volume": 20,
+      "cpc": 3.11,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "startup funding manchester",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "cash flow finance",
+      "search_volume": 170,
+      "cpc": 106.34,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "working capital",
+      "search_volume": 4400,
+      "cpc": 43.11,
+      "competition_level": "LOW",
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "working capital edinburgh",
+      "search_volume": null,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "working capital loan",
+      "search_volume": 320,
+      "cpc": 72.69,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "working capital london",
+      "search_volume": 10,
+      "cpc": null,
+      "competition_level": null,
+      "competition_index": null,
+      "intent": "informational"
+    },
+    {
+      "keyword": "revolving credit facility",
+      "search_volume": 1000,
+      "cpc": 32.51,
+      "competition_level": "MEDIUM",
+      "competition_index": null,
+      "intent": "commercial"
+    }
+  ],
+  "related": {
+    "business-loans": [
+      {
+        "keyword": "business loans",
+        "search_volume": 27100,
+        "cpc": 62.29,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "business loans start up",
+        "search_volume": 8100,
+        "cpc": 11.71,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "uk business loans",
+        "search_volume": 6600,
+        "cpc": 49.86,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "business loans new business",
+        "search_volume": 2400,
+        "cpc": 20.14,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "business loans uk calculator",
+        "search_volume": 1300,
+        "cpc": 15.62,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "best business loans uk",
+        "search_volume": 720,
+        "cpc": 38.78,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "monzo business loans",
+        "search_volume": 720,
+        "cpc": 15.95,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "business loans uk government",
+        "search_volume": 320,
+        "cpc": 23.72,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "business loans calculator",
+        "search_volume": 260,
+        "cpc": 19.97,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      }
+    ],
+    "asset-finance": [
+      {
+        "keyword": "asset finance",
+        "search_volume": 1900,
+        "cpc": 31.6,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "close brothers asset finance",
+        "search_volume": 480,
+        "cpc": 8.82,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "navigational"
+      },
+      {
+        "keyword": "asset finance uk",
+        "search_volume": 260,
+        "cpc": 41.46,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "asset finance calculator",
+        "search_volume": 210,
+        "cpc": 11,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "asset finance loan",
+        "search_volume": 170,
+        "cpc": 23.75,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "asset finance hsbc",
+        "search_volume": 70,
+        "cpc": 21.46,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "asset finance example",
+        "search_volume": 20,
+        "cpc": null,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "asset finance login",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "navigational"
+      },
+      {
+        "keyword": "asset finance contact number",
+        "search_volume": 10,
+        "cpc": 8.1,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      }
+    ],
+    "invoice-finance": [
+      {
+        "keyword": "invoice finance",
+        "search_volume": 1900,
+        "cpc": 75.88,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "invoice finance uk",
+        "search_volume": 480,
+        "cpc": 94.21,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "transactional"
+      },
+      {
+        "keyword": "invoice finance companies",
+        "search_volume": 390,
+        "cpc": 79.83,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "selective invoice finance",
+        "search_volume": 170,
+        "cpc": 73.4,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "invoice finance calculator",
+        "search_volume": 50,
+        "cpc": 37.53,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "kriya invoice finance",
+        "search_volume": 30,
+        "cpc": 26.44,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "navigational"
+      },
+      {
+        "keyword": "invoice finance natwest",
+        "search_volume": 20,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "navigational"
+      }
+    ],
+    "merchant-cash-advance": [
+      {
+        "keyword": "merchant cash advance",
+        "search_volume": 1300,
+        "cpc": 47.42,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "merchant cash advance uk",
+        "search_volume": 260,
+        "cpc": 47.01,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "merchant cash advance direct lenders",
+        "search_volume": 90,
+        "cpc": 29.7,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "liberis merchant cash advance",
+        "search_volume": 40,
+        "cpc": 9.69,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "merchant cash advance no credit check",
+        "search_volume": 30,
+        "cpc": 20.17,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "merchant cash advance lenders uk",
+        "search_volume": 30,
+        "cpc": 16.72,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "merchant cash advance direct lenders uk",
+        "search_volume": 20,
+        "cpc": 28.49,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "capify merchant cash advance",
+        "search_volume": 10,
+        "cpc": 25.43,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      }
+    ],
+    "commercial-mortgage": [
+      {
+        "keyword": "commercial mortgage",
+        "search_volume": 4400,
+        "cpc": 13.63,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "commercial mortgage calculator",
+        "search_volume": 3600,
+        "cpc": 4.63,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "commercial mortgage rates",
+        "search_volume": 1900,
+        "cpc": 5.16,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "commercial mortgage calculator uk",
+        "search_volume": 880,
+        "cpc": 3.83,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "commercial mortgage rates uk",
+        "search_volume": 390,
+        "cpc": 6.82,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "commercial mortgage natwest",
+        "search_volume": 390,
+        "cpc": 6.45,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "navigational"
+      },
+      {
+        "keyword": "commercial mortgage uk",
+        "search_volume": 260,
+        "cpc": 11.82,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "barclays commercial mortgage calculator",
+        "search_volume": 260,
+        "cpc": 4.17,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "commercial mortgage deposit",
+        "search_volume": 170,
+        "cpc": 5.63,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "transactional"
+      }
+    ],
+    "vat-loans": [
+      {
+        "keyword": "vat loans",
+        "search_volume": 480,
+        "cpc": 66.97,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "vat finance",
+        "search_volume": 110,
+        "cpc": 57.87,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "tax loans",
+        "search_volume": 70,
+        "cpc": 28.65,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "is there vat on loans uk",
+        "search_volume": 20,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "vat facility project finance",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "navigational"
+      }
+    ],
+    "start-up-loans": [
+      {
+        "keyword": "start up loans",
+        "search_volume": 5400,
+        "cpc": 7.27,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "start up business grants uk",
+        "search_volume": 1300,
+        "cpc": 5.79,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "government start up loans",
+        "search_volume": 1300,
+        "cpc": 5.72,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "start up loans login",
+        "search_volume": 260,
+        "cpc": 5.91,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "navigational"
+      },
+      {
+        "keyword": "start up loans uk government",
+        "search_volume": 40,
+        "cpc": 6.73,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "start up loans no credit check",
+        "search_volume": 10,
+        "cpc": 8.97,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      }
+    ],
+    "working-capital": [
+      {
+        "keyword": "working capital formula",
+        "search_volume": 2400,
+        "cpc": 1.82,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "working capital loans",
+        "search_volume": 320,
+        "cpc": 72.69,
+        "competition_level": "MEDIUM",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "working capital loans for small business",
+        "search_volume": 90,
+        "cpc": 41,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "working capital loans for startups",
+        "search_volume": 10,
+        "cpc": 18.91,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "best working capital loans",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "commercial"
+      },
+      {
+        "keyword": "working capital loan example",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": "HIGH",
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "types of working capital financing",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": null,
+        "competition_index": null,
+        "intent": "informational"
+      },
+      {
+        "keyword": "how can working capital be improved",
+        "search_volume": 10,
+        "cpc": null,
+        "competition_level": "LOW",
+        "competition_index": null,
+        "intent": "informational"
+      }
+    ]
+  },
+  "paa": {
+    "business-loans": [
+      "What is the easiest business loan to get approved for?",
+      "Am I eligible for a business loan?",
+      "Can I borrow money to start up a business?",
+      "How hard is it to get approved for a business loan?",
+      "How much is the monthly payment on a 50000 business loan?",
+      "Which bank gives a business loan without collateral?"
+    ],
+    "asset-finance": [
+      "What is the meaning of asset finance?",
+      "What are the 4 types of financial assets?",
+      "Is it easy to get asset finance?",
+      "What are the 4 types of assets?",
+      "Is it easy to get asset finance?",
+      "Who is the CEO of asset finance?"
+    ],
+    "invoice-finance": [
+      "What is invoice finance?",
+      "Is invoice finance a good idea?",
+      "What is an example of invoice finance?",
+      "Is invoice finance debt?",
+      "Is invoice finance a good idea?",
+      "What is an example of invoice finance?"
+    ],
+    "merchant-cash-advance": [
+      "How does a merchant cash advance work?",
+      "Is a merchant cash advance a good idea?",
+      "What happens if I can't pay back a merchant cash advance?",
+      "Why are merchant cash advances bad?",
+      "Is a merchant cash advance a good idea?",
+      "Why are merchant cash advances bad?"
+    ],
+    "commercial-mortgage": [
+      "Is it difficult to get a commercial mortgage?",
+      "How much deposit do you need for a commercial mortgage?",
+      "Can I get a 100% commercial mortgage?",
+      "Can a 70 year old woman get a 30 year mortgage?",
+      "What salary do I need for a 300k mortgage?",
+      "What is the 3 7 3 rule?"
+    ],
+    "vat-loans": [
+      "How does a VAT loan work?",
+      "Can you claim VAT back on a business loan?",
+      "Is VAT applicable on loans?",
+      "What can I do if I can't afford my VAT bill?",
+      "Can I lend my son money without tax implications?",
+      "Is a business loan 100% tax deductible?"
+    ],
+    "start-up-loans": [
+      "Is a Start Up Loan a good idea?",
+      "Can I get a loan to start up a business?",
+      "How to borrow money for a start-up?",
+      "Do you have to pay back a Start Up Loan?",
+      "Why do 90% of small businesses fail?",
+      "Am I eligible for a Start Up Loan?"
+    ],
+    "working-capital": [
+      "What is a working capital loan?",
+      "Can you get a loan for working capital?",
+      "What is the working capital loan method?",
+      "What can you use a working capital loan for?",
+      "Who is eligible for a working capital loan?",
+      "What are the 4 types of loans?"
+    ]
+  },
+  "competitors": {
+    "business-loans": [
+      {
+        "domain": "www.natwest.com",
+        "title": "Small Business Loans Calculator"
+      },
+      {
+        "domain": "www.gov.uk",
+        "title": "Apply for a Start Up Loan for your business"
+      },
+      {
+        "domain": "www.fundingcircle.com",
+        "title": "Small Business Loans | Borrow £10k - £750k"
+      },
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "Business loans"
+      },
+      {
+        "domain": "www.lloydsbank.com",
+        "title": "How to Get a Business Loan"
+      },
+      {
+        "domain": "business.bankofscotland.co.uk",
+        "title": "Business Loans"
+      },
+      {
+        "domain": "www.gocompare.com",
+        "title": "Compare Business Loans | GoCompare"
+      },
+      {
+        "domain": "www.iwoca.co.uk",
+        "title": "Business Loans - Flexible Funding from £1K to £1,000,000"
+      },
+      {
+        "domain": "www.barclays.co.uk",
+        "title": "Business finance funding options"
+      },
+      {
+        "domain": "www.money.co.uk",
+        "title": "Business loans | Compare funding from £500 to £15000000"
+      }
+    ],
+    "asset-finance": [
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "What is Asset finance?"
+      },
+      {
+        "domain": "www.closeassetfinance.co.uk",
+        "title": "Close Brothers Asset Finance: Asset Finance for UK SMEs"
+      },
+      {
+        "domain": "www.natwest.com",
+        "title": "Asset Finance | NatWest business banking"
+      },
+      {
+        "domain": "timefinance.com",
+        "title": "Asset Finance UK | Flexible Equipment Funding Solutions"
+      },
+      {
+        "domain": "www.fundingcircle.com",
+        "title": "Business Asset Finance"
+      },
+      {
+        "domain": "portmanfinancegroup.co.uk",
+        "title": "Asset Finance Options for UK SMEs"
+      },
+      {
+        "domain": "www.bibbyfinancialservices.com",
+        "title": "Bibby Asset Finance solutions"
+      },
+      {
+        "domain": "fla.org.uk",
+        "title": "Asset Finance"
+      },
+      {
+        "domain": "www.lloydsbank.com",
+        "title": "How Asset Finance can help you grow"
+      },
+      {
+        "domain": "www.allica.bank",
+        "title": "What is asset finance? The complete guide"
+      }
+    ],
+    "invoice-finance": [
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "Invoice finance"
+      },
+      {
+        "domain": "www.smeinvoicefinance.co.uk",
+        "title": "SME Invoice Finance (UK) | Advance Up to 95% Of Invoice ..."
+      },
+      {
+        "domain": "www.lloydsbank.com",
+        "title": "Invoice Finance | Business"
+      },
+      {
+        "domain": "www.novuna.co.uk",
+        "title": "Invoice finance | Compare providers with Novuna"
+      },
+      {
+        "domain": "ultimatefinance.co.uk",
+        "title": "Invoice Finance"
+      },
+      {
+        "domain": "www.ukfinance.org.uk",
+        "title": "Invoice Finance and Asset-Based Lending"
+      },
+      {
+        "domain": "timefinance.com",
+        "title": "Invoice Finance UK | Unlock Cashflow From Unpaid Invoices"
+      },
+      {
+        "domain": "www.bibbyfinancialservices.com",
+        "title": "What is an Invoice Finance Company?"
+      },
+      {
+        "domain": "www.fundingoptions.com",
+        "title": "Invoice Finance for SMEs"
+      },
+      {
+        "domain": "www.aldermore.co.uk",
+        "title": "Invoice Finance Solutions for Businesses"
+      }
+    ],
+    "merchant-cash-advance": [
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "Small business owners guide to a merchant cash advance"
+      },
+      {
+        "domain": "www.merchantloanadvance.co.uk",
+        "title": "Merchant Cash Advance UK | Get £3k to £300k in 24 Hours"
+      },
+      {
+        "domain": "www.merchantsavvy.co.uk",
+        "title": "Compare Best 6 Merchant Cash Advance Lenders"
+      },
+      {
+        "domain": "www.gov.uk",
+        "title": "Merchant Cash Advance"
+      },
+      {
+        "domain": "www.bmcaa.co.uk",
+        "title": "BMCAA: The British Merchant Cash Advance Association"
+      },
+      {
+        "domain": "www.lloydsbank.com",
+        "title": "Merchant Cash Advance | Cardnet®"
+      },
+      {
+        "domain": "www.iwoca.co.uk",
+        "title": "Merchant Cash Advance UK: Business Financing"
+      },
+      {
+        "domain": "www.businesscomparison.com",
+        "title": "Compare Merchant Cash Advance Lenders"
+      },
+      {
+        "domain": "en.wikipedia.org",
+        "title": "Merchant cash advance"
+      },
+      {
+        "domain": "www.accesspaysuite.com",
+        "title": "UK Merchant Cash Advance: Cost & Eligibility Guide"
+      }
+    ],
+    "commercial-mortgage": [
+      {
+        "domain": "www.natwest.com",
+        "title": "Commercial Mortgage | NatWest Business Banking"
+      },
+      {
+        "domain": "www.moneysupermarket.com",
+        "title": "Commercial Mortgage Comparison - Rates from 6.0%"
+      },
+      {
+        "domain": "www.barclays.co.uk",
+        "title": "Commercial mortgages"
+      },
+      {
+        "domain": "togethermoney.com",
+        "title": "Commercial Mortgages | Business Property ..."
+      },
+      {
+        "domain": "www.allica.bank",
+        "title": "Commercial Mortgages Guide"
+      },
+      {
+        "domain": "www.equifax.co.uk",
+        "title": "What is a commercial mortgage?"
+      },
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "How to finance a commercial property purchase"
+      },
+      {
+        "domain": "www.gocompare.com",
+        "title": "Commercial Mortgages | Business ..."
+      },
+      {
+        "domain": "www.nibusinessinfo.co.uk",
+        "title": "Overview of a commercial mortgage"
+      },
+      {
+        "domain": "www.iwoca.co.uk",
+        "title": "Everything you need to know about commercial mortgages"
+      }
+    ],
+    "vat-loans": [
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "VAT loans – what they are and how do you get one"
+      },
+      {
+        "domain": "vatloans.co.uk",
+        "title": "VAT Loans Limited"
+      },
+      {
+        "domain": "whiteoakuk.com",
+        "title": "VAT Loans | VAT Finance"
+      },
+      {
+        "domain": "www.iwoca.co.uk",
+        "title": "Understanding VAT Loans in the UK"
+      },
+      {
+        "domain": "bloomsmith.co.uk",
+        "title": "VAT Funding Explained"
+      },
+      {
+        "domain": "www.rlacapital.co.uk",
+        "title": "Vat Finance | VAT Loans within 48 hours"
+      },
+      {
+        "domain": "www.fundingoptions.com",
+        "title": "a simple guide | How to get a VAT loan"
+      },
+      {
+        "domain": "www.money.co.uk",
+        "title": "VAT loans: the overlooked finance option helping SMEs ..."
+      },
+      {
+        "domain": "www.tsffinance.co.uk",
+        "title": "What is a VAT Loan and Why Should You Get One?"
+      },
+      {
+        "domain": "www.ennessglobal.com",
+        "title": "VAT Finance | Commercial Tax Funding"
+      }
+    ],
+    "start-up-loans": [
+      {
+        "domain": "www.startuploans.co.uk",
+        "title": "Start Up Loans: Start Up Business Loans"
+      },
+      {
+        "domain": "www.gov.uk",
+        "title": "Apply for a Start Up Loan for your business"
+      },
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "Start Up Loans"
+      },
+      {
+        "domain": "business.bankofscotland.co.uk",
+        "title": "Financing a start-up | Business Guidance"
+      },
+      {
+        "domain": "apply.startuploans.co.uk",
+        "title": "Registering for a Start Up Loan"
+      },
+      {
+        "domain": "www.lloydsbank.com",
+        "title": "Financing a startup | Business Guides"
+      },
+      {
+        "domain": "growthhub.eastmidlands-cca.gov.uk",
+        "title": "Start-Up Loans - EMCCA Growth Hub"
+      },
+      {
+        "domain": "www.virginstartup.org",
+        "title": "Startup loans UK: compare funding options"
+      },
+      {
+        "domain": "www.kingstrust.org.uk",
+        "title": "Funding for your business | Grants and loans | Enterprise"
+      },
+      {
+        "domain": "www.icaew.com",
+        "title": "Start-up loan"
+      }
+    ],
+    "working-capital": [
+      {
+        "domain": "www.british-business-bank.co.uk",
+        "title": "What is working capital finance, and how does it work?"
+      },
+      {
+        "domain": "www.fundingcircle.com",
+        "title": "Working Capital Loans | Get business funding"
+      },
+      {
+        "domain": "whiteoakuk.com",
+        "title": "Working Capital Loans"
+      },
+      {
+        "domain": "www.allica.bank",
+        "title": "What is a working capital loan and how does it work?"
+      },
+      {
+        "domain": "ecapital.com",
+        "title": "Working Capital Loans: Supporting Business Cash Flow ..."
+      },
+      {
+        "domain": "www.tide.co",
+        "title": "Working Capital Loans | Borrow up to £20 million"
+      },
+      {
+        "domain": "www.jpmorgan.com",
+        "title": "Understanding working capital loans"
+      },
+      {
+        "domain": "www.novuna.co.uk",
+        "title": "Working capital loans | Compare providers with ..."
+      },
+      {
+        "domain": "www.armstrongwatson.co.uk",
+        "title": "Working Capital"
+      },
+      {
+        "domain": "www.blueskyfinanceltd.co.uk",
+        "title": "Working Capital Loans | A Guide for Small Businesses & ..."
+      }
+    ]
+  }
+}

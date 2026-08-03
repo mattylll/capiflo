@@ -6,7 +6,7 @@
  */
 
 import type { County, Town } from '@/data/locations';
-import { businessConfig, hasAggregateRating } from '@/data/business-config';
+import { businessConfig, hasAggregateRating, hasRealAddress, hasRealPhone } from '@/data/business-config';
 
 /**
  * Generate Organization Schema (company-level)
@@ -21,20 +21,27 @@ export const generateOrganizationSchema = () => {
     url: businessConfig.website,
     logo: businessConfig.logo,
     description: businessConfig.description,
-    telephone: businessConfig.telephone,
     email: businessConfig.email,
-    address: {
+    foundingDate: businessConfig.foundingDate,
+    priceRange: businessConfig.priceRange,
+    serviceType: businessConfig.serviceType
+  };
+
+  // Only emit NAP details once the real values are in business-config —
+  // placeholder structured data on every page is worse than none.
+  if (hasRealPhone()) {
+    schema.telephone = businessConfig.telephone;
+  }
+  if (hasRealAddress()) {
+    schema.address = {
       '@type': 'PostalAddress',
       streetAddress: businessConfig.address.streetAddress,
       addressLocality: businessConfig.address.addressLocality,
       addressRegion: businessConfig.address.addressRegion,
       postalCode: businessConfig.address.postalCode,
       addressCountry: businessConfig.address.addressCountry
-    },
-    foundingDate: businessConfig.foundingDate,
-    priceRange: businessConfig.priceRange,
-    serviceType: businessConfig.serviceType
-  };
+    };
+  }
 
   // Add geographic coordinates if available
   if (businessConfig.geo) {
@@ -124,7 +131,7 @@ export const generateLocalBusinessSchema = (town: Town, county: County) => {
     name: `${businessConfig.name} Business Finance - ${town.name}`,
     description: town.description,
     url: `${businessConfig.website}/locations/${county.slug}/${town.slug}`,
-    telephone: businessConfig.telephone,
+    ...(hasRealPhone() ? { telephone: businessConfig.telephone } : {}),
     areaServed: {
       '@type': 'City',
       name: town.name,

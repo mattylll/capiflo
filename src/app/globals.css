@@ -4,33 +4,41 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*
+  Capiflo design system: "the underwriter's desk".
+  Cold green-white paper, ledger ink, banker's bottle green, one brass accent
+  reserved for seals and eyebrow ticks. Hairline rules instead of blur shadows.
+  Figures are always mono + tabular. Radius is document-like, not pill.
+*/
 :root {
   /* Core colors */
-  --background: #f7f7f9;
-  --foreground: #0e0e0f;
-  --card: #ffffff;
-  --card-foreground: #0e0e0f;
-  --popover: #ffffff;
-  --popover-foreground: #0e0e0f;
-  --primary: #ff4db8;
-  --primary-foreground: #fff5fb;
-  --secondary: #e5e7ef;
-  --secondary-foreground: #0e0e0f;
-  --muted: #e3e6f0;
-  --muted-foreground: #5f6166;
-  --accent: rgba(255, 77, 184, 0.12);
-  --accent-foreground: #ff4db8;
-  --destructive: #ff5a5f;
+  --background: #f6f7f3;
+  --foreground: #14201a;
+  --card: #fdfdfb;
+  --card-foreground: #14201a;
+  --popover: #fdfdfb;
+  --popover-foreground: #14201a;
+  --primary: #175c43;
+  --primary-foreground: #f2f7f2;
+  --secondary: #e8ebe2;
+  --secondary-foreground: #14201a;
+  --muted: #ecefe7;
+  --muted-foreground: #5b675e;
+  --accent: rgba(23, 92, 67, 0.09);
+  --accent-foreground: #175c43;
+  --brass: #a97f2f;
+  --brass-soft: rgba(169, 127, 47, 0.14);
+  --destructive: #b3402e;
   --destructive-foreground: #ffffff;
-  --border: #e1e2e6;
-  --input: #e1e2e6;
-  --ring: rgba(47, 107, 255, 0.3);
-  --chart-1: #ff4db8;
-  --chart-2: #ff91d5;
-  --chart-3: #111827;
-  --chart-4: #ffe0f4;
-  --chart-5: #1b1f3b;
-  --radius: 1.25rem;
+  --border: #d9ddd1;
+  --input: #d9ddd1;
+  --ring: rgba(23, 92, 67, 0.35);
+  --chart-1: #175c43;
+  --chart-2: #4f9b76;
+  --chart-3: #a97f2f;
+  --chart-4: #8ebfa5;
+  --chart-5: #14201a;
+  --radius: 0.375rem;
 
   /* Typography scale */
   --text-display: clamp(3rem, 6vw, 4rem);
@@ -45,63 +53,65 @@
   --section-gap-md: 6rem;
   --section-gap-lg: 8rem;
 
-  /* Shadow scale */
-  --shadow-card: 0 4px 24px -8px rgba(0, 0, 0, 0.08);
-  --shadow-card-hover: 0 20px 60px -20px rgba(0, 0, 0, 0.15);
-  --shadow-elevated: 0 40px 100px -40px rgba(0, 0, 0, 0.2);
-  --shadow-glow: 0 0 40px -10px var(--primary);
+  /* Shadow scale: paper sits nearly flat */
+  --shadow-card: 0 1px 2px rgba(20, 32, 26, 0.05);
+  --shadow-card-hover: 0 6px 24px -12px rgba(20, 32, 26, 0.18);
+  --shadow-elevated: 0 16px 48px -24px rgba(20, 32, 26, 0.25);
+  --shadow-glow: none;
 
   /* Sidebar */
-  --sidebar: #ffffff;
-  --sidebar-foreground: #0e0e0f;
-  --sidebar-primary: #ff4db8;
-  --sidebar-primary-foreground: #fff5fb;
-  --sidebar-accent: #ffe1f3;
-  --sidebar-accent-foreground: #0e0e0f;
-  --sidebar-border: #e1e2e6;
-  --sidebar-ring: rgba(47, 107, 255, 0.3);
+  --sidebar: #fdfdfb;
+  --sidebar-foreground: #14201a;
+  --sidebar-primary: #175c43;
+  --sidebar-primary-foreground: #f2f7f2;
+  --sidebar-accent: #ecefe7;
+  --sidebar-accent-foreground: #14201a;
+  --sidebar-border: #d9ddd1;
+  --sidebar-ring: rgba(23, 92, 67, 0.35);
 }
 
 .dark {
-  --background: #05060a;
-  --foreground: #f4f6fb;
-  --card: #0b0c13;
-  --card-foreground: #f4f6fb;
-  --popover: #0b0c13;
-  --popover-foreground: #f4f6fb;
-  --primary: #ff91d5;
-  --primary-foreground: #0b0c13;
-  --secondary: #141726;
-  --secondary-foreground: #f4f6fb;
-  --muted: #1e2133;
-  --muted-foreground: #a0a6c0;
-  --accent: rgba(255, 145, 213, 0.2);
-  --accent-foreground: #ff91d5;
-  --destructive: #ff7b84;
-  --destructive-foreground: #0b0c13;
-  --border: #1c1f2e;
-  --input: #1c1f2e;
-  --ring: rgba(143, 179, 255, 0.35);
-  --chart-1: #ff91d5;
-  --chart-2: #ff5cc3;
-  --chart-3: #f5f7ff;
-  --chart-4: #2f6bff;
-  --chart-5: #f7b500;
+  --background: #0d1411;
+  --foreground: #edf1ea;
+  --card: #121b16;
+  --card-foreground: #edf1ea;
+  --popover: #121b16;
+  --popover-foreground: #edf1ea;
+  --primary: #4fb98a;
+  --primary-foreground: #0d1411;
+  --secondary: #1b2620;
+  --secondary-foreground: #edf1ea;
+  --muted: #1e2a23;
+  --muted-foreground: #93a398;
+  --accent: rgba(79, 185, 138, 0.14);
+  --accent-foreground: #4fb98a;
+  --brass: #c9a254;
+  --brass-soft: rgba(201, 162, 84, 0.16);
+  --destructive: #d96a56;
+  --destructive-foreground: #0d1411;
+  --border: #24312a;
+  --input: #24312a;
+  --ring: rgba(79, 185, 138, 0.4);
+  --chart-1: #4fb98a;
+  --chart-2: #82d4ae;
+  --chart-3: #c9a254;
+  --chart-4: #2e6b50;
+  --chart-5: #edf1ea;
 
   /* Dark mode shadows */
-  --shadow-card: 0 4px 24px -8px rgba(0, 0, 0, 0.4);
-  --shadow-card-hover: 0 20px 60px -20px rgba(0, 0, 0, 0.5);
-  --shadow-elevated: 0 40px 100px -40px rgba(0, 0, 0, 0.6);
-  --shadow-glow: 0 0 40px -10px var(--primary);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 6px 24px -12px rgba(0, 0, 0, 0.55);
+  --shadow-elevated: 0 16px 48px -24px rgba(0, 0, 0, 0.6);
+  --shadow-glow: none;
 
-  --sidebar: #090a12;
-  --sidebar-foreground: #f4f6fb;
-  --sidebar-primary: #ff91d5;
-  --sidebar-primary-foreground: #0b0c13;
-  --sidebar-accent: #1c1824;
-  --sidebar-accent-foreground: #f4f6fb;
-  --sidebar-border: #1c1f2e;
-  --sidebar-ring: rgba(143, 179, 255, 0.35);
+  --sidebar: #101813;
+  --sidebar-foreground: #edf1ea;
+  --sidebar-primary: #4fb98a;
+  --sidebar-primary-foreground: #0d1411;
+  --sidebar-accent: #1b2620;
+  --sidebar-accent-foreground: #edf1ea;
+  --sidebar-border: #24312a;
+  --sidebar-ring: rgba(79, 185, 138, 0.4);
 }
 
 .theme-login-one {
@@ -158,8 +168,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-archivo);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -174,6 +185,8 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-brass: var(--brass);
+  --color-brass-soft: var(--brass-soft);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
@@ -230,7 +243,47 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(circle at 20% 20%, rgba(47, 107, 255, 0.15), transparent 45%), radial-gradient(circle at 80% 0%, rgba(15, 23, 42, 0.08), transparent 40%);
-    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  /* Display face: Archivo, slightly expanded, tight. Headline voice of the site. */
+  .font-display {
+    font-family: var(--font-display);
+    font-variation-settings: "wdth" 116;
+    letter-spacing: -0.02em;
+  }
+
+  /* Handwritten annotation: used at most once per page, on the term sheet. */
+  .font-hand {
+    font-family: var(--font-hand);
+  }
+
+  /* Ledger eyebrow: mono small-cap label with a brass tick and a hairline rule. */
+  .ledger-eyebrow {
+    @apply flex items-center gap-3 font-mono text-xs font-medium uppercase tracking-[0.22em] text-muted-foreground;
+  }
+  .ledger-eyebrow::before {
+    content: "";
+    @apply inline-block h-2 w-2 shrink-0 bg-brass;
+  }
+  .ledger-eyebrow::after {
+    content: "";
+    @apply h-px flex-1 bg-border;
+  }
+
+  /* Ruled row used by term sheets, stat strips and product ledgers. */
+  .ledger-row {
+    @apply flex items-baseline justify-between gap-4 border-b border-border py-3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

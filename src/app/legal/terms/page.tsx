@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const items = [
     {
         title: 'Information only',
-        body: 'Capiflo provides indicative information, calculators, and introductions. It is not a lender. Final offers come from FCA-regulated partners.'
+        body: 'Capiflo provides indicative information, calculators, and introductions. It is not a lender. Final offers come from the lenders and funding providers we introduce you to. All finance we arrange is unregulated business lending; Capiflo is not authorised or regulated by the Financial Conduct Authority.'
     },
     {
         title: 'Accuracy',
@@ -77,9 +77,9 @@ const TermsPage = () => {
                         <p className='text-muted-foreground'>
                             Questions about these terms? Email{' '}
                             <a
-                                href='mailto:hello@capiflo.co'
+                                href='mailto:hello@capiflo.co.uk'
                                 className='font-medium text-primary hover:underline'>
-                                hello@capiflo.co
+                                hello@capiflo.co.uk
                             </a>
                             .
                         </p>

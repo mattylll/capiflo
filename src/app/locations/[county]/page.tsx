@@ -4,14 +4,16 @@ import { notFound } from 'next/navigation';
 import CountyPage from '@/components/locations/county-page';
 import { counties, countyMap } from '@/data/locations/counties';
 import { getTownsByCounty } from '@/data/locations/towns';
+import { countyVariants } from '@/lib/seo/entity-variants';
 
 type Params = Promise<{ county: string }>;
 
 export const dynamicParams = false;
 
-// Incremental Static Regeneration (ISR)
-// Revalidate pages every 24 hours (86400 seconds)
-export const revalidate = 86400;
+// Fully static: content is deterministic (computed from slug hashes at build
+// time), and the Cloudflare deployment has no ISR incremental cache. A
+// `revalidate` export here makes OpenNext treat these as ISR pages and they
+// 404 on Workers instead of serving from static assets.
 
 export const generateStaticParams = () => counties.map((county) => ({ county: county.slug }));
 
@@ -21,9 +23,18 @@ export const generateMetadata = async ({ params }: { params: Params }): Promise<
     if (!county) {
         return {};
     }
+    // Entity-variant title distinct from the on-page H1 (Benner).
+    const v = countyVariants(county);
     return {
-        title: `Business Loans in ${county.name} | UK SME Funding | Capiflo`,
+        title: v.seoTitle,
         description: county.description,
+        alternates: { canonical: v.url },
+        openGraph: {
+            title: v.seoTitle,
+            description: county.description,
+            url: v.url,
+            type: 'website'
+        },
         keywords: [
             `business loans ${county.name.toLowerCase()}`,
             `${county.name.toLowerCase()} business funding`,

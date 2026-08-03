@@ -272,7 +272,7 @@ For funding purposes, City businesses benefit from lenders' familiarity with the
             },
             {
                 question: 'Is Capiflo regulated for professional services finance?',
-                answer: 'Yes, we are FCA regulated as a credit broker. Our panel includes lenders authorised for commercial lending to professional services firms. All advice and recommendations comply with FCA conduct requirements.'
+                answer: 'No. Capiflo is a commercial finance broker, not a lender, and we arrange unregulated business lending for business purposes only, subject to status. This kind of lending is not regulated by the Financial Conduct Authority, and FOS and FSCS protections do not apply. Some lenders on our panel hold their own FCA authorisations for other activities.'
             }
         ]
     },

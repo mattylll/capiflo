@@ -4,15 +4,16 @@ import { notFound } from 'next/navigation';
 import TownPage from '@/components/locations/town-page';
 import { counties, countyMap } from '@/data/locations/counties';
 import { towns, townMap, getTownsByCounty } from '@/data/locations/towns';
+import { townVariants } from '@/lib/seo/entity-variants';
 
 type Params = Promise<{ county: string; town: string }>;
 
 export const dynamicParams = false;
 
-// Incremental Static Regeneration (ISR)
-// Revalidate pages every 24 hours (86400 seconds)
-// This reduces build times by 80%+ and keeps content fresh
-export const revalidate = 86400;
+// Fully static: content is deterministic (computed from slug hashes at build
+// time), and the Cloudflare deployment has no ISR incremental cache. A
+// `revalidate` export here makes OpenNext treat these as ISR pages and they
+// 404 on Workers instead of serving from static assets.
 
 export const generateStaticParams = () => {
     // In development, only generate a subset for faster iteration
@@ -59,16 +60,31 @@ export const generateMetadata = async ({ params }: { params: Params }): Promise<
         return {};
     }
 
+    // Entity-variant title is deliberately distinct from the on-page H1
+    // (Bradley-Benner: title ≠ H1). See seo/ENTITY-BRIEF.md §7.
+    const v = townVariants(town, county);
+    const t = town.name.toLowerCase();
+    const description =
+        town.seoDescription ||
+        town.description ||
+        `Compare business loans, asset finance and invoice finance for ${town.name} SMEs from 120+ UK lenders. Fast decisions with Capiflo.`;
+
     return {
-        title: `Business Loans in ${town.name}, ${county.name} | UK SME Funding | Capiflo`,
-        description: town.description,
+        title: v.seoTitle,
+        description,
+        alternates: { canonical: v.url },
+        openGraph: {
+            title: v.seoTitle,
+            description,
+            url: v.url,
+            type: 'website'
+        },
         keywords: [
-            `business loans ${town.name.toLowerCase()}`,
-            `${town.name.toLowerCase()} business funding`,
-            `sme loans ${town.name.toLowerCase()}`,
-            `${town.name.toLowerCase()} commercial finance`,
-            `${county.name.toLowerCase()} business loans`,
-            ...town.businessTypes.slice(0, 3).map(t => `${t.toLowerCase()} finance ${town.name.toLowerCase()}`)
+            `business loans ${t}`,
+            `${t} business funding`,
+            `sme loans ${t}`,
+            `${t} commercial finance`,
+            `${county.name.toLowerCase()} business loans`
         ]
     };
 };

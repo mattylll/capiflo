@@ -1,9 +1,23 @@
 'use client';
 
+import { useState } from 'react';
+
 import Link from 'next/link';
+
+import { ModeToggle } from '@/components/mode-toggle';
+import { Button } from '@/registry/new-york-v4/ui/button';
+import {
+    NavigationMenu,
+    NavigationMenuContent,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger
+} from '@/registry/new-york-v4/ui/navigation-menu';
 
 import {
     Banknote,
+    Briefcase,
     Building2,
     Calculator,
     Car,
@@ -17,32 +31,19 @@ import {
     Home,
     Laptop,
     MapPin,
+    Menu,
     Palette,
     PoundSterling,
     Receipt,
     Scissors,
     ShoppingBag,
     Tractor,
-    Truck,
     TrendingUp,
+    Truck,
     UtensilsCrossed,
     Warehouse,
-    Briefcase,
-    Menu,
     X
 } from 'lucide-react';
-import { useState } from 'react';
-
-import { ModeToggle } from '@/components/mode-toggle';
-import { Button } from '@/registry/new-york-v4/ui/button';
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger
-} from '@/registry/new-york-v4/ui/navigation-menu';
 
 const FUNDING_ITEMS = [
     {
@@ -102,9 +103,17 @@ const SECTOR_ITEMS = [
 ];
 
 const LOCATION_REGIONS = [
-    { title: 'North West', href: '/locations', counties: ['Greater Manchester', 'Lancashire', 'Merseyside', 'Cheshire'] },
+    {
+        title: 'North West',
+        href: '/locations',
+        counties: ['Greater Manchester', 'Lancashire', 'Merseyside', 'Cheshire']
+    },
     { title: 'London & South East', href: '/locations', counties: ['Greater London', 'Kent', 'Surrey', 'Sussex'] },
-    { title: 'Midlands', href: '/locations', counties: ['West Midlands', 'Warwickshire', 'Nottinghamshire', 'Leicestershire'] },
+    {
+        title: 'Midlands',
+        href: '/locations',
+        counties: ['West Midlands', 'Warwickshire', 'Nottinghamshire', 'Leicestershire']
+    },
     { title: 'Scotland', href: '/locations', counties: ['Lothian', 'Strathclyde', 'Grampian', 'Fife'] },
     { title: 'Wales', href: '/locations', counties: ['South Glamorgan', 'West Glamorgan', 'Gwent', 'Clwyd'] },
     { title: 'Northern Ireland', href: '/locations', counties: ['Antrim', 'Down', 'Armagh', 'Tyrone'] }
@@ -112,7 +121,7 @@ const LOCATION_REGIONS = [
 
 const SIMPLE_LINKS = [
     { label: 'Calculators', href: '/calculators', icon: Calculator },
-    { label: 'Knowledge Centre', href: '/blog', icon: FileText },
+    { label: 'Guides', href: '/guides', icon: GraduationCap },
     { label: 'Introducers', href: '/introducers', icon: Handshake },
     { label: 'About', href: '/about', icon: Building2 }
 ];
@@ -121,26 +130,28 @@ const SiteHeader = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-40 border-b border-white/10 bg-background/80 backdrop-blur-2xl">
-            <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 lg:px-8">
+        <header className='border-border bg-background/90 sticky top-0 z-40 border-b backdrop-blur-md'>
+            <div className='mx-auto flex max-w-6xl items-center justify-between px-4 py-4 lg:px-8'>
                 {/* Logo */}
-                <Link href="/" className="flex shrink-0 items-center gap-3 text-lg font-semibold tracking-tight">
-                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#ff4db8] to-[#7b2873] text-sm font-bold text-white shadow shadow-[#ff4db8]/40">
-                        CF
+                <Link href='/' className='flex shrink-0 items-center gap-3 text-lg font-semibold tracking-tight'>
+                    <span className='border-primary text-primary inline-flex h-10 w-10 items-center justify-center border-2 font-mono text-sm font-bold'>
+                        C/F
                     </span>
-                    <div className="hidden whitespace-nowrap leading-tight sm:block">
-                        <span className="block text-base font-semibold text-foreground">Capiflo</span>
-                        <span className="text-xs font-medium text-muted-foreground">SME Finance Platform</span>
+                    <div className='hidden leading-tight whitespace-nowrap sm:block'>
+                        <span className='font-display text-foreground block text-base font-semibold'>Capiflo</span>
+                        <span className='text-muted-foreground font-mono text-[10px] font-medium tracking-[0.18em] uppercase'>
+                            SME finance broker
+                        </span>
                     </div>
                 </Link>
 
                 {/* Desktop Navigation */}
-                <NavigationMenu className="hidden lg:flex">
+                <NavigationMenu className='hidden lg:flex'>
                     <NavigationMenuList>
                         {/* Home */}
                         <NavigationMenuItem>
-                            <Link href="/" legacyBehavior passHref>
-                                <NavigationMenuLink className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground">
+                            <Link href='/' legacyBehavior passHref>
+                                <NavigationMenuLink className='group text-muted-foreground hover:bg-accent hover:text-accent-foreground inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors'>
                                     Home
                                 </NavigationMenuLink>
                             </Link>
@@ -148,24 +159,25 @@ const SiteHeader = () => {
 
                         {/* Funding Dropdown */}
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger className="bg-transparent text-muted-foreground hover:text-foreground">
+                            <NavigationMenuTrigger className='text-muted-foreground hover:text-foreground bg-transparent'>
                                 Funding
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <div className="grid w-[500px] gap-1 p-2 md:grid-cols-2">
+                                <div className='grid w-[500px] gap-1 p-2 md:grid-cols-2'>
                                     {FUNDING_ITEMS.map((item) => {
                                         const Icon = item.icon;
+
                                         return (
                                             <Link key={item.href} href={item.href} legacyBehavior passHref>
-                                                <NavigationMenuLink className="group flex items-start gap-3 rounded-lg p-3 hover:bg-accent">
-                                                    <div className="mt-0.5 rounded-lg bg-primary/15 p-2">
-                                                        <Icon className="h-4 w-4 text-primary" />
+                                                <NavigationMenuLink className='group hover:bg-accent flex items-start gap-3 rounded-lg p-3'>
+                                                    <div className='bg-primary/15 mt-0.5 rounded-lg p-2'>
+                                                        <Icon className='text-primary h-4 w-4' />
                                                     </div>
                                                     <div>
-                                                        <div className="text-sm font-medium text-foreground group-hover:text-primary">
+                                                        <div className='text-foreground group-hover:text-primary text-sm font-medium'>
                                                             {item.title}
                                                         </div>
-                                                        <div className="text-xs text-muted-foreground">
+                                                        <div className='text-muted-foreground text-xs'>
                                                             {item.description}
                                                         </div>
                                                     </div>
@@ -173,8 +185,8 @@ const SiteHeader = () => {
                                             </Link>
                                         );
                                     })}
-                                    <Link href="/funding" legacyBehavior passHref>
-                                        <NavigationMenuLink className="col-span-2 flex items-center justify-center gap-2 rounded-lg border border-dashed border-border p-3 text-sm font-medium text-muted-foreground hover:bg-accent hover:text-foreground">
+                                    <Link href='/funding' legacyBehavior passHref>
+                                        <NavigationMenuLink className='border-border text-muted-foreground hover:bg-accent hover:text-foreground col-span-2 flex items-center justify-center gap-2 rounded-lg border border-dashed p-3 text-sm font-medium'>
                                             View all funding options
                                         </NavigationMenuLink>
                                     </Link>
@@ -184,31 +196,32 @@ const SiteHeader = () => {
 
                         {/* Sectors Dropdown */}
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger className="bg-transparent text-muted-foreground hover:text-foreground">
+                            <NavigationMenuTrigger className='text-muted-foreground hover:text-foreground bg-transparent'>
                                 Sectors
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <div className="w-[600px] p-4">
-                                    <div className="mb-3 flex items-center justify-between">
-                                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                                <div className='w-[600px] p-4'>
+                                    <div className='mb-3 flex items-center justify-between'>
+                                        <p className='text-muted-foreground text-xs font-semibold tracking-wider uppercase'>
                                             Industry Sectors
                                         </p>
                                         <Link
-                                            href="/sectors"
-                                            className="text-xs font-medium text-primary hover:underline">
+                                            href='/sectors'
+                                            className='text-primary text-xs font-medium hover:underline'>
                                             View all
                                         </Link>
                                     </div>
-                                    <div className="grid grid-cols-3 gap-1">
+                                    <div className='grid grid-cols-3 gap-1'>
                                         {SECTOR_ITEMS.map((item) => {
                                             const Icon = item.icon;
+
                                             return (
                                                 <Link key={item.href} href={item.href} legacyBehavior passHref>
-                                                    <NavigationMenuLink className="group flex items-center gap-2 rounded-lg p-2 hover:bg-accent">
-                                                        <div className="rounded-md bg-primary/15 p-1.5">
-                                                            <Icon className="h-3.5 w-3.5 text-primary" />
+                                                    <NavigationMenuLink className='group hover:bg-accent flex items-center gap-2 rounded-lg p-2'>
+                                                        <div className='bg-primary/15 rounded-md p-1.5'>
+                                                            <Icon className='text-primary h-3.5 w-3.5' />
                                                         </div>
-                                                        <span className="text-sm text-foreground group-hover:text-primary">
+                                                        <span className='text-foreground group-hover:text-primary text-sm'>
                                                             {item.title}
                                                         </span>
                                                     </NavigationMenuLink>
@@ -222,34 +235,34 @@ const SiteHeader = () => {
 
                         {/* Locations Dropdown */}
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger className="bg-transparent text-muted-foreground hover:text-foreground">
+                            <NavigationMenuTrigger className='text-muted-foreground hover:text-foreground bg-transparent'>
                                 Locations
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <div className="w-[500px] p-4">
-                                    <div className="mb-3 flex items-center justify-between">
-                                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                                <div className='w-[500px] p-4'>
+                                    <div className='mb-3 flex items-center justify-between'>
+                                        <p className='text-muted-foreground text-xs font-semibold tracking-wider uppercase'>
                                             UK Regions
                                         </p>
                                         <Link
-                                            href="/locations"
-                                            className="text-xs font-medium text-primary hover:underline">
+                                            href='/locations'
+                                            className='text-primary text-xs font-medium hover:underline'>
                                             View all locations
                                         </Link>
                                     </div>
-                                    <div className="grid grid-cols-2 gap-3">
+                                    <div className='grid grid-cols-2 gap-3'>
                                         {LOCATION_REGIONS.map((region) => (
-                                            <Link key={region.title} href="/locations" legacyBehavior passHref>
-                                                <NavigationMenuLink className="group block rounded-lg p-3 hover:bg-accent">
-                                                    <div className="flex items-center gap-2">
-                                                        <div className="rounded-md bg-primary/15 p-1.5">
-                                                            <MapPin className="h-3.5 w-3.5 text-primary" />
+                                            <Link key={region.title} href='/locations' legacyBehavior passHref>
+                                                <NavigationMenuLink className='group hover:bg-accent block rounded-lg p-3'>
+                                                    <div className='flex items-center gap-2'>
+                                                        <div className='bg-primary/15 rounded-md p-1.5'>
+                                                            <MapPin className='text-primary h-3.5 w-3.5' />
                                                         </div>
-                                                        <span className="text-sm font-medium text-foreground group-hover:text-primary">
+                                                        <span className='text-foreground group-hover:text-primary text-sm font-medium'>
                                                             {region.title}
                                                         </span>
                                                     </div>
-                                                    <p className="mt-1 text-xs text-muted-foreground line-clamp-1">
+                                                    <p className='text-muted-foreground mt-1 line-clamp-1 text-xs'>
                                                         {region.counties.join(' · ')}
                                                     </p>
                                                 </NavigationMenuLink>
@@ -264,7 +277,7 @@ const SiteHeader = () => {
                         {SIMPLE_LINKS.map((item) => (
                             <NavigationMenuItem key={item.label}>
                                 <Link href={item.href} legacyBehavior passHref>
-                                    <NavigationMenuLink className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground">
+                                    <NavigationMenuLink className='group text-muted-foreground hover:bg-accent hover:text-accent-foreground inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors'>
                                         {item.label}
                                     </NavigationMenuLink>
                                 </Link>
@@ -274,59 +287,60 @@ const SiteHeader = () => {
                 </NavigationMenu>
 
                 {/* Right Side Actions */}
-                <div className="flex items-center gap-2">
+                <div className='flex items-center gap-2'>
                     <ModeToggle />
-                    <Button size="sm" className="hidden sm:inline-flex" asChild>
-                        <Link href="/contact">Check eligibility</Link>
+                    <Button size='sm' className='hidden sm:inline-flex' asChild>
+                        <Link href='/contact'>Check eligibility</Link>
                     </Button>
                     {/* Mobile Menu Toggle */}
                     <Button
-                        variant="ghost"
-                        size="sm"
-                        className="lg:hidden"
+                        variant='ghost'
+                        size='sm'
+                        className='lg:hidden'
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                        {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+                        {mobileMenuOpen ? <X className='h-5 w-5' /> : <Menu className='h-5 w-5' />}
                     </Button>
                 </div>
             </div>
 
             {/* Mobile Navigation */}
             {mobileMenuOpen && (
-                <div className="border-t border-white/10 bg-background/95 backdrop-blur-xl lg:hidden">
-                    <div className="mx-auto max-w-6xl px-4 py-4">
+                <div className='bg-background/95 border-t border-white/10 backdrop-blur-xl lg:hidden'>
+                    <div className='mx-auto max-w-6xl px-4 py-4'>
                         {/* Main Links */}
-                        <div className="space-y-1">
+                        <div className='space-y-1'>
                             <Link
-                                href="/"
-                                className="flex items-center gap-3 rounded-lg p-3 text-foreground hover:bg-accent"
+                                href='/'
+                                className='text-foreground hover:bg-accent flex items-center gap-3 rounded-lg p-3'
                                 onClick={() => setMobileMenuOpen(false)}>
-                                <Home className="h-4 w-4 text-primary" />
+                                <Home className='text-primary h-4 w-4' />
                                 Home
                             </Link>
                         </div>
 
                         {/* Funding Section */}
-                        <div className="mt-4">
-                            <p className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        <div className='mt-4'>
+                            <p className='text-muted-foreground mb-2 px-3 text-xs font-semibold tracking-wider uppercase'>
                                 Funding
                             </p>
-                            <div className="space-y-1">
+                            <div className='space-y-1'>
                                 {FUNDING_ITEMS.slice(0, 4).map((item) => {
                                     const Icon = item.icon;
+
                                     return (
                                         <Link
                                             key={item.href}
                                             href={item.href}
-                                            className="flex items-center gap-3 rounded-lg p-3 text-foreground hover:bg-accent"
+                                            className='text-foreground hover:bg-accent flex items-center gap-3 rounded-lg p-3'
                                             onClick={() => setMobileMenuOpen(false)}>
-                                            <Icon className="h-4 w-4 text-primary" />
+                                            <Icon className='text-primary h-4 w-4' />
                                             {item.title}
                                         </Link>
                                     );
                                 })}
                                 <Link
-                                    href="/funding"
-                                    className="flex items-center gap-3 rounded-lg p-3 text-sm text-primary hover:bg-accent"
+                                    href='/funding'
+                                    className='text-primary hover:bg-accent flex items-center gap-3 rounded-lg p-3 text-sm'
                                     onClick={() => setMobileMenuOpen(false)}>
                                     View all funding →
                                 </Link>
@@ -334,69 +348,71 @@ const SiteHeader = () => {
                         </div>
 
                         {/* Sectors Section */}
-                        <div className="mt-4">
-                            <p className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        <div className='mt-4'>
+                            <p className='text-muted-foreground mb-2 px-3 text-xs font-semibold tracking-wider uppercase'>
                                 Popular Sectors
                             </p>
-                            <div className="grid grid-cols-2 gap-1">
+                            <div className='grid grid-cols-2 gap-1'>
                                 {SECTOR_ITEMS.slice(0, 6).map((item) => {
                                     const Icon = item.icon;
+
                                     return (
                                         <Link
                                             key={item.href}
                                             href={item.href}
-                                            className="flex items-center gap-2 rounded-lg p-2 text-sm text-foreground hover:bg-accent"
+                                            className='text-foreground hover:bg-accent flex items-center gap-2 rounded-lg p-2 text-sm'
                                             onClick={() => setMobileMenuOpen(false)}>
-                                            <Icon className="h-4 w-4 text-primary" />
+                                            <Icon className='text-primary h-4 w-4' />
                                             {item.title}
                                         </Link>
                                     );
                                 })}
                             </div>
                             <Link
-                                href="/sectors"
-                                className="mt-2 flex items-center gap-3 rounded-lg p-3 text-sm text-primary hover:bg-accent"
+                                href='/sectors'
+                                className='text-primary hover:bg-accent mt-2 flex items-center gap-3 rounded-lg p-3 text-sm'
                                 onClick={() => setMobileMenuOpen(false)}>
                                 View all sectors →
                             </Link>
                         </div>
 
                         {/* Locations Section */}
-                        <div className="mt-4">
-                            <p className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        <div className='mt-4'>
+                            <p className='text-muted-foreground mb-2 px-3 text-xs font-semibold tracking-wider uppercase'>
                                 UK Locations
                             </p>
-                            <div className="grid grid-cols-2 gap-1">
+                            <div className='grid grid-cols-2 gap-1'>
                                 {LOCATION_REGIONS.slice(0, 4).map((region) => (
                                     <Link
                                         key={region.title}
-                                        href="/locations"
-                                        className="flex items-center gap-2 rounded-lg p-2 text-sm text-foreground hover:bg-accent"
+                                        href='/locations'
+                                        className='text-foreground hover:bg-accent flex items-center gap-2 rounded-lg p-2 text-sm'
                                         onClick={() => setMobileMenuOpen(false)}>
-                                        <MapPin className="h-4 w-4 text-primary" />
+                                        <MapPin className='text-primary h-4 w-4' />
                                         {region.title}
                                     </Link>
                                 ))}
                             </div>
                             <Link
-                                href="/locations"
-                                className="mt-2 flex items-center gap-3 rounded-lg p-3 text-sm text-primary hover:bg-accent"
+                                href='/locations'
+                                className='text-primary hover:bg-accent mt-2 flex items-center gap-3 rounded-lg p-3 text-sm'
                                 onClick={() => setMobileMenuOpen(false)}>
                                 View all locations →
                             </Link>
                         </div>
 
                         {/* Other Links */}
-                        <div className="mt-4 border-t border-white/10 pt-4">
+                        <div className='mt-4 border-t border-white/10 pt-4'>
                             {SIMPLE_LINKS.map((item) => {
                                 const Icon = item.icon;
+
                                 return (
                                     <Link
                                         key={item.label}
                                         href={item.href}
-                                        className="flex items-center gap-3 rounded-lg p-3 text-foreground hover:bg-accent"
+                                        className='text-foreground hover:bg-accent flex items-center gap-3 rounded-lg p-3'
                                         onClick={() => setMobileMenuOpen(false)}>
-                                        <Icon className="h-4 w-4 text-primary" />
+                                        <Icon className='text-primary h-4 w-4' />
                                         {item.label}
                                     </Link>
                                 );
@@ -404,9 +420,9 @@ const SiteHeader = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="mt-4 border-t border-white/10 pt-4">
-                            <Button className="w-full" asChild>
-                                <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
+                        <div className='mt-4 border-t border-white/10 pt-4'>
+                            <Button className='w-full' asChild>
+                                <Link href='/contact' onClick={() => setMobileMenuOpen(false)}>
                                     Check eligibility
                                 </Link>
                             </Button>

@@ -86,7 +86,7 @@ export const seoConfig = {
             counties: 'weekly' as const,
             towns: 'monthly' as const,
             products: 'monthly' as const,
-            blog: 'weekly' as const
+            guides: 'weekly' as const
         },
         priority: {
             homepage: 1.0,
@@ -95,7 +95,7 @@ export const seoConfig = {
             townsRichContent: 0.7, // Manually written content
             townsGeneratedContent: 0.6, // Auto-generated content
             products: 0.8,
-            blog: 0.7
+            guides: 0.7
         }
     },
 

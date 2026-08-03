@@ -1,0 +1,338 @@
+{
+  "business-loans": [
+    {
+      "domain": "www.natwest.com",
+      "title": "Small Business Loans Calculator"
+    },
+    {
+      "domain": "www.gov.uk",
+      "title": "Apply for a Start Up Loan for your business"
+    },
+    {
+      "domain": "www.fundingcircle.com",
+      "title": "Small Business Loans | Borrow £10k - £750k"
+    },
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "Business loans"
+    },
+    {
+      "domain": "www.lloydsbank.com",
+      "title": "How to Get a Business Loan"
+    },
+    {
+      "domain": "business.bankofscotland.co.uk",
+      "title": "Business Loans"
+    },
+    {
+      "domain": "www.gocompare.com",
+      "title": "Compare Business Loans | GoCompare"
+    },
+    {
+      "domain": "www.iwoca.co.uk",
+      "title": "Business Loans - Flexible Funding from £1K to £1,000,000"
+    },
+    {
+      "domain": "www.barclays.co.uk",
+      "title": "Business finance funding options"
+    },
+    {
+      "domain": "www.money.co.uk",
+      "title": "Business loans | Compare funding from £500 to £15000000"
+    }
+  ],
+  "asset-finance": [
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "What is Asset finance?"
+    },
+    {
+      "domain": "www.closeassetfinance.co.uk",
+      "title": "Close Brothers Asset Finance: Asset Finance for UK SMEs"
+    },
+    {
+      "domain": "www.natwest.com",
+      "title": "Asset Finance | NatWest business banking"
+    },
+    {
+      "domain": "timefinance.com",
+      "title": "Asset Finance UK | Flexible Equipment Funding Solutions"
+    },
+    {
+      "domain": "www.fundingcircle.com",
+      "title": "Business Asset Finance"
+    },
+    {
+      "domain": "portmanfinancegroup.co.uk",
+      "title": "Asset Finance Options for UK SMEs"
+    },
+    {
+      "domain": "www.bibbyfinancialservices.com",
+      "title": "Bibby Asset Finance solutions"
+    },
+    {
+      "domain": "fla.org.uk",
+      "title": "Asset Finance"
+    },
+    {
+      "domain": "www.lloydsbank.com",
+      "title": "How Asset Finance can help you grow"
+    },
+    {
+      "domain": "www.allica.bank",
+      "title": "What is asset finance? The complete guide"
+    }
+  ],
+  "invoice-finance": [
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "Invoice finance"
+    },
+    {
+      "domain": "www.smeinvoicefinance.co.uk",
+      "title": "SME Invoice Finance (UK) | Advance Up to 95% Of Invoice ..."
+    },
+    {
+      "domain": "www.lloydsbank.com",
+      "title": "Invoice Finance | Business"
+    },
+    {
+      "domain": "www.novuna.co.uk",
+      "title": "Invoice finance | Compare providers with Novuna"
+    },
+    {
+      "domain": "ultimatefinance.co.uk",
+      "title": "Invoice Finance"
+    },
+    {
+      "domain": "www.ukfinance.org.uk",
+      "title": "Invoice Finance and Asset-Based Lending"
+    },
+    {
+      "domain": "timefinance.com",
+      "title": "Invoice Finance UK | Unlock Cashflow From Unpaid Invoices"
+    },
+    {
+      "domain": "www.bibbyfinancialservices.com",
+      "title": "What is an Invoice Finance Company?"
+    },
+    {
+      "domain": "www.fundingoptions.com",
+      "title": "Invoice Finance for SMEs"
+    },
+    {
+      "domain": "www.aldermore.co.uk",
+      "title": "Invoice Finance Solutions for Businesses"
+    }
+  ],
+  "merchant-cash-advance": [
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "Small business owners guide to a merchant cash advance"
+    },
+    {
+      "domain": "www.merchantloanadvance.co.uk",
+      "title": "Merchant Cash Advance UK | Get £3k to £300k in 24 Hours"
+    },
+    {
+      "domain": "www.merchantsavvy.co.uk",
+      "title": "Compare Best 6 Merchant Cash Advance Lenders"
+    },
+    {
+      "domain": "www.gov.uk",
+      "title": "Merchant Cash Advance"
+    },
+    {
+      "domain": "www.bmcaa.co.uk",
+      "title": "BMCAA: The British Merchant Cash Advance Association"
+    },
+    {
+      "domain": "www.lloydsbank.com",
+      "title": "Merchant Cash Advance | Cardnet®"
+    },
+    {
+      "domain": "www.iwoca.co.uk",
+      "title": "Merchant Cash Advance UK: Business Financing"
+    },
+    {
+      "domain": "www.businesscomparison.com",
+      "title": "Compare Merchant Cash Advance Lenders"
+    },
+    {
+      "domain": "en.wikipedia.org",
+      "title": "Merchant cash advance"
+    },
+    {
+      "domain": "www.accesspaysuite.com",
+      "title": "UK Merchant Cash Advance: Cost & Eligibility Guide"
+    }
+  ],
+  "commercial-mortgage": [
+    {
+      "domain": "www.natwest.com",
+      "title": "Commercial Mortgage | NatWest Business Banking"
+    },
+    {
+      "domain": "www.moneysupermarket.com",
+      "title": "Commercial Mortgage Comparison - Rates from 6.0%"
+    },
+    {
+      "domain": "www.barclays.co.uk",
+      "title": "Commercial mortgages"
+    },
+    {
+      "domain": "togethermoney.com",
+      "title": "Commercial Mortgages | Business Property ..."
+    },
+    {
+      "domain": "www.allica.bank",
+      "title": "Commercial Mortgages Guide"
+    },
+    {
+      "domain": "www.equifax.co.uk",
+      "title": "What is a commercial mortgage?"
+    },
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "How to finance a commercial property purchase"
+    },
+    {
+      "domain": "www.gocompare.com",
+      "title": "Commercial Mortgages | Business ..."
+    },
+    {
+      "domain": "www.nibusinessinfo.co.uk",
+      "title": "Overview of a commercial mortgage"
+    },
+    {
+      "domain": "www.iwoca.co.uk",
+      "title": "Everything you need to know about commercial mortgages"
+    }
+  ],
+  "vat-loans": [
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "VAT loans – what they are and how do you get one"
+    },
+    {
+      "domain": "vatloans.co.uk",
+      "title": "VAT Loans Limited"
+    },
+    {
+      "domain": "whiteoakuk.com",
+      "title": "VAT Loans | VAT Finance"
+    },
+    {
+      "domain": "www.iwoca.co.uk",
+      "title": "Understanding VAT Loans in the UK"
+    },
+    {
+      "domain": "bloomsmith.co.uk",
+      "title": "VAT Funding Explained"
+    },
+    {
+      "domain": "www.rlacapital.co.uk",
+      "title": "Vat Finance | VAT Loans within 48 hours"
+    },
+    {
+      "domain": "www.fundingoptions.com",
+      "title": "a simple guide | How to get a VAT loan"
+    },
+    {
+      "domain": "www.money.co.uk",
+      "title": "VAT loans: the overlooked finance option helping SMEs ..."
+    },
+    {
+      "domain": "www.tsffinance.co.uk",
+      "title": "What is a VAT Loan and Why Should You Get One?"
+    },
+    {
+      "domain": "www.ennessglobal.com",
+      "title": "VAT Finance | Commercial Tax Funding"
+    }
+  ],
+  "start-up-loans": [
+    {
+      "domain": "www.startuploans.co.uk",
+      "title": "Start Up Loans: Start Up Business Loans"
+    },
+    {
+      "domain": "www.gov.uk",
+      "title": "Apply for a Start Up Loan for your business"
+    },
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "Start Up Loans"
+    },
+    {
+      "domain": "business.bankofscotland.co.uk",
+      "title": "Financing a start-up | Business Guidance"
+    },
+    {
+      "domain": "apply.startuploans.co.uk",
+      "title": "Registering for a Start Up Loan"
+    },
+    {
+      "domain": "www.lloydsbank.com",
+      "title": "Financing a startup | Business Guides"
+    },
+    {
+      "domain": "growthhub.eastmidlands-cca.gov.uk",
+      "title": "Start-Up Loans - EMCCA Growth Hub"
+    },
+    {
+      "domain": "www.virginstartup.org",
+      "title": "Startup loans UK: compare funding options"
+    },
+    {
+      "domain": "www.kingstrust.org.uk",
+      "title": "Funding for your business | Grants and loans | Enterprise"
+    },
+    {
+      "domain": "www.icaew.com",
+      "title": "Start-up loan"
+    }
+  ],
+  "working-capital": [
+    {
+      "domain": "www.british-business-bank.co.uk",
+      "title": "What is working capital finance, and how does it work?"
+    },
+    {
+      "domain": "www.fundingcircle.com",
+      "title": "Working Capital Loans | Get business funding"
+    },
+    {
+      "domain": "whiteoakuk.com",
+      "title": "Working Capital Loans"
+    },
+    {
+      "domain": "www.allica.bank",
+      "title": "What is a working capital loan and how does it work?"
+    },
+    {
+      "domain": "ecapital.com",
+      "title": "Working Capital Loans: Supporting Business Cash Flow ..."
+    },
+    {
+      "domain": "www.tide.co",
+      "title": "Working Capital Loans | Borrow up to £20 million"
+    },
+    {
+      "domain": "www.jpmorgan.com",
+      "title": "Understanding working capital loans"
+    },
+    {
+      "domain": "www.novuna.co.uk",
+      "title": "Working capital loans | Compare providers with ..."
+    },
+    {
+      "domain": "www.armstrongwatson.co.uk",
+      "title": "Working Capital"
+    },
+    {
+      "domain": "www.blueskyfinanceltd.co.uk",
+      "title": "Working Capital Loans | A Guide for Small Businesses & ..."
+    }
+  ]
+}

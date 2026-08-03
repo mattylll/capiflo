@@ -8,6 +8,8 @@
 export type BusinessConfig = {
   name: string;
   legalName: string;
+  /** Companies House number — leave '' until known; gates the registration line in the footer. */
+  companyNumber: string;
   telephone: string;
   email: string;
   website: string;
@@ -44,10 +46,16 @@ export const businessConfig: BusinessConfig = {
   name: 'Capiflo',
   legalName: 'Capiflo Ltd',
 
+  // Company identity. Capiflo is NOT FCA authorised: it arranges unregulated
+  // business lending only. Site copy must never imply FCA authorisation.
+  // TODO: Set the real Companies House number ('' hides the footer line).
+  companyNumber: '',
+
   // Contact Information
-  // TODO: Replace with real phone number
+  // TODO: Replace with real phone number. While it contains 'X' the phone is
+  // treated as unconfigured (hasRealPhone) and hidden from pages and schema.
   telephone: '+44 20 XXXX XXXX',
-  email: 'enquiries@capiflo.co.uk',
+  email: 'hello@capiflo.co.uk',
   website: 'https://capiflo.co.uk',
 
   // Brand Assets
@@ -109,6 +117,30 @@ export const businessConfig: BusinessConfig = {
  */
 export const getFormattedPhone = (): string => {
   return businessConfig.telephone;
+};
+
+/**
+ * tel: href form of the phone number (digits and + only).
+ */
+export const getTelHref = (): string => {
+  return `tel:${businessConfig.telephone.replace(/[^+\d]/g, '')}`;
+};
+
+/**
+ * True once the placeholder phone has been replaced with a real number.
+ * Pages and schema hide the phone entirely until then — never ship a fake NAP.
+ */
+export const hasRealPhone = (): boolean => {
+  return !businessConfig.telephone.toUpperCase().includes('X');
+};
+
+/**
+ * True once the placeholder address has been replaced with a real one.
+ * Gates LocalBusiness schema emission (fake structured data is worse than none).
+ */
+export const hasRealAddress = (): boolean => {
+  const { streetAddress, postalCode } = businessConfig.address;
+  return !postalCode.toUpperCase().includes('XXX') && !streetAddress.startsWith('Business Address');
 };
 
 /**

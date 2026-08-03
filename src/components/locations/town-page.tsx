@@ -31,6 +31,8 @@ import {
     generateServiceSchema,
     generateBreadcrumbSchema
 } from '@/lib/schema-generators';
+import { townVariants } from '@/lib/seo/entity-variants';
+import { generateExtendedOverview } from '@/lib/content-generation/generators/extended-overview';
 
 type Props = {
     town: Town;
@@ -77,6 +79,12 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
     ];
 
     const faqs = town.faqs && town.faqs.length >= 8 ? town.faqs : defaultFaqs;
+
+    // Entity-variant slots (Bradley-Benner: URL ≠ title ≠ H1 ≠ each H2) and a
+    // deterministic, entity-engineered overview so every town has rich, varied
+    // prose with semantic triples even without hand-written content.
+    const v = townVariants(town, county);
+    const overview = town.extendedOverview || generateExtendedOverview(town, county);
 
     // Schema markup - using centralized schema generators
     const faqSchema = generateFAQSchema(faqs);
@@ -151,7 +159,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                     )}
                                 </div>
                                 <h1 className="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight text-foreground sm:text-5xl">
-                                    Business Loans in {town.name}
+                                    {v.h1}
                                 </h1>
                                 <p className="mt-4 text-xl text-muted-foreground">{town.description}</p>
                                 <div className="mt-6 flex flex-wrap gap-2">
@@ -245,53 +253,26 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                     </div>
                 </section>
 
-                {/* Extended Overview Section - for rich local content */}
-                {town.extendedOverview && (
-                    <section className="px-4 lg:px-8">
-                        <div className="mx-auto max-w-6xl">
-                            <Card className="rounded-3xl border-border/50 p-8 md:p-10 animate-in fade-in slide-in-from-bottom-6 duration-500">
-                                <div className="max-w-4xl">
-                                    <p className="text-sm font-medium uppercase tracking-widest text-primary">
-                                        Local Business Finance Guide
+                {/* Extended Overview Section - entity-engineered local content */}
+                <section className="px-4 lg:px-8">
+                    <div className="mx-auto max-w-6xl">
+                        <Card className="rounded-3xl border-border/50 p-8 md:p-10 animate-in fade-in slide-in-from-bottom-6 duration-500">
+                            <div className="max-w-4xl">
+                                <p className="text-sm font-medium uppercase tracking-widest text-primary">
+                                    Local Business Finance Guide
+                                </p>
+                                <h2 className="mt-2 text-2xl font-semibold text-foreground">
+                                    {v.h2Funding}
+                                </h2>
+                                <div className="mt-6 prose prose-gray dark:prose-invert max-w-none">
+                                    <p className="text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
+                                        {overview}
                                     </p>
-                                    <h2 className="mt-2 text-2xl font-semibold text-foreground">
-                                        Business Funding in {town.name}: What You Need to Know
-                                    </h2>
-                                    <div className="mt-6 prose prose-gray dark:prose-invert max-w-none">
-                                        <p className="text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
-                                            {town.extendedOverview}
-                                        </p>
-                                    </div>
                                 </div>
-                            </Card>
-                        </div>
-                    </section>
-                )}
-
-                {/* Overview Section - shorter version if no extended */}
-                {!town.extendedOverview && (
-                    <section className="px-4 lg:px-8">
-                        <div className="mx-auto max-w-6xl">
-                            <Card className="rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 duration-500">
-                                <div className="grid gap-8 lg:grid-cols-[0.3fr_0.7fr]">
-                                    <div>
-                                        <p className="text-sm font-medium uppercase tracking-widest text-primary">
-                                            Overview
-                                        </p>
-                                        <h2 className="mt-2 text-2xl font-semibold text-foreground">
-                                            About {town.name}
-                                        </h2>
-                                    </div>
-                                    <div>
-                                        <p className="text-lg leading-relaxed text-muted-foreground">
-                                            {town.overview}
-                                        </p>
-                                    </div>
-                                </div>
-                            </Card>
-                        </div>
-                    </section>
-                )}
+                            </div>
+                        </Card>
+                    </div>
+                </section>
 
                 {/* Business Demographics Section */}
                 {town.businessDemographics && (
@@ -346,7 +327,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                         <TrendingUp className="h-6 w-6 text-primary" />
                                     </div>
                                     <h2 className="text-2xl font-semibold text-foreground">
-                                        Local Economy
+                                        {v.h2Economy}
                                     </h2>
                                 </div>
                                 <p className="mt-6 text-muted-foreground leading-relaxed">
@@ -374,7 +355,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                         <Briefcase className="h-6 w-6 text-primary" />
                                     </div>
                                     <h2 className="text-2xl font-semibold text-foreground">
-                                        Key Business Sectors
+                                        {v.h2Sectors}
                                     </h2>
                                 </div>
                                 <p className="mt-4 text-sm text-muted-foreground">
@@ -631,7 +612,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                             {[
                                 { icon: Building2, label: '120+ UK Lenders', desc: 'Access to the whole market' },
                                 { icon: Clock, label: '24-48hr Decisions', desc: 'Fast turnaround times' },
-                                { icon: Award, label: 'FCA Regulated', desc: 'Authorised and regulated' },
+                                { icon: Award, label: 'Broker, Not a Lender', desc: 'We arrange, lenders lend' },
                                 { icon: Users, label: 'Free Service', desc: 'No cost to compare' }
                             ].map((item, index) => (
                                 <Card

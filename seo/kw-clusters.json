@@ -1,0 +1,3576 @@
+{
+  "seeds": [
+    "--help"
+  ],
+  "locale": {
+    "location_code": 2826,
+    "language_code": "en",
+    "device": "desktop"
+  },
+  "all": [
+    {
+      "kw": "argos help",
+      "vol": 2900,
+      "cpc": 3.11
+    },
+    {
+      "kw": "inpost help",
+      "vol": 2400,
+      "cpc": 0.02
+    },
+    {
+      "kw": "deliveroo help",
+      "vol": 2400,
+      "cpc": 0
+    },
+    {
+      "kw": "hive help",
+      "vol": 1600,
+      "cpc": 8.26
+    },
+    {
+      "kw": "yodel help",
+      "vol": 1300,
+      "cpc": 6.94
+    },
+    {
+      "kw": "mcd help",
+      "vol": 880,
+      "cpc": 0
+    },
+    {
+      "kw": "xero help",
+      "vol": 590,
+      "cpc": 8.06
+    },
+    {
+      "kw": "tinder help",
+      "vol": 590,
+      "cpc": 1.23
+    },
+    {
+      "kw": "yahoo help",
+      "vol": 590,
+      "cpc": 4.08
+    },
+    {
+      "kw": "wix help",
+      "vol": 480,
+      "cpc": 4.53
+    },
+    {
+      "kw": "hidden help",
+      "vol": 480,
+      "cpc": 0.23
+    },
+    {
+      "kw": "flixbus help",
+      "vol": 480,
+      "cpc": 0
+    },
+    {
+      "kw": "axs help",
+      "vol": 480,
+      "cpc": 0
+    },
+    {
+      "kw": "squarespace help",
+      "vol": 480,
+      "cpc": 10.12
+    },
+    {
+      "kw": "aol help",
+      "vol": 390,
+      "cpc": 4.72
+    },
+    {
+      "kw": "etsy help",
+      "vol": 390,
+      "cpc": 0
+    },
+    {
+      "kw": "asb help",
+      "vol": 390,
+      "cpc": 0.47
+    },
+    {
+      "kw": "wordpress help",
+      "vol": 390,
+      "cpc": 11.83
+    },
+    {
+      "kw": "mull: help and information",
+      "vol": 320,
+      "cpc": 0
+    },
+    {
+      "kw": "meta help",
+      "vol": 320,
+      "cpc": 0
+    },
+    {
+      "kw": "pod point help",
+      "vol": 260,
+      "cpc": 3.06
+    },
+    {
+      "kw": "expedia help",
+      "vol": 260,
+      "cpc": 1.68
+    },
+    {
+      "kw": "send help wiki",
+      "vol": 260,
+      "cpc": 0
+    },
+    {
+      "kw": "hellofresh help",
+      "vol": 260,
+      "cpc": 0
+    },
+    {
+      "kw": "quooker help",
+      "vol": 210,
+      "cpc": 1.81
+    },
+    {
+      "kw": "argos help chat",
+      "vol": 210,
+      "cpc": 2.4
+    },
+    {
+      "kw": "icloud help",
+      "vol": 210,
+      "cpc": 2.39
+    },
+    {
+      "kw": "sap help",
+      "vol": 210,
+      "cpc": 6.46
+    },
+    {
+      "kw": "youfibre help",
+      "vol": 210,
+      "cpc": 0.46
+    },
+    {
+      "kw": "talktalk help/update",
+      "vol": 170,
+      "cpc": 6.47
+    },
+    {
+      "kw": "square help",
+      "vol": 170,
+      "cpc": 6.99
+    },
+    {
+      "kw": "one4all help",
+      "vol": 170,
+      "cpc": 0.06
+    },
+    {
+      "kw": "twitter help",
+      "vol": 170,
+      "cpc": 0
+    },
+    {
+      "kw": "e on help",
+      "vol": 170,
+      "cpc": 1.96
+    },
+    {
+      "kw": "pip claim help",
+      "vol": 170,
+      "cpc": 1.8
+    },
+    {
+      "kw": "deliveroo help chat",
+      "vol": 140,
+      "cpc": 0
+    },
+    {
+      "kw": "iris help",
+      "vol": 140,
+      "cpc": 0
+    },
+    {
+      "kw": "help pinterest",
+      "vol": 140,
+      "cpc": 0
+    },
+    {
+      "kw": "zoho help desk",
+      "vol": 140,
+      "cpc": 28.63
+    },
+    {
+      "kw": "specsavers help",
+      "vol": 140,
+      "cpc": 0
+    },
+    {
+      "kw": "tinder help center",
+      "vol": 140,
+      "cpc": 2.72
+    },
+    {
+      "kw": "help guide",
+      "vol": 110,
+      "cpc": 8.21
+    },
+    {
+      "kw": "help centre twitter",
+      "vol": 110,
+      "cpc": 0
+    },
+    {
+      "kw": "epic help desk",
+      "vol": 110,
+      "cpc": 0
+    },
+    {
+      "kw": "chat help",
+      "vol": 110,
+      "cpc": 3.32
+    },
+    {
+      "kw": "nectar com help",
+      "vol": 110,
+      "cpc": 0
+    },
+    {
+      "kw": "norton help chat",
+      "vol": 110,
+      "cpc": 3.45
+    },
+    {
+      "kw": "hubspot help",
+      "vol": 110,
+      "cpc": 7.79
+    },
+    {
+      "kw": "fnd help",
+      "vol": 90,
+      "cpc": 6.39
+    },
+    {
+      "kw": "eventbrite help",
+      "vol": 90,
+      "cpc": 0.04
+    },
+    {
+      "kw": "zendesk help",
+      "vol": 90,
+      "cpc": 7.19
+    },
+    {
+      "kw": "the help wiki",
+      "vol": 90,
+      "cpc": 0
+    },
+    {
+      "kw": "vanguard help",
+      "vol": 90,
+      "cpc": 2.7
+    },
+    {
+      "kw": "help eap",
+      "vol": 90,
+      "cpc": 13.58
+    },
+    {
+      "kw": "github help",
+      "vol": 90,
+      "cpc": 0
+    },
+    {
+      "kw": "help centre snapchat",
+      "vol": 90,
+      "cpc": 0
+    },
+    {
+      "kw": "git help",
+      "vol": 90,
+      "cpc": 0
+    },
+    {
+      "kw": "slack help",
+      "vol": 90,
+      "cpc": 1.12
+    },
+    {
+      "kw": "m&s help chat",
+      "vol": 70,
+      "cpc": 0.24
+    },
+    {
+      "kw": "help function",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "gumtree help",
+      "vol": 70,
+      "cpc": 3.61
+    },
+    {
+      "kw": "vine help",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "help tabs",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "help 2010",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "ask4 help",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "snapfish help",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "substack help",
+      "vol": 70,
+      "cpc": 0
+    },
+    {
+      "kw": "rightmove help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "help imdb",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "clover help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "twickets help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "support help",
+      "vol": 50,
+      "cpc": 1.17
+    },
+    {
+      "kw": "help set",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "sqa help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "tube help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "tpexpress help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "optum help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "accurx help",
+      "vol": 50,
+      "cpc": 0
+    },
+    {
+      "kw": "vrchat help",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "stubhub help",
+      "vol": 40,
+      "cpc": 1.36
+    },
+    {
+      "kw": "help scout api",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "oap help",
+      "vol": 40,
+      "cpc": 3.94
+    },
+    {
+      "kw": "niantic help",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "faceclaim help",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "message help",
+      "vol": 40,
+      "cpc": 4.78
+    },
+    {
+      "kw": "help linkedin profile",
+      "vol": 40,
+      "cpc": 5.78
+    },
+    {
+      "kw": "inpost help chat",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "tcl help",
+      "vol": 40,
+      "cpc": 0
+    },
+    {
+      "kw": "hive help uk",
+      "vol": 30,
+      "cpc": 2.7
+    },
+    {
+      "kw": "forumotion help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "zendesk help desk",
+      "vol": 30,
+      "cpc": 23.73
+    },
+    {
+      "kw": "loading help",
+      "vol": 30,
+      "cpc": 1.02
+    },
+    {
+      "kw": "blooket help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "forum help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "thunderbird help",
+      "vol": 30,
+      "cpc": 5.87
+    },
+    {
+      "kw": "curl help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "proton help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "skiddle help line",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "sage uk help",
+      "vol": 30,
+      "cpc": 3.02
+    },
+    {
+      "kw": "wetransfer help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "loop allocate help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "dulux help",
+      "vol": 30,
+      "cpc": 1.05
+    },
+    {
+      "kw": "swiftqueue help centre",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "humax help",
+      "vol": 30,
+      "cpc": 1.81
+    },
+    {
+      "kw": "guide help",
+      "vol": 30,
+      "cpc": 0.8
+    },
+    {
+      "kw": "help messages",
+      "vol": 30,
+      "cpc": 2.29
+    },
+    {
+      "kw": "topstep help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "oasis help",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "upwork help",
+      "vol": 30,
+      "cpc": 4.65
+    },
+    {
+      "kw": "boohooman help and support",
+      "vol": 30,
+      "cpc": 0
+    },
+    {
+      "kw": "sodastream help",
+      "vol": 20,
+      "cpc": 1.1
+    },
+    {
+      "kw": "aol help chat",
+      "vol": 20,
+      "cpc": 4.03
+    },
+    {
+      "kw": "veeva crm help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "help plex",
+      "vol": 20,
+      "cpc": 0.02
+    },
+    {
+      "kw": "tails com help",
+      "vol": 20,
+      "cpc": 1.98
+    },
+    {
+      "kw": "dmu help",
+      "vol": 20,
+      "cpc": 9.78
+    },
+    {
+      "kw": "twinkl help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "moonpig help centre",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "libby help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "isle help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "evernote help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "tss help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "linkedin live help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "help codes",
+      "vol": 20,
+      "cpc": 6.92
+    },
+    {
+      "kw": "tinder help support",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "seatfrog help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "script help",
+      "vol": 20,
+      "cpc": 5.89
+    },
+    {
+      "kw": "help mipermit",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "rsvp help",
+      "vol": 20,
+      "cpc": 10.47
+    },
+    {
+      "kw": "unity help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "wattpad help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "help doc",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "help in hub",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "twitch help center",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "slack help center",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "doc help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "bt cloud help",
+      "vol": 20,
+      "cpc": 21.42
+    },
+    {
+      "kw": "delta help chat",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "onenote help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "faceit help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "scripting help",
+      "vol": 20,
+      "cpc": 5.89
+    },
+    {
+      "kw": "dashlane help",
+      "vol": 20,
+      "cpc": 15.02
+    },
+    {
+      "kw": "thread help",
+      "vol": 20,
+      "cpc": 0.09
+    },
+    {
+      "kw": "tinder help centre",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "fnd self help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "stk help",
+      "vol": 20,
+      "cpc": 0
+    },
+    {
+      "kw": "mixpanel help",
+      "vol": 10,
+      "cpc": 23.58
+    },
+    {
+      "kw": "iflyworld help",
+      "vol": 10,
+      "cpc": 0.43
+    },
+    {
+      "kw": "figma help forum",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "camfrog help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "maven help plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "okcupid help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "roo community help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sbis help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "memory-map help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get-eventlog help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gettr help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "imo dash help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "armyignited help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lumapps help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "github help ssh",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help instructions",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "phprunner help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "maplestory help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "delta help text",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zoho projects help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tripcast help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cloud platform integration sap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "snapseed help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zachry help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git log help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help scout dashboard",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "azure cloud shell help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "epro help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mastodon help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "loop allocate help nhs",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get-help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cloud library help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wix bookings help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "proloquo2go help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "loseit com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zapier help scout",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wp engine help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "auraframes com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "4projects help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "github enterprise help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "simcity help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sandbox help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "adform help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mediamonkey help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "roku help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap cdp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help plugin wordpress",
+      "vol": 10,
+      "cpc": 5.43
+    },
+    {
+      "kw": "chatfuel help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap fpsl help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "metamask help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "eft help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "oracle cloud advisor help you with",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zenkit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "byrdle help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tagger help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap mrs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vray help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cypress help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ymlp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "divi theme help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "inventor api help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "truecaller help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pinnacle help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wp help desk plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "streamlabs obs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help scout plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cursor help github",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zello help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "showpad help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vss help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cradlepoint help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "skype help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "nwolb help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gcloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "virgin hub help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "creator help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hire wordpress help",
+      "vol": 10,
+      "cpc": 49.51
+    },
+    {
+      "kw": "showpo help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help object",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "taylormade help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fcpx help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ifly help",
+      "vol": 10,
+      "cpc": 1.82
+    },
+    {
+      "kw": "getopts help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git help gc for manual housekeeping",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "trustpilot help centre",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help hashtag",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "snap survey help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "agoda help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "instant wordpress help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "comodo help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "phoenix help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help guru wordpress theme",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ifix help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "epad help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "roxette help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap web dispatcher help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help mode",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cloud compare help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "swil help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vevo help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "flocknote help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "brave settings help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "edgenuity help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "dribbble help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fbr help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sourceforge help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "biorb help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "r help documentation",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "argparse print help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap build apps help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "paxful help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "veeva vault help documentation",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "showbie help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vsco help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap build process automation help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "befibre help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "qnap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help package r",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "apt help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sequencediagram org help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help desk github",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tinder help uk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help delphi",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "360 help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "imatch help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hero hub help content",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sky q help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "portfoliobox help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ojs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pagecloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "volusion help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "nearpod help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hub for help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "potplayer help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "qbasic help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "diff help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zendesk guide help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "roo community/help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "screencastify help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help desk zucchetti",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "flash help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "asite help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jira cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "slot help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cex help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "docker images help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap api management help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "apollo help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "getfeedback help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "servicenow embedded help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "episode interactive help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "slack help desk",
+      "vol": 10,
+      "cpc": 34.23
+    },
+    {
+      "kw": "aws ec2 help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap s/4hana public cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mode help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zwiftpower help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fivem help script",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help support hub",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "clover dashboard help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ansible module help command line",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "asic help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "dunelm help page",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hotwire help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "holafly help chat",
+      "vol": 10,
+      "cpc": 0.02
+    },
+    {
+      "kw": "footasylum help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ztt help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "trace help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pearson vue/onvue help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "trello help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "opera cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "meetville help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "square help chat",
+      "vol": 10,
+      "cpc": 50.09
+    },
+    {
+      "kw": "tasc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zendesk help desk api",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "abrp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "blockly help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "upi help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pingit help centre",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "rift help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fsd freelance help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "paltalk help lobby",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "formassembly help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "dantdm help wanted",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "scratch help forum",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "openwind help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "yoast help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "attapoll help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wp help plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap support help",
+      "vol": 10,
+      "cpc": 6.93
+    },
+    {
+      "kw": "navblue pbs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "nitro pro help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "castbox help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zoho flow help document",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gotoassist help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cis return help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "heysummit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap service cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "primus help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "comwave help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap help uk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "bloxburg help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wordpress migration help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "best wordpress help desk plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git branch help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help ibm chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "grid help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sandisk help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "surfshark help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tile help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "partitio hired help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "erpnext help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "selecta help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help centre yahoo",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "capita sims help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "the help script",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "extend help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "uprightpose com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ubit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "semrush help",
+      "vol": 10,
+      "cpc": 16.65
+    },
+    {
+      "kw": "slack api help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "emule help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fnn help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "eventbrite help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "funnelytics help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "heydoc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ufs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "rstudio help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "java help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "github help wanted",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "btp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "nanowrimo help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lemlist help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "r help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zapier help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "figma help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "helpscout help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ruby irb help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "freelance help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pof profile help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "twinmotion help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "squarespace 5 help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pocketsmith help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "aspd help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "twinflame help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help gentechsolution",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "plarium help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "r help function",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tricefy help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "g cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help blog poptropica",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fastqc/help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "suitedash help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git help config push autosetupremote",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "bitfocus help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "smule help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hermes help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "b1up help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "benchapp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap help view",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "figma community help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "eurostar help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help scout wordpress plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "falixnodes help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "xmind help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "replicon help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "omnia help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help creator",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "viva help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help 2011",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "streamlabs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sbs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ibird pro help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "weswap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jenkins help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "enable help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "forscore help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "neopets help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help name",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "word help forum",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help with airdrop",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "rapidweaver help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cloze help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gdit help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "adt help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vault platform help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wpengine help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "maven-help plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "clikpic help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gem help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "obs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tms help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "azure devops query help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ovh help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "julia help function",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "basecone help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "infor q&a help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "quicket help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zoosk help page",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "essay help gumtree",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "virtual help box",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "viper help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help starline ru",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "firebase help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tfs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "auraframes/help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zendesk help chat",
+      "vol": 10,
+      "cpc": 19.82
+    },
+    {
+      "kw": "kissflow help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "3dexperience help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help twitter form",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help with yelp",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "stripe help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tupe help",
+      "vol": 10,
+      "cpc": 74.01
+    },
+    {
+      "kw": "opensea help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap asset manager help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap help documents",
+      "vol": 10,
+      "cpc": 11.97
+    },
+    {
+      "kw": "bloomberg help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "creo simulate help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help codex",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mendeley help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "experience cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "linkedin help ask",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "rocketbook help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "linkedin help x",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "happyfox help desk",
+      "vol": 10,
+      "cpc": 34.63
+    },
+    {
+      "kw": "imvu help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "alteryx help documentation",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lexis help",
+      "vol": 10,
+      "cpc": 5.67
+    },
+    {
+      "kw": "clover mini help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "host help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "spark help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "kanbanflow help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sonos help forum",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "swgoh help api",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git help commands",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap fsm help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "snap r help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "humanitix help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "freelancer help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "beckhoff help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "quotewerks help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get linkedin help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "namecheap help",
+      "vol": 10,
+      "cpc": 5.63
+    },
+    {
+      "kw": "epic help line",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "folio help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help lightning demo",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jfrog help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "revolut help forum",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "swt help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fresha help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "harmony hub help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help timesplus",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "numark help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "voxi help support",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "teracopy help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "basecamp 2 help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ticktick help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "everlance help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "maven-help-plugin",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "alt help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help command stata",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git help commit",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap grc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "textra help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mville help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "bacs help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "best help desk ticketing system open source",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap ppm help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "shending help opgg",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "java help centre",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "chatbooks help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "eso help ticket",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "inrstar help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hotbin help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "dotnet help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "registax help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lattice help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "veeva align help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "imvu ticket help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "onstar help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "notion help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "casumo help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lifx help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sonarr help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "netobjects fusion help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "rmit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hero hub help model",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "notion help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "swift command help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help inc",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap help migration cockpit",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "iqnavigator help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "confluence wiki help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "trend help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "skiddle com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "qlab help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "memberclicks help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "imvu help ticket",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "backblaze help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "getweave help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "lt help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "qlik cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "go-cursor-help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sharechat help and support",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "plone help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "vistex help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "service cloud salesforce help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gooddata help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap ewm help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "redmine help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "activinspire help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "efax help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "experience cloud salesforce help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "caseware cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "apache spark help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "admob help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "peerspace help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "freeform/help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help hashtags",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sky x help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zomato help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "skype help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zencastr help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "elixir help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "phrazle help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "flankspeed help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get help script",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "olx help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "heap help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "bitso help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pandadoc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "salesforce help service cloud",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gumroad help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "veracross help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "i-help-statement",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "snap help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "carousell help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pinger com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "mta help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "badge help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "phpbb help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "laravel forge help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jwl help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pearson vue help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "blackvue help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help token",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "disqus help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tfl help point",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "solax cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hostpapa help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sharesight help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ux help patterns",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "handy help services",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "go.roku/remote pair help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "slate help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hellosign help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "evony help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "skyfeed help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wordpress help scout",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "appsheet help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "neopost help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fieldview help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "spocket help",
+      "vol": 10,
+      "cpc": 6.8
+    },
+    {
+      "kw": "displayr help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tutorbird help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "net zero cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tabledit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "isolved help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "proboards help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "salesforce experience cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "yelp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "quicken help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wordpress plugin help",
+      "vol": 10,
+      "cpc": 5.43
+    },
+    {
+      "kw": "s/4hana cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "maple help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "qts help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "liondesk help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hyperx cloud 2 help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zynga help support",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wix help ticket",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "inline help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gousto help page",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "nook help manual",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zendesk help desk migration",
+      "vol": 10,
+      "cpc": 96.76
+    },
+    {
+      "kw": "heap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wordpress freelance help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "heyflow help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "smilebox help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "groww help desk",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jmp help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "jira help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "zoho live chat help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "embedded help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "bybit help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "twitter help ticket",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "auctiva help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "get-help get-service",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "todoist help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help launchpad",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap s 4hana public cloud help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "symfony form help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ebird help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "contact xero for help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "pub help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "linnworks help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "episerver help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "q-interactive help",
+      "vol": 10,
+      "cpc": 0.68
+    },
+    {
+      "kw": "help github com ssh",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "spotahome help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "youview help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ipage help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "clover flex help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "ryanair help chatbot",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "appvalley help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "alias help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "slogan help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "linxicon help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "orcid help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "github pages help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "winz home help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "orbis help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "scribd help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "aws cloudformation help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "fixapp com help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "kubectl help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git help cherry",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "omnisend help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "exacttarget help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "oracle eloqua help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "gousto live chat help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "showit help center",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "cocalc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "turnitin help guide",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "hub help hero content",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "clario help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "smap help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "anycast help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "aws cli help command",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "linkedin help request",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "wrike help chat",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "keepass help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "infogram help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "autotask help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "git flow help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "tor help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "sap bdc help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "stickies help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "help v",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "yelp for help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "parkbee help",
+      "vol": 10,
+      "cpc": 0
+    },
+    {
+      "kw": "paddypower help chat",
+      "vol": 10,
+      "cpc": 0
+    }
+  ],
+  "cats": {
+    "calculators": [],
+    "questions": [],
+    "rates": [
+      {
+        "kw": "help pinterest",
+        "vol": 140,
+        "cpc": 0
+      }
+    ],
+    "deposit_ltv": [],
+    "guides": [
+      {
+        "kw": "help guide",
+        "vol": 110,
+        "cpc": 8.21
+      },
+      {
+        "kw": "guide help",
+        "vol": 30,
+        "cpc": 0.8
+      },
+      {
+        "kw": "roku help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "sky q help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "zendesk guide help",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "fresha help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "skype help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "quicken help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "jira help guide",
+        "vol": 10,
+        "cpc": 0
+      },
+      {
+        "kw": "turnitin help guide",
+        "vol": 10,
+        "cpc": 0
+      }
+    ]
+  }
+}

@@ -7,7 +7,12 @@
 import type { MetadataRoute } from 'next';
 import { counties } from '@/data/locations/counties';
 import { towns } from '@/data/locations/towns';
+import { sectors } from '@/data/sectors';
+import { fundingSectors } from '@/data/funding';
+import { calculators } from '@/data/calculators';
+import { guides } from '@/data/guides';
 import { seoConfig } from '@/config/seo';
+import { townTier, townTierPriority } from '@/lib/seo/tiering';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = seoConfig.siteUrl;
@@ -31,6 +36,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: seoConfig.sitemap.priority.mainLocations
     });
 
+    // Static company pages (/thank-you deliberately excluded: noindex).
+    for (const path of ['/about', '/contact', '/introducers', '/sectors', '/legal/privacy', '/legal/terms']) {
+        sitemap.push({
+            url: `${baseUrl}${path}`,
+            lastModified: now,
+            changeFrequency: 'monthly',
+            priority: path.startsWith('/legal') ? 0.3 : 0.6
+        });
+    }
+
     // County pages
     counties.forEach((county) => {
         sitemap.push({
@@ -41,35 +56,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
     });
 
-    // Town pages - with priority based on content richness
+    // Town pages - priority by publishing-gate tier (A/B/C) on data richness.
+    // Manually-written content is boosted above its tier baseline.
     towns.forEach((town) => {
-        // Determine priority based on content quality
-        const hasRichContent =
-            town.extendedOverview &&
-            town.extendedOverview.length >= 400 &&
-            town.faqs &&
-            town.faqs.length >= 8 &&
-            town.fundingScenarios &&
-            town.fundingScenarios.length >= 4 &&
-            town.caseStudy;
-
-        // Check if content was generated vs manually written
-        const isManuallyWritten = town._generated?.extendedOverview === false;
-
-        // Determine priority
-        let priority: number;
-        if (isManuallyWritten || (hasRichContent && !town._generated)) {
-            // Manually written or rich content without generation tracking
-            priority = seoConfig.sitemap.priority.townsRichContent;
-        } else if (hasRichContent) {
-            // Generated but complete content
-            priority = seoConfig.sitemap.priority.townsGeneratedContent;
-        } else {
-            // Incomplete content
-            priority = seoConfig.sitemap.priority.townsGeneratedContent - 0.1;
+        const tier = townTier(town);
+        let priority = townTierPriority(tier);
+        if (town._generated?.extendedOverview === false) {
+            priority = seoConfig.sitemap.priority.townsRichContent; // hand-written
         }
 
-        // Use generation timestamp if available, otherwise use now
         const lastModified = town._generated?.generatedAt
             ? new Date(town._generated.generatedAt)
             : now;
@@ -78,7 +73,65 @@ export default function sitemap(): MetadataRoute.Sitemap {
             url: `${baseUrl}/locations/${town.countySlug}/${town.slug}`,
             lastModified,
             changeFrequency: seoConfig.sitemap.changeFrequency.towns,
-            priority: Math.max(0.1, Math.min(1.0, priority)) // Clamp between 0.1 and 1.0
+            priority: Math.max(0.1, Math.min(1.0, priority))
+        });
+    });
+
+    // Sector guide pages
+    sectors.forEach((sector) => {
+        sitemap.push({
+            url: `${baseUrl}/sectors/${sector.slug}`,
+            lastModified: now,
+            changeFrequency: seoConfig.sitemap.changeFrequency.products,
+            priority: seoConfig.sitemap.priority.products
+        });
+    });
+
+    // Funding product pages
+    sitemap.push({
+        url: `${baseUrl}/funding`,
+        lastModified: now,
+        changeFrequency: seoConfig.sitemap.changeFrequency.products,
+        priority: seoConfig.sitemap.priority.products
+    });
+    fundingSectors.forEach((sector) => {
+        sitemap.push({
+            url: `${baseUrl}/funding/${sector.slug}`,
+            lastModified: now,
+            changeFrequency: seoConfig.sitemap.changeFrequency.products,
+            priority: seoConfig.sitemap.priority.products
+        });
+    });
+
+    // Calculators (interactive tools + hub)
+    sitemap.push({
+        url: `${baseUrl}/calculators`,
+        lastModified: now,
+        changeFrequency: seoConfig.sitemap.changeFrequency.products,
+        priority: seoConfig.sitemap.priority.products
+    });
+    calculators.forEach((calc) => {
+        sitemap.push({
+            url: `${baseUrl}/calculators/${calc.slug}`,
+            lastModified: now,
+            changeFrequency: seoConfig.sitemap.changeFrequency.products,
+            priority: seoConfig.sitemap.priority.products
+        });
+    });
+
+    // Guides (knowledge hub + articles)
+    sitemap.push({
+        url: `${baseUrl}/guides`,
+        lastModified: now,
+        changeFrequency: seoConfig.sitemap.changeFrequency.guides,
+        priority: seoConfig.sitemap.priority.mainLocations
+    });
+    guides.forEach((guide) => {
+        sitemap.push({
+            url: `${baseUrl}/guides/${guide.slug}`,
+            lastModified: new Date(guide.updatedAt),
+            changeFrequency: seoConfig.sitemap.changeFrequency.guides,
+            priority: seoConfig.sitemap.priority.guides
         });
     });
 

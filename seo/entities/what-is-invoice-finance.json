@@ -1,0 +1,1192 @@
+{
+  "slug": "what-is-invoice-finance",
+  "keyword": "what is invoice finance",
+  "locale": {
+    "location_code": 2826,
+    "language_code": "en",
+    "device": "desktop"
+  },
+  "fetched": 6,
+  "medianRankerWords": 2241,
+  "consensusThreshold": 3,
+  "targetTerms": [
+    {
+      "term": "invoice",
+      "df": 6,
+      "inHeadings": 6,
+      "recommendedUse": [
+        53,
+        55
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoice finance",
+      "df": 5,
+      "inHeadings": 5,
+      "recommendedUse": [
+        36,
+        37
+      ],
+      "watch": true
+    },
+    {
+      "term": "finance",
+      "df": 6,
+      "inHeadings": 5,
+      "recommendedUse": [
+        68,
+        69
+      ],
+      "watch": false
+    },
+    {
+      "term": "business",
+      "df": 6,
+      "inHeadings": 4,
+      "recommendedUse": [
+        28,
+        29
+      ],
+      "watch": false
+    },
+    {
+      "term": "businesses",
+      "df": 6,
+      "inHeadings": 4,
+      "recommendedUse": [
+        11,
+        13
+      ],
+      "watch": false
+    },
+    {
+      "term": "financing",
+      "df": 6,
+      "inHeadings": 4,
+      "recommendedUse": [
+        6,
+        7
+      ],
+      "watch": false
+    },
+    {
+      "term": "types",
+      "df": 5,
+      "inHeadings": 4,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "work",
+      "df": 4,
+      "inHeadings": 4,
+      "recommendedUse": [
+        3,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoice factoring",
+      "df": 6,
+      "inHeadings": 3,
+      "recommendedUse": [
+        5,
+        6
+      ],
+      "watch": true
+    },
+    {
+      "term": "invoice financing",
+      "df": 6,
+      "inHeadings": 3,
+      "recommendedUse": [
+        4,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "finance work",
+      "df": 3,
+      "inHeadings": 3,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "benefits",
+      "df": 6,
+      "inHeadings": 3,
+      "recommendedUse": [
+        1,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "factoring",
+      "df": 6,
+      "inHeadings": 3,
+      "recommendedUse": [
+        10,
+        11
+      ],
+      "watch": false
+    },
+    {
+      "term": "process",
+      "df": 6,
+      "inHeadings": 3,
+      "recommendedUse": [
+        2,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "much",
+      "df": 5,
+      "inHeadings": 3,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "articles",
+      "df": 3,
+      "inHeadings": 3,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "eligible for invoice",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoice discounting",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        4,
+        6
+      ],
+      "watch": true
+    },
+    {
+      "term": "cash flow",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        3,
+        5
+      ],
+      "watch": true
+    },
+    {
+      "term": "finance options",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        5,
+        6
+      ],
+      "watch": false
+    },
+    {
+      "term": "growth",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        5,
+        7
+      ],
+      "watch": false
+    },
+    {
+      "term": "debt",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        4,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "access",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        6,
+        8
+      ],
+      "watch": false
+    },
+    {
+      "term": "customers",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        9,
+        10
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoices",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        17,
+        18
+      ],
+      "watch": false
+    },
+    {
+      "term": "customer",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        6,
+        7
+      ],
+      "watch": false
+    },
+    {
+      "term": "discounting",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        7,
+        8
+      ],
+      "watch": false
+    },
+    {
+      "term": "cash",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        7,
+        8
+      ],
+      "watch": false
+    },
+    {
+      "term": "flow",
+      "df": 6,
+      "inHeadings": 2,
+      "recommendedUse": [
+        3,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "capital",
+      "df": 5,
+      "inHeadings": 2,
+      "recommendedUse": [
+        9,
+        10
+      ],
+      "watch": false
+    },
+    {
+      "term": "flexibility",
+      "df": 5,
+      "inHeadings": 2,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "partners",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        2,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "product",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        1,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "investment",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        3,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "article",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        2,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "latest",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "products",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        4,
+        6
+      ],
+      "watch": false
+    },
+    {
+      "term": "lenders",
+      "df": 4,
+      "inHeadings": 2,
+      "recommendedUse": [
+        3,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "eligible",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "risks",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "issuing",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "needed",
+      "df": 3,
+      "inHeadings": 2,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "finance invoice finance",
+      "df": 4,
+      "inHeadings": 1,
+      "recommendedUse": [
+        3,
+        5
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoice finance invoice",
+      "df": 4,
+      "inHeadings": 1,
+      "recommendedUse": [
+        3,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "invoice finance facility",
+      "df": 3,
+      "inHeadings": 1,
+      "recommendedUse": [
+        3,
+        4
+      ],
+      "watch": false
+    },
+    {
+      "term": "business cash flow",
+      "df": 3,
+      "inHeadings": 1,
+      "recommendedUse": [
+        1,
+        2
+      ],
+      "watch": false
+    },
+    {
+      "term": "selective invoice finance",
+      "df": 3,
+      "inHeadings": 1,
+      "recommendedUse": [
+        2,
+        3
+      ],
+      "watch": false
+    },
+    {
+      "term": "unpaid invoices",
+      "df": 6,
+      "inHeadings": 1,
+      "recommendedUse": [
+        4,
+        6
+      ],
+      "watch": false
+    },
+    {
+      "term": "working capital",
+      "df": 5,
+      "inHeadings": 1,
+      "recommendedUse": [
+        5,
+        6
+      ],
+      "watch": true
+    },
+    {
+      "term": "finance invoice",
+      "df": 4,
+      "inHeadings": 1,
+      "recommendedUse": [
+        4,
+        5
+      ],
+      "watch": false
+    }
+  ],
+  "namedEntities": [
+    {
+      "entity": "Invoice Finance",
+      "df": 4
+    },
+    {
+      "entity": "Email Address",
+      "df": 3
+    },
+    {
+      "entity": "British Business Bank",
+      "df": 2
+    },
+    {
+      "entity": "UK Finance",
+      "df": 2
+    },
+    {
+      "entity": "Foreign Exchange",
+      "df": 2
+    },
+    {
+      "entity": "Financial Conduct Authority",
+      "df": 2
+    },
+    {
+      "entity": "An Invoice Finance",
+      "df": 2
+    },
+    {
+      "entity": "Invoice Financing Invoice",
+      "df": 2
+    },
+    {
+      "entity": "Invoice Discounting",
+      "df": 2
+    },
+    {
+      "entity": "Invoice Factoring",
+      "df": 2
+    },
+    {
+      "entity": "Invoice Financing",
+      "df": 2
+    },
+    {
+      "entity": "Our Invoice Finance",
+      "df": 2
+    }
+  ],
+  "paa": [
+    "What are the risks of invoice financing?",
+    "What is a financial invoice?",
+    "Is invoice financing a good idea?",
+    "Is invoice finance regulated?"
+  ],
+  "related": [
+    "What is invoice finance on bank statement",
+    "What is invoice finance example",
+    "Invoice discounting",
+    "Invoice finance companies",
+    "Invoice finance for small business",
+    "Invoice finance natwest",
+    "Penny invoice finance",
+    "Invoice financing vs factoring"
+  ],
+  "score": {
+    "score": 56,
+    "ourWords": 2433,
+    "covered": [
+      {
+        "term": "invoice",
+        "df": 6,
+        "inHeadings": 6,
+        "recommendedUse": [
+          53,
+          55
+        ],
+        "watch": false,
+        "ours": 66
+      },
+      {
+        "term": "invoice finance",
+        "df": 5,
+        "inHeadings": 5,
+        "recommendedUse": [
+          36,
+          37
+        ],
+        "watch": true,
+        "ours": 40
+      },
+      {
+        "term": "businesses",
+        "df": 6,
+        "inHeadings": 4,
+        "recommendedUse": [
+          11,
+          13
+        ],
+        "watch": false,
+        "ours": 16
+      },
+      {
+        "term": "invoice factoring",
+        "df": 6,
+        "inHeadings": 3,
+        "recommendedUse": [
+          5,
+          6
+        ],
+        "watch": true,
+        "ours": 7
+      },
+      {
+        "term": "factoring",
+        "df": 6,
+        "inHeadings": 3,
+        "recommendedUse": [
+          10,
+          11
+        ],
+        "watch": false,
+        "ours": 13
+      },
+      {
+        "term": "much",
+        "df": 5,
+        "inHeadings": 3,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 3
+      },
+      {
+        "term": "invoice discounting",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          4,
+          6
+        ],
+        "watch": true,
+        "ours": 8
+      },
+      {
+        "term": "cash flow",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          3,
+          5
+        ],
+        "watch": true,
+        "ours": 7
+      },
+      {
+        "term": "debt",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          4,
+          5
+        ],
+        "watch": false,
+        "ours": 4
+      },
+      {
+        "term": "customers",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          9,
+          10
+        ],
+        "watch": false,
+        "ours": 22
+      },
+      {
+        "term": "invoices",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          17,
+          18
+        ],
+        "watch": false,
+        "ours": 20
+      },
+      {
+        "term": "customer",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          6,
+          7
+        ],
+        "watch": false,
+        "ours": 10
+      },
+      {
+        "term": "discounting",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          7,
+          8
+        ],
+        "watch": false,
+        "ours": 11
+      },
+      {
+        "term": "cash",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          7,
+          8
+        ],
+        "watch": false,
+        "ours": 16
+      },
+      {
+        "term": "flow",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          3,
+          5
+        ],
+        "watch": false,
+        "ours": 7
+      },
+      {
+        "term": "capital",
+        "df": 5,
+        "inHeadings": 2,
+        "recommendedUse": [
+          9,
+          10
+        ],
+        "watch": false,
+        "ours": 12
+      },
+      {
+        "term": "product",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          1,
+          3
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "lenders",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          3,
+          4
+        ],
+        "watch": false,
+        "ours": 10
+      },
+      {
+        "term": "issuing",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 2
+      },
+      {
+        "term": "working capital",
+        "df": 5,
+        "inHeadings": 1,
+        "recommendedUse": [
+          5,
+          6
+        ],
+        "watch": true,
+        "ours": 12
+      }
+    ],
+    "under": [
+      {
+        "term": "finance",
+        "df": 6,
+        "inHeadings": 5,
+        "recommendedUse": [
+          68,
+          69
+        ],
+        "watch": false,
+        "ours": 52
+      },
+      {
+        "term": "business",
+        "df": 6,
+        "inHeadings": 4,
+        "recommendedUse": [
+          28,
+          29
+        ],
+        "watch": false,
+        "ours": 13
+      },
+      {
+        "term": "work",
+        "df": 4,
+        "inHeadings": 4,
+        "recommendedUse": [
+          3,
+          5
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "process",
+        "df": 6,
+        "inHeadings": 3,
+        "recommendedUse": [
+          2,
+          4
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "growth",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          5,
+          7
+        ],
+        "watch": false,
+        "ours": 4
+      },
+      {
+        "term": "access",
+        "df": 6,
+        "inHeadings": 2,
+        "recommendedUse": [
+          6,
+          8
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "flexibility",
+        "df": 5,
+        "inHeadings": 2,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "invoice finance facility",
+        "df": 3,
+        "inHeadings": 1,
+        "recommendedUse": [
+          3,
+          4
+        ],
+        "watch": false,
+        "ours": 1
+      },
+      {
+        "term": "unpaid invoices",
+        "df": 6,
+        "inHeadings": 1,
+        "recommendedUse": [
+          4,
+          6
+        ],
+        "watch": false,
+        "ours": 2
+      }
+    ],
+    "missing": [
+      {
+        "term": "financing",
+        "df": 6,
+        "inHeadings": 4,
+        "recommendedUse": [
+          6,
+          7
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "types",
+        "df": 5,
+        "inHeadings": 4,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "invoice financing",
+        "df": 6,
+        "inHeadings": 3,
+        "recommendedUse": [
+          4,
+          5
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "finance work",
+        "df": 3,
+        "inHeadings": 3,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "benefits",
+        "df": 6,
+        "inHeadings": 3,
+        "recommendedUse": [
+          1,
+          3
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "articles",
+        "df": 3,
+        "inHeadings": 3,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "eligible for invoice",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "finance options",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          5,
+          6
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "partners",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          2,
+          4
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "investment",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          3,
+          5
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "article",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          2,
+          4
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "latest",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "products",
+        "df": 4,
+        "inHeadings": 2,
+        "recommendedUse": [
+          4,
+          6
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "eligible",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "risks",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "needed",
+        "df": 3,
+        "inHeadings": 2,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "finance invoice finance",
+        "df": 4,
+        "inHeadings": 1,
+        "recommendedUse": [
+          3,
+          5
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "invoice finance invoice",
+        "df": 4,
+        "inHeadings": 1,
+        "recommendedUse": [
+          3,
+          4
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "business cash flow",
+        "df": 3,
+        "inHeadings": 1,
+        "recommendedUse": [
+          1,
+          2
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "selective invoice finance",
+        "df": 3,
+        "inHeadings": 1,
+        "recommendedUse": [
+          2,
+          3
+        ],
+        "watch": false,
+        "ours": 0
+      },
+      {
+        "term": "finance invoice",
+        "df": 4,
+        "inHeadings": 1,
+        "recommendedUse": [
+          4,
+          5
+        ],
+        "watch": false,
+        "ours": 0
+      }
+    ],
+    "namedCovered": [
+      {
+        "entity": "Invoice Finance",
+        "df": 4
+      },
+      {
+        "entity": "British Business Bank",
+        "df": 2
+      },
+      {
+        "entity": "UK Finance",
+        "df": 2
+      },
+      {
+        "entity": "An Invoice Finance",
+        "df": 2
+      },
+      {
+        "entity": "Invoice Discounting",
+        "df": 2
+      },
+      {
+        "entity": "Invoice Factoring",
+        "df": 2
+      }
+    ],
+    "namedMissing": [
+      {
+        "entity": "Email Address",
+        "df": 3
+      },
+      {
+        "entity": "Foreign Exchange",
+        "df": 2
+      },
+      {
+        "entity": "Financial Conduct Authority",
+        "df": 2
+      },
+      {
+        "entity": "Invoice Financing Invoice",
+        "df": 2
+      },
+      {
+        "entity": "Invoice Financing",
+        "df": 2
+      },
+      {
+        "entity": "Our Invoice Finance",
+        "df": 2
+      }
+    ]
+  }
+}

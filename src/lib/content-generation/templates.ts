@@ -11,6 +11,7 @@ import {
     getEconomicContextPhrase,
     getCostContextPhrase
 } from './utils';
+import { placeTriple, brandTownTriple, productTriple } from '@/lib/seo/semantic-triples';
 
 /**
  * Extended Overview Templates
@@ -24,11 +25,14 @@ export const extendedOverviewTemplates = {
         const descriptor = generateLocationDescriptor(town, county);
         const keyFeatures = town.generationContext?.keyFeatures || [];
 
+        // Semantic-triple opener (place + brand) per ENTITY-BRIEF §8.
+        const triples = `${placeTriple(town, county)} ${brandTownTriple(town)}`;
+
         if (keyFeatures.length >= 2) {
-            return `${town.name} presents a ${descriptor} for businesses seeking finance, combining ${keyFeatures[0]} with ${keyFeatures[1]}. As a key location within ${county.name}, ${town.name} businesses benefit from a diverse lending landscape that understands the unique characteristics of the local market.`;
+            return `${triples} ${town.name} presents a ${descriptor} for businesses seeking finance, combining ${keyFeatures[0]} with ${keyFeatures[1]}. Local SMEs benefit from a diverse lending landscape that spans unsecured business loans, asset finance, invoice finance and merchant cash advances.`;
         }
 
-        return `${town.name} offers a ${descriptor} within ${county.name}, providing businesses with access to a wide range of funding solutions tailored to local market conditions. The town's business landscape creates unique opportunities for growth-focused enterprises seeking flexible finance.`;
+        return `${triples} ${town.name} offers a ${descriptor} within ${county.name}, giving businesses access to a wide range of funding, from unsecured business loans and working capital to asset finance and commercial mortgages. The local business landscape creates real opportunities for growth-focused enterprises seeking flexible finance.`;
     },
 
     /**
@@ -141,7 +145,7 @@ export const extendedOverviewTemplates = {
             content += ` Businesses serving ${town.name} often also operate in nearby ${formatList(nearbyNames)}, creating opportunities for multi-location funding strategies.`;
         }
 
-        content += ` Whether you're seeking growth capital, acquisition finance, or working capital solutions, ${town.name}'s diverse lender base ensures competitive options are available.`;
+        content += ` Whether you're seeking growth capital, acquisition finance, or working capital solutions, ${town.name}'s diverse lender base ensures competitive options are available. ${productTriple('An unsecured business loan', 'working capital and growth without tying up property')}, while asset and invoice finance unlock equipment and cash flow as your business scales.`;
 
         return content;
     }

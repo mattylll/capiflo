@@ -1,0 +1,33 @@
+# Capiflo
+
+> Capiflo is a UK commercial finance broker, not a lender. We compare 120+ lenders to arrange
+> business loans, asset finance, invoice finance, merchant cash advances, VAT loans and
+> commercial mortgages for UK SMEs. All finance we arrange is unregulated business lending.
+
+Capiflo arranges business finance for SMEs across the United Kingdom. Typical facilities range
+from £5,000 to £500,000, with decisions in principle in as little as 60 minutes.
+
+## Funding products
+
+- [Business Loans](https://capiflo.co.uk/funding/business-loans): unsecured and secured SME loans
+- [Asset Finance](https://capiflo.co.uk/funding/asset-finance): hire purchase and equipment leasing
+- [Invoice Finance](https://capiflo.co.uk/funding/invoice-finance): factoring and invoice discounting
+- [Merchant Cash Advance](https://capiflo.co.uk/funding/merchant-cash-advance): card-turnover-based advances
+- [VAT Loans](https://capiflo.co.uk/funding/vat-loans): spread VAT bills over 3-12 months
+- [Commercial Mortgages](https://capiflo.co.uk/funding/property-backed): owner-occupier and investment property
+- [Start-up Loans](https://capiflo.co.uk/funding/start-up-loans): early-stage and new-business funding
+
+## Tools and guides
+
+- [Business finance calculators](https://capiflo.co.uk/calculators): repayment, borrowing power, product-specific calculators
+- [Guides](https://capiflo.co.uk/guides): plain-English explainers on SME finance products and eligibility
+
+## Coverage
+
+- [Locations](https://capiflo.co.uk/locations): business finance across every UK county and 388 towns and cities
+- [Sectors](https://capiflo.co.uk/sectors): sector-specific funding for construction, retail, hospitality, manufacturing and more
+
+## Contact
+
+- Email: hello@capiflo.co.uk
+- [Contact form](https://capiflo.co.uk/contact)

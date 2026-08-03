@@ -6,6 +6,8 @@ type ConsentStatus = 'pending' | 'accepted' | 'rejected';
 
 interface CookieConsentContextType {
     consent: ConsentStatus;
+    /** False during SSR and until the consent cookie has been read on the client. */
+    isLoaded: boolean;
     acceptCookies: () => void;
     rejectCookies: () => void;
     resetConsent: () => void;
@@ -73,14 +75,12 @@ export function CookieConsentProvider({ children }: CookieConsentProviderProps) 
         setConsent('pending');
     };
 
-    // Don't render children until we've checked for existing consent
-    // This prevents flash of content
-    if (!isLoaded) {
-        return null;
-    }
-
+    // Children must always render: this provider wraps the whole app, and
+    // returning null here suppresses ALL server-rendered HTML (every page
+    // prerenders as an empty body). Consumers that must not flash before the
+    // cookie has been read (the banner) gate on `isLoaded` instead.
     return (
-        <CookieConsentContext.Provider value={{ consent, acceptCookies, rejectCookies, resetConsent }}>
+        <CookieConsentContext.Provider value={{ consent, isLoaded, acceptCookies, rejectCookies, resetConsent }}>
             {children}
         </CookieConsentContext.Provider>
     );

@@ -12,7 +12,8 @@ if (!sector) {
 export const metadata: Metadata = {
     title: `${sector.title} | Capiflo`,
     description: sector.description,
-    keywords: sector.keywords
+    keywords: sector.keywords,
+    alternates: { canonical: '/funding/corporation-tax-loans' }
 };
 
 export default function Page() {

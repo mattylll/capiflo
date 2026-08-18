@@ -57,7 +57,6 @@ export type BusinessSector = {
     }[];
     // Trust signals
     trustSignals?: {
-        fcaRegistered?: boolean;
         accreditations?: string[];
         averageRating?: number;
         totalReviews?: number;
@@ -201,7 +200,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 127
@@ -431,7 +429,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 156
@@ -661,7 +658,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 89
@@ -891,7 +887,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 203
@@ -1121,7 +1116,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 134
@@ -1353,7 +1347,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 67
@@ -1583,7 +1576,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 142
@@ -1813,7 +1805,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 78
@@ -2044,7 +2035,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 94
@@ -2275,7 +2265,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 67
@@ -2508,7 +2497,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 142
@@ -2739,7 +2727,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 86
@@ -2970,7 +2957,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 58
@@ -3200,7 +3186,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.8,
             totalReviews: 73
@@ -3431,7 +3416,6 @@ export const sectors: BusinessSector[] = [
             }
         ],
         trustSignals: {
-            fcaRegistered: true,
             accreditations: ['NACFB Member', 'ICO Registered'],
             averageRating: 4.9,
             totalReviews: 89

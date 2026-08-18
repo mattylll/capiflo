@@ -115,12 +115,10 @@ const SectorPage = ({ sector }: Props) => {
                         <div className="flex flex-col justify-center">
                             {/* Trust badges */}
                             <div className="flex flex-wrap items-center gap-3">
-                                {sector.trustSignals?.fcaRegistered && (
-                                    <Badge variant="secondary" className="text-xs">
-                                        <Shield className="mr-1 h-3 w-3" />
-                                        FCA Registered
-                                    </Badge>
-                                )}
+                                <Badge variant="secondary" className="text-xs">
+                                    <Shield className="mr-1 h-3 w-3" />
+                                    Not FCA Regulated
+                                </Badge>
                                 {sector.trustSignals?.accreditations?.map((acc) => (
                                     <Badge key={acc} variant="outline" className="text-xs">
                                         {acc}
@@ -647,12 +645,10 @@ const SectorPage = ({ sector }: Props) => {
                     <div className="mx-auto max-w-6xl">
                         <Card className="rounded-2xl border-border/50 bg-muted/30 p-6">
                             <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
-                                {sector.trustSignals.fcaRegistered && (
-                                    <div className="flex items-center gap-2">
-                                        <Shield className="h-5 w-5 text-primary" />
-                                        <span>FCA Registered Introducer</span>
-                                    </div>
-                                )}
+                                <div className="flex items-center gap-2">
+                                    <Shield className="h-5 w-5 text-primary" />
+                                    <span>Not FCA Regulated</span>
+                                </div>
                                 {sector.trustSignals.accreditations?.map((acc) => (
                                     <div key={acc} className="flex items-center gap-2">
                                         <BadgeCheck className="h-5 w-5 text-primary" />

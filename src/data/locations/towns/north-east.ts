@@ -17,7 +17,7 @@ export const northEastTowns: Town[] = [
         fundingHighlights: ['Strong startup ecosystem', 'Tech accelerators', 'University spin-out support'],
         faqs: [
             { question: 'What funding is available for Newcastle tech startups?', answer: 'Newcastle tech startups can access angel investment, venture capital, startup loans, and various grants through the North East tech ecosystem.' },
-            { question: 'How can Newcastle businesses access growth funding?', answer: 'Growing Newcastle businesses can access business loans from £10,000 to £500,000, plus equity investment for high-growth companies.' },
+            { question: 'How can Newcastle businesses access growth funding?', answer: 'Growing Newcastle businesses can access business loans from £25,000 to £500,000, plus equity investment for high-growth companies.' },
         ],
     },
     {
@@ -142,7 +142,7 @@ export const northEastTowns: Town[] = [
         nearbyTowns: ['stockton-on-tees', 'redcar', 'darlington', 'hartlepool'],
         fundingHighlights: ['Freeport zone incentives', 'Chemical industry specialists', 'Digital sector growth funding'],
         faqs: [
-            { question: 'What business loans are available in Middlesbrough?', answer: 'Middlesbrough businesses can access unsecured loans from £5,000 to £500,000, asset finance, invoice finance, and specialist industrial funding.' },
+            { question: 'What business loans are available in Middlesbrough?', answer: 'Middlesbrough businesses can access unsecured loans from £25,000 to £500,000, asset finance, invoice finance, and specialist industrial funding.' },
             { question: 'What freeport benefits are available for Middlesbrough businesses?', answer: 'Businesses in the Teesworks freeport zone can access tax reliefs, customs benefits, and enhanced capital allowances alongside commercial funding.' },
         ],
     },
@@ -253,7 +253,7 @@ export const northEastTowns: Town[] = [
         businessTypes: ['Retail', 'Manufacturing', 'Professional Services', 'Healthcare', 'Hospitality'],
         nearbyTowns: ['durham', 'gateshead', 'washington', 'stanley'],
         faqs: [
-            { question: 'What business loans are available in Chester-le-Street?', answer: 'Local businesses can access unsecured loans, asset finance, and working capital facilities from £5,000 to £500,000.' },
+            { question: 'What business loans are available in Chester-le-Street?', answer: 'Local businesses can access unsecured loans, asset finance, and working capital facilities from £25,000 to £500,000.' },
         ],
     },
     {

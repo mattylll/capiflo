@@ -75,7 +75,7 @@ const PrivacyPage = () => {
 
                     <Card className='rounded-3xl border-primary/20 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent p-8 animate-in fade-in slide-in-from-bottom-6 delay-500 duration-500'>
                         <p className='text-muted-foreground'>
-                            Capiflo is a trading style of Capiflo Ltd, registered in England & Wales. For
+                            Capiflo is a trading name of Lenzie Consulting Ltd, registered in England & Wales. For
                             any concerns about how we handle your data, contact{' '}
                             <a
                                 href='mailto:hello@capiflo.co.uk'

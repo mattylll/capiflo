@@ -71,10 +71,10 @@ export const fundingSectors: FundingSector[] = [
         title: 'Merchant Cash Advance UK',
         hero: 'Repay as a percentage of daily card takings with a UK merchant cash advance.',
         description:
-            'Ideal for card-heavy sectors such as hospitality and retail. Fund £5k–£500k with repayments linked to PDQ or e-commerce sales.',
+            'Ideal for card-heavy sectors such as hospitality and retail. Fund £25k–£500k with repayments linked to PDQ or e-commerce sales.',
         keywords: ['merchant cash advance uk', 'card machine loans uk', 'cash advance for SMEs', 'merchant cash advance vs loan'],
         whatItIs:
-            'A flexible funding facility where Capiflo advances a lump sum and recovers it via an agreed percentage of future card revenue.',
+            'A flexible funding facility where a provider advances a lump sum and recovers it via an agreed percentage of future card revenue. Capiflo arranges the advance; it does not provide the funds.',
         whoItsFor: ['Hospitality, retail, and e-commerce brands', 'Businesses with £5k+ monthly card volume', 'Owners wanting repayments that flex with sales'],
         criteria: ['3+ months trading with card terminals', 'Consistent monthly revenue', 'Card processor statements'],
         calculator: {
@@ -94,7 +94,7 @@ export const fundingSectors: FundingSector[] = [
             }
         ],
         stats: [
-            { label: 'Advance sizes', value: '£5k – £500k' },
+            { label: 'Advance sizes', value: '£25k – £500k' },
             { label: 'Holdback rate', value: '8% – 20%' },
             { label: 'Average completion', value: '72 hours' }
         ]
@@ -192,7 +192,7 @@ export const fundingSectors: FundingSector[] = [
         ],
         stats: [
             { label: 'Terms', value: '3–12 months' },
-            { label: 'Amounts', value: '£20k – £2m' },
+            { label: 'Amounts', value: '£25k – £2m' },
             { label: 'Decision time', value: '24–72 hours' }
         ]
     },
@@ -255,7 +255,7 @@ export const fundingSectors: FundingSector[] = [
             }
         ],
         stats: [
-            { label: 'Amounts', value: '£10k – £500k' },
+            { label: 'Amounts', value: '£25k – £500k' },
             { label: 'Approval time', value: '1–3 weeks' },
             { label: 'Interest', value: '6% – 15%' }
         ]
@@ -321,7 +321,7 @@ export const fundingSectors: FundingSector[] = [
         stats: [
             { label: 'Urgent completion', value: '24–72 hours' },
             { label: 'Funding types', value: 'Secured, unsecured, invoice, bridging' },
-            { label: 'Support', value: 'Dedicated turnaround team' }
+            { label: 'Support', value: 'Specialist turnaround lenders' }
         ]
     },
     {
@@ -343,7 +343,7 @@ export const fundingSectors: FundingSector[] = [
         faqs: [
             {
                 question: 'Is there revenue-based finance?',
-                answer: 'Yes, we structure repayments as a share of monthly revenue for e-commerce and SaaS firms.'
+                answer: 'Yes, we arrange revenue-based facilities where repayments are a share of monthly revenue, typically for e-commerce and SaaS firms.'
             },
             {
                 question: 'Do you work with investors?',

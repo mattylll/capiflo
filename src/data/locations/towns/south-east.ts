@@ -15,7 +15,7 @@ export const southEastTowns: Town[] = [
         businessTypes: ['Professional Services', 'Manufacturing', 'Retail', 'Healthcare', 'Logistics'],
         nearbyTowns: ['canterbury', 'chatham', 'tonbridge', 'ashford'],
         faqs: [
-            { question: 'What business funding is available in Maidstone?', answer: 'Maidstone businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Maidstone?', answer: 'Maidstone businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -90,7 +90,7 @@ export const southEastTowns: Town[] = [
         businessTypes: ['Education', 'Tourism', 'Retail', 'Healthcare', 'Professional Services'],
         nearbyTowns: ['maidstone', 'gillingham', 'rochester', 'sittingbourne'],
         faqs: [
-            { question: 'What funding is available for Chatham businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What funding is available for Chatham businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -302,7 +302,7 @@ export const southEastTowns: Town[] = [
         businessTypes: ['Professional Services', 'Retail', 'Healthcare', 'Technology', 'Financial Services'],
         nearbyTowns: ['reigate', 'crawley', 'horley', 'dorking'],
         faqs: [
-            { question: 'What business loans are available in Redhill?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business loans are available in Redhill?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
 
@@ -410,7 +410,7 @@ export const southEastTowns: Town[] = [
         businessTypes: ['Professional Services', 'Retail', 'Healthcare', 'Financial Services', 'Technology'],
         nearbyTowns: ['crawley', 'guildford', 'worthing', 'haywards-heath'],
         faqs: [
-            { question: 'What business loans are available in Horsham?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business loans are available in Horsham?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -517,7 +517,7 @@ export const southEastTowns: Town[] = [
         businessTypes: ['Professional Services', 'Marine', 'Retail', 'Healthcare', 'Manufacturing'],
         nearbyTowns: ['portsmouth', 'southampton', 'gosport', 'havant'],
         faqs: [
-            { question: 'What business funding is available in Fareham?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Fareham?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {

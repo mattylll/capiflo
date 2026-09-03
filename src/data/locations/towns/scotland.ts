@@ -16,7 +16,7 @@ export const scotlandTowns: Town[] = [
         nearbyTowns: ['livingston', 'musselburgh', 'dalkeith', 'dunfermline'],
         fundingHighlights: ['Major financial centre', 'Growing tech hub', 'Festival economy'],
         faqs: [
-            { question: 'What business funding is available in Edinburgh?', answer: 'Edinburgh businesses can access loans, Scottish Enterprise support, and commercial funding from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Edinburgh?', answer: 'Edinburgh businesses can access loans, Scottish Enterprise support, and commercial funding from £25,000 to £500,000.' },
             { question: 'Are there specific Scottish business funding programmes?', answer: 'Yes, Scottish Enterprise and Scottish Development International offer various support alongside commercial funding.' },
         ],
     },

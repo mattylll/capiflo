@@ -3,9 +3,12 @@
 UK SME-finance broker pSEO site. Next.js 16 (App Router, Turbopack, `output: 'standalone'`),
 React 19, Tailwind 4, shadcn (primitives live in `src/registry/new-york-v4/ui/`).
 
-**Regulatory position (never violate):** Capiflo is a commercial finance broker, NOT a lender,
-and is NOT FCA authorised — it arranges unregulated business lending only. Copy says
-"we arrange / we match", never "we lend", and must never imply FCA authorisation.
+**Regulatory position (never violate):** Capiflo is a trading name of Lenzie Consulting Ltd. It is a
+commercial finance broker, NOT a lender, and is NOT FCA authorised — it arranges unregulated
+business lending of £25,000 and above only. Copy says "we arrange / we match", never "we lend",
+must never imply FCA authorisation, and must never quote facilities below £25k as something we
+arrange. No fabricated stats, ratings, accreditations or case studies presented as completed deals
+(location/sector examples are labelled illustrative).
 
 ## Architecture
 

@@ -1,11 +1,13 @@
 # Capiflo
 
-> Capiflo is a UK commercial finance broker, not a lender. We compare 120+ lenders to arrange
-> business loans, asset finance, invoice finance, merchant cash advances, VAT loans and
-> commercial mortgages for UK SMEs. All finance we arrange is unregulated business lending.
+> Capiflo is a trading name of Lenzie Consulting Ltd, a UK commercial finance broker, not a
+> lender. We compare 120+ lenders to arrange business loans, asset finance, invoice finance,
+> merchant cash advances, VAT loans and commercial mortgages for UK SMEs. All finance we arrange
+> is unregulated business lending; Capiflo is not authorised or regulated by the FCA.
 
-Capiflo arranges business finance for SMEs across the United Kingdom. Typical facilities range
-from £5,000 to £500,000, with decisions in principle in as little as 60 minutes.
+Capiflo arranges business finance of £25,000 and above for SMEs across the United Kingdom, for
+business purposes only and subject to status. Decisions in principle can come back the same
+working day.
 
 ## Funding products
 

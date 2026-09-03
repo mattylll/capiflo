@@ -81,7 +81,7 @@ const LoanCalculator = () => {
     return (
         <>
             <div className='grid gap-4 md:grid-cols-3'>
-                <NumberInput id='loan-amount' label='Amount (£)' value={amount} onChange={setAmount} min={10000} />
+                <NumberInput id='loan-amount' label='Amount (£)' value={amount} onChange={setAmount} min={25000} />
                 <NumberInput id='loan-rate' label='Rate % (APR)' value={rate} onChange={setRate} step={0.1} />
                 <NumberInput id='loan-term' label='Term (months)' value={term} onChange={setTerm} min={3} />
             </div>
@@ -135,7 +135,7 @@ const McaCalculator = () => {
     return (
         <>
             <div className='grid gap-4 md:grid-cols-4'>
-                <NumberInput id='mca-advance' label='Advance (£)' value={advance} onChange={setAdvance} min={5000} />
+                <NumberInput id='mca-advance' label='Advance (£)' value={advance} onChange={setAdvance} min={25000} />
                 <NumberInput id='mca-factor' label='Factor rate (e.g. 1.25)' value={factorRate} onChange={setFactorRate} step={0.01} min={1} />
                 <NumberInput id='mca-card' label='Monthly card sales (£)' value={monthlyCard} onChange={setMonthlyCard} min={1000} />
                 <NumberInput id='mca-holdback' label='Holdback %' value={holdback} onChange={setHoldback} />
@@ -164,7 +164,7 @@ const AssetCalculator = () => {
     return (
         <>
             <div className='grid gap-4 md:grid-cols-4'>
-                <NumberInput id='asset-cost' label='Asset cost (£)' value={assetCost} onChange={setAssetCost} min={10000} />
+                <NumberInput id='asset-cost' label='Asset cost (£)' value={assetCost} onChange={setAssetCost} min={25000} />
                 <NumberInput id='asset-deposit' label='Deposit %' value={depositPercent} onChange={setDepositPercent} />
                 <NumberInput id='asset-term' label='Term (months)' value={term} onChange={setTerm} min={12} />
                 <NumberInput id='asset-residual' label='Residual (£)' value={residual} onChange={setResidual} min={0} />
@@ -191,7 +191,7 @@ const TaxCalculator = ({ label }: { label: string }) => {
     return (
         <>
             <div className='grid gap-4 md:grid-cols-3'>
-                <NumberInput id='tax-liability' label={`${label} liability (£)`} value={liability} onChange={setLiability} min={10000} />
+                <NumberInput id='tax-liability' label={`${label} liability (£)`} value={liability} onChange={setLiability} min={25000} />
                 <NumberInput id='tax-fee' label='Fee %' value={feePercent} onChange={setFeePercent} step={0.1} />
                 <NumberInput id='tax-term' label='Term (months)' value={term} onChange={setTerm} min={3} />
             </div>

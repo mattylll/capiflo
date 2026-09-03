@@ -199,11 +199,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review funding offers with clear terms, rates, and repayment schedules. Once you accept, complete any final verification steps. Most construction businesses receive funds within 24-72 hours of acceptance.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 127
-        },
         relatedSectors: ['real-estate', 'manufacturing', 'transport'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -428,11 +423,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Accept your preferred offer and complete verification. For merchant cash advances, funds typically arrive within 24-48 hours. Business loans may take 48-72 hours. Start using funds immediately for stock, refits, or growth.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 156
-        },
         relatedSectors: ['hospitality', 'wholesale', 'beauty-wellness'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -458,7 +448,7 @@ export const sectors: BusinessSector[] = [
             },
             {
                 title: 'Seasonal Cash Flow Bridge',
-                description: 'A seaside gift shop faced January-March cash flow pressure when tourism dropped 80%. A £20,000 MCA covered rent, rates, and skeleton staff costs until Easter trading resumed.',
+                description: 'A seaside gift shop faced January-March cash flow pressure when tourism dropped 80%. A £25,000 MCA covered rent, rates, and skeleton staff costs until Easter trading resumed.',
                 outcome: 'Maintained trading through quiet season without personal funds.'
             },
             {
@@ -657,11 +647,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review funding offers with clear terms structured appropriately for professional practice economics. Once accepted, complete legal documentation. Most facilities complete within 2-4 weeks, faster for smaller amounts.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 89
-        },
         relatedSectors: ['technology', 'creative', 'real-estate'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -886,11 +871,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Accept your preferred offer and complete verification. For MCAs, funds typically arrive within 24-48 hours. Business loans and asset finance may take 48-96 hours. Start using funds immediately for refurbishment, equipment, or working capital.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 203
-        },
         relatedSectors: ['retail', 'beauty-wellness', 'creative'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -911,7 +891,7 @@ export const sectors: BusinessSector[] = [
             },
             {
                 title: 'Commercial Coffee Equipment',
-                description: 'A specialty coffee shop needed to upgrade to a premium espresso machine and grinders. Asset finance spread the £18,000 equipment cost over 3 years with manageable monthly payments.',
+                description: 'A specialty coffee shop needed to upgrade to a premium espresso machine and grinders. Asset finance spread the £28,000 equipment cost over 3 years with manageable monthly payments.',
                 outcome: 'Premium positioning enabled 25% price increase.'
             },
             {
@@ -1115,11 +1095,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers with clear terms, complete documentation, and receive funding. Asset finance typically completes within 1-2 weeks of equipment identification. Invoice finance facilities can be operational within 2 weeks.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 134
-        },
         relatedSectors: ['construction', 'transport', 'wholesale'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -1346,11 +1321,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers with terms structured appropriately for healthcare economics. For acquisitions, we coordinate with solicitors and accountants. Completion typically takes 2-4 weeks for acquisitions, faster for equipment and working capital.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 67
-        },
         relatedSectors: ['professional-services', 'education', 'beauty-wellness'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -1575,11 +1545,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers with clear terms, complete documentation, and receive funding. Vehicle finance typically completes within days of vehicle identification. Invoice finance facilities can be operational within 1-2 weeks.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 142
-        },
         relatedSectors: ['construction', 'manufacturing', 'wholesale'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -1804,11 +1769,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers with terms appropriate for tech business economics. Revenue-based finance may take 1-2 weeks to structure. R&D advances take 2-4 weeks including claim verification.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 78
-        },
         relatedSectors: ['professional-services', 'creative', 'education'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -2034,11 +1994,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers with clear terms and structures. Invoice finance facilities typically take 1-2 weeks to establish, then provide same-day funding against invoices. Business loans can complete within 48-96 hours. Trade finance may take 2-3 weeks for initial facility setup.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 94
-        },
         relatedSectors: ['retail', 'manufacturing', 'transport'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -2264,11 +2219,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers structured appropriately for your farming operation. Asset finance can complete within days. Agricultural mortgages require valuation and legal work (4-8 weeks typical). Business loans usually complete within 1-2 weeks.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 67
-        },
         relatedSectors: ['transport', 'manufacturing', 'wholesale'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -2496,11 +2446,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Accept your preferred offer and complete verification. For merchant cash advances, funds typically arrive within 24-48 hours. Business loans may take 48-72 hours. Start using funds immediately for your salon, spa, or gym investment.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 142
-        },
         relatedSectors: ['retail', 'hospitality', 'healthcare'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -2726,11 +2671,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers structured appropriately for your automotive operation. Stock finance facilities take 1-2 weeks to establish but then provide ongoing access to capital. Asset finance and business loans can complete within 48-96 hours.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 86
-        },
         relatedSectors: ['transport', 'retail', 'manufacturing'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -2956,11 +2896,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers structured appropriately for education sector cash flows. Invoice finance facilities typically set up within 1-2 weeks. Business loans and asset finance complete within 1-2 weeks. Property transactions take 4-8 weeks.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 58
-        },
         relatedSectors: ['healthcare', 'professional-services', 'technology'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -3185,11 +3120,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers structured appropriately for property services economics. Invoice finance facilities typically set up within 1-2 weeks. Business loans and asset finance complete within 48-96 hours. Acquisition funding may take 2-4 weeks including due diligence.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.8,
-            totalReviews: 73
-        },
         relatedSectors: ['construction', 'professional-services', 'retail'],
         lastReviewed: '2025-01-15',
         useCases: [
@@ -3415,11 +3345,6 @@ export const sectors: BusinessSector[] = [
                 description: 'Review offers structured appropriately for creative business economics. Invoice finance facilities typically set up within 1-2 weeks, then provide same-day funding against invoices. Business loans and asset finance complete within 48-96 hours.'
             }
         ],
-        trustSignals: {
-            accreditations: ['NACFB Member', 'ICO Registered'],
-            averageRating: 4.9,
-            totalReviews: 89
-        },
         relatedSectors: ['technology', 'professional-services', 'hospitality'],
         lastReviewed: '2025-01-15',
         useCases: [

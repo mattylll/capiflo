@@ -16,7 +16,7 @@ export const yorkshireHumberTowns: Town[] = [
         nearbyTowns: ['bradford', 'wakefield', 'huddersfield', 'harrogate'],
         fundingHighlights: ['Strong fintech funding ecosystem', 'Legal sector growth funding', 'Health tech investment'],
         faqs: [
-            { question: 'What business funding is available in Leeds?', answer: 'Leeds businesses can access unsecured loans, asset finance, invoice finance, and merchant cash advances from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Leeds?', answer: 'Leeds businesses can access unsecured loans, asset finance, invoice finance, and merchant cash advances from £25,000 to £500,000.' },
             { question: 'How can Leeds fintech companies access growth funding?', answer: 'Fintech companies can access venture capital, growth loans, and R&D funding through Leeds\' strong financial ecosystem.' },
         ],
     },
@@ -457,7 +457,7 @@ export const yorkshireHumberTowns: Town[] = [
         nearbyTowns: ['harrogate', 'york', 'thirsk', 'skipton'],
         fundingHighlights: ['Agricultural and rural business expertise', 'Heritage and tourism sector specialists', 'Independent retail funding'],
         faqs: [
-            { question: 'What business loans are available in Ripon?', answer: 'Ripon businesses can access unsecured business loans from £5,000 to £500,000, merchant cash advances for retail, asset finance, invoice finance, and specialist agricultural loans. We match you with lenders who understand North Yorkshire\'s market town economy.' },
+            { question: 'What business loans are available in Ripon?', answer: 'Ripon businesses can access unsecured business loans from £25,000 to £500,000, merchant cash advances for retail, asset finance, invoice finance, and specialist agricultural loans. We match you with lenders who understand North Yorkshire\'s market town economy.' },
             { question: 'How quickly can Ripon businesses get funding?', answer: 'Many Ripon businesses receive funding decisions within 24-48 hours. Once approved, funds typically arrive within 3-5 working days, with faster options available for urgent needs.' },
             { question: 'Is there funding for Ripon agricultural businesses?', answer: 'Yes, agricultural businesses around Ripon can access farm loans, equipment finance for machinery, working capital for seasonal cash flow, and specialist rural lending from experienced agricultural lenders.' },
             { question: 'What funding suits Ripon tourism businesses?', answer: 'Tourism and hospitality businesses in Ripon can access flexible funding including merchant cash advances, seasonal working capital, equipment finance for refurbishment, and growth loans for expansion.' },
@@ -479,7 +479,7 @@ export const yorkshireHumberTowns: Town[] = [
         nearbyTowns: ['beverley', 'bridlington', 'goole', 'grimsby'],
         fundingHighlights: ['Green energy sector specialists', 'Maritime and port business expertise', 'Manufacturing and engineering finance'],
         faqs: [
-            { question: 'What business loans are available in Hull?', answer: 'Hull businesses can access unsecured business loans from £5,000 to £500,000, asset finance for equipment and vehicles, invoice finance, merchant cash advances, and specialist trade and export finance. Capiflo matches you with lenders who understand Hull\'s maritime and manufacturing economy.' },
+            { question: 'What business loans are available in Hull?', answer: 'Hull businesses can access unsecured business loans from £25,000 to £500,000, asset finance for equipment and vehicles, invoice finance, merchant cash advances, and specialist trade and export finance. Capiflo matches you with lenders who understand Hull\'s maritime and manufacturing economy.' },
             { question: 'How quickly can Hull businesses get funding?', answer: 'Many Hull businesses receive funding decisions within 24-48 hours. Once approved, funds typically arrive within 3-5 working days, with same-day funding available for urgent requirements from selected lenders.' },
             { question: 'Is there funding for Hull renewable energy businesses?', answer: 'Yes, Hull\'s green energy sector can access specialist funding including green finance products, equipment finance for renewable technology, R&D funding, and growth capital. The Humber Freeport also offers additional incentives.' },
             { question: 'Can Hull exporters access trade finance?', answer: 'Absolutely. Hull\'s port access makes it ideal for export businesses who can access trade finance, letters of credit, export invoice finance, and foreign exchange facilities through our lender network.' },

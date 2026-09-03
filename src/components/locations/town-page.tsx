@@ -46,7 +46,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
     const defaultFaqs = [
         {
             question: `What business loans are available in ${town.name}?`,
-            answer: `${town.name} businesses can access unsecured business loans from £5,000 to £500,000, merchant cash advances based on card turnover, asset finance for equipment and vehicles, and invoice finance to release cash from unpaid invoices. We compare options from 120+ UK lenders to find the best rates for your specific situation.`
+            answer: `${town.name} businesses can access unsecured business loans from £25,000 to £500,000, merchant cash advances based on card turnover, asset finance for equipment and vehicles, and invoice finance to release cash from unpaid invoices. We compare options from 120+ UK lenders to find the best rates for your specific situation.`
         },
         {
             question: `How quickly can ${town.name} businesses get funding?`,
@@ -430,13 +430,20 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                         <div className="mx-auto max-w-6xl">
                             <div className="mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700">
                                 <p className="text-sm font-medium uppercase tracking-widest text-primary">
-                                    Success Story
+                                    Illustrative scenario
                                 </p>
                                 <h2 className="mt-2 text-2xl font-semibold text-foreground">
-                                    {town.name} Business Case Study
+                                    How finance could work for a {town.name} business
                                 </h2>
+                                <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
+                                    An illustrative example of the type of facility we arrange, not a completed
+                                    transaction. Figures are indicative.
+                                </p>
                             </div>
                             <Card className="rounded-3xl border-primary/20 bg-gradient-to-br from-primary/5 via-transparent to-transparent p-8 md:p-10 animate-in fade-in slide-in-from-bottom-6 duration-500">
+                                <span className="mb-4 inline-block rounded-full border border-border px-3 py-1 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                                    Illustrative example
+                                </span>
                                 <div className="grid gap-8 lg:grid-cols-[1fr_0.4fr]">
                                     <div>
                                         <div className="flex items-center gap-3 mb-4">
@@ -460,13 +467,13 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                             </div>
                                             <div>
                                                 <p className="text-xs font-medium uppercase tracking-widest text-primary mb-2">
-                                                    Our Solution
+                                                    A likely structure
                                                 </p>
                                                 <p className="text-muted-foreground">{town.caseStudy.solution}</p>
                                             </div>
                                             <div>
                                                 <p className="text-xs font-medium uppercase tracking-widest text-primary mb-2">
-                                                    The Result
+                                                    Intended outcome
                                                 </p>
                                                 <p className="text-muted-foreground">{town.caseStudy.result}</p>
                                             </div>
@@ -478,7 +485,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <PoundSterling className="h-4 w-4 text-primary" />
                                                 <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                                                    Funding Amount
+                                                    Indicative amount
                                                 </p>
                                             </div>
                                             <p className="text-2xl font-semibold text-foreground">
@@ -501,7 +508,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                                 <div className="flex items-center gap-2 mb-2">
                                                     <Clock className="h-4 w-4 text-primary" />
                                                     <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                                                        Timeframe
+                                                        Indicative timeframe
                                                     </p>
                                                 </div>
                                                 <p className="text-lg font-semibold text-foreground">
@@ -513,7 +520,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                                 </div>
 
                                 <p className="mt-6 text-xs text-muted-foreground italic">
-                                    * Case study anonymised to protect client confidentiality. Details representative of actual funding arranged.
+                                    * Illustrative example only, not a completed transaction. All facilities are subject to status, lender criteria and affordability.
                                 </p>
                             </Card>
                         </div>
@@ -536,7 +543,7 @@ const TownPage = ({ town, county, nearbyTowns }: Props) => {
                         </div>
                         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                             {[
-                                { name: 'Business Loans', slug: 'business-loans', desc: 'Unsecured funding from £5k-£500k for any business purpose. Fixed monthly repayments over 1-5 years.' },
+                                { name: 'Business Loans', slug: 'business-loans', desc: 'Unsecured funding from £25k-£500k for any business purpose. Fixed monthly repayments over 1-5 years.' },
                                 { name: 'Merchant Cash Advance', slug: 'merchant-cash-advance', desc: 'Advance on future card sales. Repay as a percentage of daily takings - ideal for retail and hospitality.' },
                                 { name: 'Asset Finance', slug: 'asset-finance', desc: 'Spread the cost of equipment, vehicles, and machinery. Preserve working capital while acquiring assets.' },
                                 { name: 'Invoice Finance', slug: 'invoice-finance', desc: 'Release up to 90% of invoice values within 24 hours. Improve cash flow without waiting for customers to pay.' }

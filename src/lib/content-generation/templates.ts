@@ -162,7 +162,7 @@ export const faqTemplates = [
             `What business loans are available in ${town.name}?`,
         generateAnswer: (town: Town, county: County): string => {
             const topSectors = town.businessTypes.slice(0, 3);
-            return `${town.name} businesses can access unsecured business loans from £5,000 to £500,000, merchant cash advances based on card turnover, asset finance for equipment and vehicles, and invoice finance to release cash from unpaid invoices. Given ${town.name}'s strong ${topSectors[0]?.toLowerCase() || 'business'} presence, lenders have developed products specifically suited to these trading patterns. We compare options from 120+ UK lenders to find the best rates for your specific situation in ${town.name}.`;
+            return `${town.name} businesses can access unsecured business loans from £25,000 to £500,000, merchant cash advances based on card turnover, asset finance for equipment and vehicles, and invoice finance to release cash from unpaid invoices. Given ${town.name}'s strong ${topSectors[0]?.toLowerCase() || 'business'} presence, lenders have developed products specifically suited to these trading patterns. We compare options from 120+ UK lenders to find the best rates for your specific situation in ${town.name}.`;
         }
     },
     {
@@ -224,13 +224,13 @@ export const fundingScenarioTemplates: Record<string, Omit<TownFundingScenario, 
     'Retail & E-commerce': {
         titleTemplate: (town: Town) => `${town.name} Retail Stock Finance`,
         description: 'Seasonal inventory purchases, shop fit-outs, and working capital for retail businesses navigating peak trading periods and expansion opportunities.',
-        typicalAmount: '£15,000 - £75,000',
+        typicalAmount: '£25,000 - £75,000',
         commonUses: ['Stock purchases', 'Seasonal inventory', 'Shop fit-out', 'POS systems', 'E-commerce platform upgrades']
     },
     'Hospitality': {
         titleTemplate: (town: Town) => `${town.name} Restaurant & Hospitality Finance`,
         description: 'Kitchen equipment, refurbishment, and working capital for restaurants, cafes, pubs, and hotels managing seasonal demand and growth.',
-        typicalAmount: '£20,000 - £100,000',
+        typicalAmount: '£25,000 - £100,000',
         commonUses: ['Kitchen equipment', 'Interior refurbishment', 'Working capital', 'Expansion', 'Outdoor seating areas']
     },
     'Professional Services': {

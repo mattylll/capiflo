@@ -34,8 +34,8 @@ const SiteFooter = () => {
                     <div>
                         <p className='font-display text-lg font-semibold text-foreground'>Capiflo</p>
                         <p className='mt-4 max-w-sm'>
-                            UK SME finance broker comparing 120+ lenders to arrange fast, flexible business
-                            funding.
+                            UK SME finance broker comparing 120+ lenders to arrange business funding of
+                            £25,000 and above.
                         </p>
                         <p className='mt-4 text-xs'>
                             {businessConfig.email}
@@ -101,12 +101,12 @@ const SiteFooter = () => {
                 )}
                 <div className='mt-10 space-y-3 border-t border-border pt-6 text-xs text-muted-foreground'>
                     <p>
-                        {businessConfig.legalName} is a commercial finance broker, not a lender. We introduce
-                        businesses seeking finance to a panel of lenders and funding providers and may receive a
-                        commission from the lender if a facility completes. All finance is unregulated business
-                        lending, arranged for business purposes only and subject to status; it is not regulated by
-                        the Financial Conduct Authority, and Financial Ombudsman Service and FSCS protections do not
-                        apply.
+                        Capiflo is a trading name of {businessConfig.legalName}, a commercial finance broker, not a
+                        lender. We introduce businesses seeking finance of £25,000 and above to a panel of lenders
+                        and funding providers and may receive a commission from the lender if a facility completes.
+                        All finance is unregulated business lending, arranged for business purposes only and subject
+                        to status; it is not regulated by the Financial Conduct Authority, and Financial Ombudsman
+                        Service and FSCS protections do not apply. We do not provide financial advice.
                     </p>
                     <p>
                         {businessConfig.legalName} is registered in England and Wales

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const items = [
     {
         title: 'Information only',
-        body: 'Capiflo provides indicative information, calculators, and introductions. It is not a lender. Final offers come from the lenders and funding providers we introduce you to. All finance we arrange is unregulated business lending; Capiflo is not authorised or regulated by the Financial Conduct Authority.'
+        body: 'Capiflo is a trading name of Lenzie Consulting Ltd. Capiflo provides indicative information, calculators, and introductions. It is not a lender. Final offers come from the lenders and funding providers we introduce you to. We arrange business funding of £25,000 and above only. All finance we arrange is unregulated business lending, for business purposes only and subject to status; Capiflo is not authorised or regulated by the Financial Conduct Authority, and Financial Ombudsman Service and FSCS protections do not apply.'
     },
     {
         title: 'Accuracy',
@@ -25,7 +25,7 @@ const items = [
     },
     {
         title: 'Intellectual property',
-        body: 'All content, calculators, and branding on this site are owned by Capiflo Ltd. You may not reproduce or redistribute without permission.'
+        body: 'All content, calculators, and branding on this site are owned by Lenzie Consulting Ltd. You may not reproduce or redistribute without permission.'
     },
     {
         title: 'Changes to terms',

@@ -44,10 +44,11 @@ export type BusinessConfig = {
  */
 export const businessConfig: BusinessConfig = {
   name: 'Capiflo',
-  legalName: 'Capiflo Ltd',
+  legalName: 'Lenzie Consulting Ltd',
 
-  // Company identity. Capiflo is NOT FCA authorised: it arranges unregulated
-  // business lending only. Site copy must never imply FCA authorisation.
+  // Company identity. Capiflo is a trading name of Lenzie Consulting Ltd.
+  // Capiflo is NOT FCA authorised: it arranges unregulated business lending
+  // of £25,000 and above only. Site copy must never imply FCA authorisation.
   // TODO: Set the real Companies House number ('' hides the footer line).
   companyNumber: '',
 
@@ -97,7 +98,7 @@ export const businessConfig: BusinessConfig = {
   ],
 
   // Business Description
-  description: 'UK business finance broker helping SMEs secure funding from £5,000 to £500,000. We compare options from 120+ lenders to find the best rates for your business.',
+  description: 'Capiflo is a UK commercial finance broker, not a lender. We arrange unregulated business funding of £25,000 and above for UK SMEs, comparing options from a panel of 120+ lenders.',
 
   // Aggregate Rating
   // NOTE: Only include when you have real, verifiable reviews

@@ -16,7 +16,7 @@ export const northernIrelandTowns: Town[] = [
         nearbyTowns: ['lisburn', 'bangor', 'carrickfergus', 'newtownabbey'],
         fundingHighlights: ['Growing tech hub', 'Creative industry investment', 'Titanic Quarter opportunities'],
         faqs: [
-            { question: 'What business funding is available in Belfast?', answer: 'Belfast businesses can access loans, Invest NI support, and commercial funding from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Belfast?', answer: 'Belfast businesses can access loans, Invest NI support, and commercial funding from £25,000 to £500,000.' },
             { question: 'Are there specific NI business funding programmes?', answer: 'Yes, Invest Northern Ireland offers various support programmes alongside commercial funding.' },
         ],
     },

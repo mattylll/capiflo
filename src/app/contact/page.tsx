@@ -58,6 +58,12 @@ const ContactPage = () => {
                                 lender's criteria, the request is sent straight through via API — only
                                 applicants needing clarification will hear from us directly.
                             </p>
+                            <p className='mt-4 text-sm text-muted-foreground'>
+                                Capiflo is a trading name of Lenzie Consulting Ltd, a commercial finance broker,
+                                not a lender. We arrange unregulated business funding of £25,000 and above, for
+                                business purposes only and subject to status. Not authorised or regulated by the
+                                Financial Conduct Authority.
+                            </p>
 
                             {/* Benefits */}
                             <div className='mt-10 space-y-4'>

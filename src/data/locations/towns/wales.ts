@@ -16,7 +16,7 @@ export const walesTowns: Town[] = [
         nearbyTowns: ['barry', 'penarth', 'newport', 'pontypridd'],
         fundingHighlights: ['Welsh capital business ecosystem', 'Creative industry investment', 'Financial services expertise'],
         faqs: [
-            { question: 'What business funding is available in Cardiff?', answer: 'Cardiff businesses can access loans, Welsh Government programmes, and commercial funding from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Cardiff?', answer: 'Cardiff businesses can access loans, Welsh Government programmes, and commercial funding from £25,000 to £500,000.' },
             { question: 'Are there specific Welsh business funding programmes?', answer: 'Yes, the Development Bank of Wales offers various funding options alongside commercial business loans.' },
         ],
     },

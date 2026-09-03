@@ -32,7 +32,7 @@ const CountyPage = ({ county, towns }: Props) => {
     const faqs = [
         {
             question: `What business loans are available in ${county.name}?`,
-            answer: `${county.name} businesses can access unsecured business loans, merchant cash advances, asset finance, invoice finance, and more. Loan amounts typically range from £5,000 to £500,000 depending on your business requirements and trading history.`
+            answer: `${county.name} businesses can access unsecured business loans, merchant cash advances, asset finance, invoice finance, and more. Loan amounts typically range from £25,000 to £500,000 depending on your business requirements and trading history.`
         },
         {
             question: `How quickly can ${county.name} businesses get funding?`,
@@ -309,7 +309,7 @@ const CountyPage = ({ county, towns }: Props) => {
                     </div>
                     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         {[
-                            { name: 'Business Loans', slug: 'business-loans', desc: 'Unsecured funding from £5k-£500k' },
+                            { name: 'Business Loans', slug: 'business-loans', desc: 'Unsecured funding from £25k-£500k' },
                             { name: 'Merchant Cash Advance', slug: 'merchant-cash-advance', desc: 'Flexible repayment based on sales' },
                             { name: 'Asset Finance', slug: 'asset-finance', desc: 'Fund equipment and vehicles' },
                             { name: 'Invoice Finance', slug: 'invoice-finance', desc: 'Release cash from unpaid invoices' }

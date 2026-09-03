@@ -56,7 +56,7 @@ export const calculators: CalculatorBlock[] = [
         description:
             'Model monthly repayments and total repayable amounts for unsecured or secured business loans using typical UK rate bands.',
         fields: [
-            { id: 'amount', label: 'Loan amount', type: 'currency', default: 50000, min: 1000, max: 500000, step: 1000 },
+            { id: 'amount', label: 'Loan amount', type: 'currency', default: 50000, min: 25000, max: 500000, step: 1000 },
             { id: 'termMonths', label: 'Term', type: 'number', default: 36, min: 6, max: 84, step: 1, suffix: 'months' },
             { id: 'rate', label: 'Interest rate', type: 'percent', default: 12.9, min: 3, max: 30, step: 0.1, help: 'Typical unsecured SME rates run from about 8% to 20%.' }
         ],
@@ -127,7 +127,7 @@ export const calculators: CalculatorBlock[] = [
         description:
             'Compare hire purchase repayments when buying vehicles, machinery or technology, including deposit and balloon options.',
         fields: [
-            { id: 'assetCost', label: 'Asset cost', type: 'currency', default: 40000, min: 1000, max: 2000000, step: 1000 },
+            { id: 'assetCost', label: 'Asset cost', type: 'currency', default: 40000, min: 25000, max: 2000000, step: 1000 },
             { id: 'depositPct', label: 'Deposit', type: 'percent', default: 10, min: 0, max: 50, step: 1 },
             { id: 'balloon', label: 'Balloon / final payment', type: 'currency', default: 0, min: 0, max: 500000, step: 500, help: 'Optional lump sum at the end of the agreement.' },
             { id: 'termMonths', label: 'Term', type: 'number', default: 48, min: 12, max: 84, step: 1, suffix: 'months' },
@@ -153,7 +153,7 @@ export const calculators: CalculatorBlock[] = [
             'Forecast the payback period and total cost of a merchant cash advance based on card takings, factor rate and holdback.',
         fields: [
             { id: 'monthlyCardRevenue', label: 'Monthly card takings', type: 'currency', default: 30000, min: 1000, max: 1000000, step: 1000 },
-            { id: 'advanceAmount', label: 'Advance amount', type: 'currency', default: 30000, min: 1000, max: 500000, step: 1000 },
+            { id: 'advanceAmount', label: 'Advance amount', type: 'currency', default: 30000, min: 25000, max: 500000, step: 1000 },
             { id: 'factorRate', label: 'Factor rate', type: 'number', default: 1.2, min: 1.05, max: 1.5, step: 0.01, help: 'A 1.2 factor on £30,000 repays £36,000.' },
             { id: 'holdbackPct', label: 'Holdback', type: 'percent', default: 15, min: 5, max: 30, step: 1, help: 'Share of daily card takings used to repay.' }
         ],
@@ -176,7 +176,7 @@ export const calculators: CalculatorBlock[] = [
         description:
             'Spread VAT or corporation tax bills over 3 to 12 months to protect working capital while staying compliant with HMRC.',
         fields: [
-            { id: 'liability', label: 'HMRC liability', type: 'currency', default: 25000, min: 1000, max: 1000000, step: 1000 },
+            { id: 'liability', label: 'HMRC liability', type: 'currency', default: 25000, min: 25000, max: 1000000, step: 1000 },
             { id: 'termMonths', label: 'Term', type: 'number', default: 3, min: 3, max: 12, step: 1, suffix: 'months' },
             { id: 'rate', label: 'Interest rate', type: 'percent', default: 12, min: 5, max: 20, step: 0.1 }
         ],

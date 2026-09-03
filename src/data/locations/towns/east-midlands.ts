@@ -109,7 +109,7 @@ export const eastMidlandsTowns: Town[] = [
         businessTypes: ['Manufacturing', 'Logistics', 'Agriculture', 'Retail', 'Tourism'],
         nearbyTowns: ['nottingham', 'lincoln', 'grantham', 'mansfield'],
         faqs: [
-            { question: 'What business loans are available in Newark?', answer: 'Newark businesses can access unsecured loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business loans are available in Newark?', answer: 'Newark businesses can access unsecured loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -355,7 +355,7 @@ export const eastMidlandsTowns: Town[] = [
         nearbyTowns: ['grimsby', 'doncaster', 'hull', 'gainsborough'],
         fundingHighlights: ['Heavy industry equipment finance', 'Steel supply chain funding', 'Manufacturing working capital'],
         faqs: [
-            { question: 'What business loans are available in Scunthorpe?', answer: 'Scunthorpe businesses can access unsecured business loans from £5,000 to £500,000, equipment finance for heavy manufacturing, and working capital facilities tailored to industrial operations.' },
+            { question: 'What business loans are available in Scunthorpe?', answer: 'Scunthorpe businesses can access unsecured business loans from £25,000 to £500,000, equipment finance for heavy manufacturing, and working capital facilities tailored to industrial operations.' },
             { question: 'How can steel industry suppliers access funding?', answer: 'Steel supply chain businesses can access trade finance, invoice factoring, and equipment leasing to support contracts with major manufacturers.' },
             { question: 'Is funding available for Scunthorpe startups?', answer: 'New businesses in Scunthorpe can access startup loans, small business grants, and mentoring support through local enterprise partnerships.' },
         ],
@@ -409,7 +409,7 @@ export const eastMidlandsTowns: Town[] = [
         nearbyTowns: ['lincoln', 'boston', 'grantham', 'bourne'],
         fundingHighlights: ['Grain and crop storage finance', 'Agricultural equipment loans', 'Rural business support'],
         faqs: [
-            { question: 'What business funding is available in Sleaford?', answer: 'Sleaford businesses can access business loans from £5,000 to £500,000, agricultural finance, and working capital facilities.' },
+            { question: 'What business funding is available in Sleaford?', answer: 'Sleaford businesses can access business loans from £25,000 to £500,000, agricultural finance, and working capital facilities.' },
             { question: 'Can farming businesses get equipment finance?', answer: 'Agricultural businesses can access equipment leasing and hire purchase for tractors, combines, and farm machinery.' },
         ],
     },
@@ -557,7 +557,7 @@ export const eastMidlandsTowns: Town[] = [
         nearbyTowns: ['northampton', 'kettering', 'rushden', 'bedford'],
         fundingHighlights: ['Distribution centre finance', 'Manufacturing equipment loans', 'SME growth capital'],
         faqs: [
-            { question: 'What business loans are available in Wellingborough?', answer: 'Wellingborough businesses can access unsecured loans from £5,000 to £500,000, asset finance, and working capital facilities tailored to manufacturing and logistics operations.' },
+            { question: 'What business loans are available in Wellingborough?', answer: 'Wellingborough businesses can access unsecured loans from £25,000 to £500,000, asset finance, and working capital facilities tailored to manufacturing and logistics operations.' },
             { question: 'Can distribution companies access funding?', answer: 'Logistics and distribution companies can access fleet finance, warehouse funding, and working capital to support operations.' },
             { question: 'Is there startup funding in Wellingborough?', answer: 'New businesses can access startup loans, small business grants, and mentoring through local enterprise partnerships.' },
         ],

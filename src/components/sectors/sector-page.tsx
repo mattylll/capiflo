@@ -509,10 +509,10 @@ const SectorPage = ({ sector }: Props) => {
                 <div className="mx-auto max-w-6xl">
                     <div className="mb-8">
                         <h2 className="text-3xl font-semibold text-foreground">
-                            Real-World Use Cases
+                            Illustrative Use Cases
                         </h2>
                         <p className="mt-2 text-muted-foreground">
-                            How {sector.title.toLowerCase().replace(' finance', '')} businesses use funding to grow
+                            Example scenarios showing how {sector.title.toLowerCase().replace(' finance', '')} businesses use funding. Illustrative, not completed transactions.
                         </p>
                     </div>
                     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -526,7 +526,7 @@ const SectorPage = ({ sector }: Props) => {
                                         <p className="mt-3 text-sm text-muted-foreground">{useCase.description}</p>
                                         {useCase.outcome && (
                                             <div className="mt-4 rounded-lg bg-primary/10 p-3">
-                                                <p className="text-xs uppercase tracking-wider text-primary font-medium">Outcome</p>
+                                                <p className="text-xs uppercase tracking-wider text-primary font-medium">Illustrative outcome</p>
                                                 <p className="mt-1 text-sm text-foreground">{useCase.outcome}</p>
                                             </div>
                                         )}

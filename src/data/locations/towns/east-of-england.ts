@@ -15,7 +15,7 @@ export const eastOfEnglandTowns: Town[] = [
         businessTypes: ['Professional Services', 'Technology', 'Retail', 'Healthcare', 'Financial Services'],
         nearbyTowns: ['colchester', 'southend-on-sea', 'braintree', 'brentwood'],
         faqs: [
-            { question: 'What business funding is available in Chelmsford?', answer: 'Chelmsford businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Chelmsford?', answer: 'Chelmsford businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -233,7 +233,7 @@ export const eastOfEnglandTowns: Town[] = [
         businessTypes: ['Professional Services', 'Logistics', 'Retail', 'Technology', 'Healthcare'],
         nearbyTowns: ['st-albans', 'watford', 'berkhamsted', 'aylesbury'],
         faqs: [
-            { question: 'What business loans are available in Hemel Hempstead?', answer: 'Businesses can access unsecured loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business loans are available in Hemel Hempstead?', answer: 'Businesses can access unsecured loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {
@@ -378,7 +378,7 @@ export const eastOfEnglandTowns: Town[] = [
         nearbyTowns: ['cambridge', 'huntingdon', 'peterborough', 'newmarket'],
         fundingHighlights: ['Quick decisions for Fenland businesses', 'Agriculture and food sector expertise', 'Tourism business funding specialists'],
         faqs: [
-            { question: 'What business loans are available in Ely?', answer: 'Ely businesses can access unsecured business loans from £5,000 to £500,000, merchant cash advances, asset finance for equipment, invoice finance, and specialist agricultural loans. Capiflo matches you with lenders who understand the local Fenland economy.' },
+            { question: 'What business loans are available in Ely?', answer: 'Ely businesses can access unsecured business loans from £25,000 to £500,000, merchant cash advances, asset finance for equipment, invoice finance, and specialist agricultural loans. Capiflo matches you with lenders who understand the local Fenland economy.' },
             { question: 'How quickly can Ely businesses get funding?', answer: 'Many Ely businesses receive funding decisions within 24-48 hours. Once approved, funds typically arrive within 3-5 working days, though some lenders offer same-day funding for urgent requirements.' },
             { question: 'Are there grants available for Ely businesses?', answer: 'Ely businesses may qualify for Cambridgeshire & Peterborough Combined Authority grants, rural development funding, and sector-specific schemes. We can help identify grant opportunities alongside commercial funding options.' },
             { question: 'Can Ely tourism businesses get seasonal funding?', answer: 'Yes, tourism and hospitality businesses in Ely can access flexible funding with repayment structures that accommodate seasonal trading patterns, including merchant cash advances that flex with card revenue.' },
@@ -651,7 +651,7 @@ export const eastOfEnglandTowns: Town[] = [
         businessTypes: ['Research', 'Professional Services', 'Manufacturing', 'Retail', 'Healthcare'],
         nearbyTowns: ['luton', 'milton-keynes', 'northampton', 'cambridge'],
         faqs: [
-            { question: 'What business funding is available in Bedford?', answer: 'Bedford businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Bedford?', answer: 'Bedford businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {

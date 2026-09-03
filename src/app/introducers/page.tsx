@@ -121,7 +121,7 @@ const FAQS = [
     },
     {
         question: 'Is there a minimum deal size?',
-        answer: 'We work with funding requirements from £10,000 upwards. There\'s no maximum — we have lenders for deals of all sizes.'
+        answer: 'We work with funding requirements from £25,000 upwards. There\'s no maximum — we have lenders for deals of all sizes.'
     },
     {
         question: 'Can I track my referrals?',

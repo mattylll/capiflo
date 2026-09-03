@@ -151,7 +151,7 @@ export const generateLocalBusinessSchema = (town: Town, county: County) => {
           itemOffered: {
             '@type': 'Service',
             name: 'Unsecured Business Loans',
-            description: 'Business loans from £5,000 to £500,000 without requiring property as security'
+            description: 'Business loans from £25,000 to £500,000 without requiring property as security'
           }
         },
         {

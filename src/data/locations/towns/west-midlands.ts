@@ -16,7 +16,7 @@ export const westMidlandsTowns: Town[] = [
         nearbyTowns: ['wolverhampton', 'coventry', 'solihull', 'walsall'],
         fundingHighlights: ['Automotive supply chain finance', 'Professional services growth', 'Creative industry investment'],
         faqs: [
-            { question: 'What business funding is available in Birmingham?', answer: 'Birmingham businesses can access loans from £5,000 to £500,000, plus specialist funding for automotive, creative, and tech sectors.' },
+            { question: 'What business funding is available in Birmingham?', answer: 'Birmingham businesses can access loans from £25,000 to £500,000, plus specialist funding for automotive, creative, and tech sectors.' },
             { question: 'How is HS2 creating opportunities for Birmingham businesses?', answer: 'HS2 is creating supply chain opportunities, property development, and increased connectivity driving business investment.' },
         ],
     },
@@ -230,7 +230,7 @@ export const westMidlandsTowns: Town[] = [
         nearbyTowns: ['birmingham', 'tamworth', 'burton-upon-trent', 'cannock'],
         fundingHighlights: ['Professional services expertise', 'Heritage and tourism specialists', 'Healthcare sector funding'],
         faqs: [
-            { question: 'What business loans are available in Lichfield?', answer: 'Lichfield businesses can access unsecured business loans from £5,000 to £500,000, merchant cash advances for retail, asset finance, invoice finance, and professional practice loans. We match you with lenders who understand Staffordshire\'s diverse economy.' },
+            { question: 'What business loans are available in Lichfield?', answer: 'Lichfield businesses can access unsecured business loans from £25,000 to £500,000, merchant cash advances for retail, asset finance, invoice finance, and professional practice loans. We match you with lenders who understand Staffordshire\'s diverse economy.' },
             { question: 'How quickly can Lichfield businesses get funding?', answer: 'Many Lichfield businesses receive funding decisions within 24-48 hours. Once approved, funds typically arrive within 3-5 working days, with same-day options available for urgent requirements.' },
             { question: 'Is there funding for Lichfield professional services firms?', answer: 'Yes, professional services firms in Lichfield can access practice loans, working capital facilities, equipment finance, and growth funding tailored to accountants, solicitors, architects, and consultants.' },
             { question: 'What funding suits Lichfield tourism businesses?', answer: 'Tourism and hospitality businesses in Lichfield can access flexible funding including merchant cash advances, seasonal working capital, refurbishment finance, and growth loans for expansion.' },
@@ -359,7 +359,7 @@ export const westMidlandsTowns: Town[] = [
         businessTypes: ['Healthcare', 'Professional Services', 'Manufacturing', 'Retail', 'Tourism'],
         nearbyTowns: ['malvern', 'kidderminster', 'droitwich', 'evesham'],
         faqs: [
-            { question: 'What business funding is available in Worcester?', answer: 'Worcester businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' },
+            { question: 'What business funding is available in Worcester?', answer: 'Worcester businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' },
         ],
     },
     {

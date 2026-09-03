@@ -18,7 +18,7 @@ const TIMELINE = [
     {
         year: '2023',
         title: 'Research',
-        summary: 'Interviewed 150 UK SMEs about funding friction and slow lender responses.'
+        summary: 'Mapped where UK SMEs lose time in the funding process and where lender criteria diverge.'
     },
     {
         year: '2024',
@@ -50,11 +50,12 @@ const VALUES = [
     }
 ];
 
+// True, checkable service facts only. No deal counts, ratings or success rates.
 const STATS = [
-    { value: '120+', label: 'Active lender relationships' },
-    { value: '95%', label: 'Submissions with full docs' },
-    { value: '5,000+', label: 'UK SMEs funded' },
-    { value: '24hrs', label: 'Typical decision time' }
+    { value: '£25k+', label: 'Minimum facility we arrange' },
+    { value: '120+', label: 'Lenders on the panel' },
+    { value: 'Broker', label: 'Not a lender' },
+    { value: 'Same day', label: 'First response on working days' }
 ];
 
 const AboutPage = () => {
@@ -82,6 +83,12 @@ const AboutPage = () => {
                             </p>
                             <p className='mt-4 text-muted-foreground'>
                                 No jargon, no hidden fees, just a structured experience built for busy founders.
+                            </p>
+                            <p className='mt-6 border-l-2 border-border pl-4 text-sm text-muted-foreground'>
+                                Capiflo is a trading name of Lenzie Consulting Ltd, a commercial finance broker,
+                                not a lender. We arrange unregulated business funding of £25,000 and above, for
+                                business purposes only and subject to status. We are not authorised or regulated
+                                by the Financial Conduct Authority and we do not provide financial advice.
                             </p>
                         </div>
 

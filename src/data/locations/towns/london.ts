@@ -9,7 +9,7 @@ export const londonTowns: Town[] = [
         countySlug: 'greater-london',
         postcode: 'E',
         population: '320,000',
-        description: 'Business loans and commercial finance for Tower Hamlets SMEs. From Canary Wharf financial services to Brick Lane hospitality, we connect local businesses with 120+ UK lenders for funding from £5,000 to £500,000.',
+        description: 'Business loans and commercial finance for Tower Hamlets SMEs. From Canary Wharf financial services to Brick Lane hospitality, we connect local businesses with 120+ UK lenders for funding from £25,000 to £500,000.',
         overview: 'Tower Hamlets is one of London\'s most economically diverse boroughs, home to Canary Wharf - Europe\'s largest financial district - alongside vibrant communities in Shoreditch, Brick Lane, and Whitechapel.',
         extendedOverview: `Tower Hamlets presents a unique business finance landscape, combining the corporate might of Canary Wharf with the entrepreneurial energy of East London's creative quarters.
 
@@ -94,21 +94,18 @@ For funding purposes, Tower Hamlets businesses should be aware that lenders view
             }
         ],
         stats: [
-            { label: 'Registered Businesses', value: '22,500+', description: 'VAT-registered businesses in the borough' },
-            { label: 'Average Loan Size', value: '£47,000', description: 'For Tower Hamlets SME lending through our panel' },
-            { label: 'Approval Rate', value: '73%', description: 'For complete applications from Tower Hamlets' },
-            { label: 'Time to Funding', value: '4 days', description: 'Average for approved applications' }
+            { label: 'Registered Businesses', value: '22,500+', description: 'VAT-registered businesses in the borough' }
         ],
         caseStudy: {
             title: 'Shoreditch Creative Agency Expansion',
             businessType: 'Digital Marketing Agency',
             location: 'Shoreditch, Tower Hamlets',
             challenge: 'A 12-person creative agency won a major contract with a FTSE 250 retailer requiring them to double their team within 8 weeks. Traditional bank lending would take too long, and the directors were reluctant to give up equity.',
-            solution: 'We arranged a £95,000 unsecured business loan with a 36-month term. The lender understood creative agency cash flows and structured repayments to align with the client\'s payment schedule. Funds were available within 5 working days.',
+            solution: 'A £95,000 unsecured business loan over 36 months would be the likely route, placed with a lender that understands agency cash flows and can align repayments with the client\'s payment schedule. Funds could be available within a week of a complete file.',
             fundingType: 'Unsecured Business Loan',
             amount: '£95,000',
-            result: 'The agency hired 8 additional staff, delivered the contract successfully, and has since won two more enterprise clients. They repaid the loan early after 18 months with no penalty.',
-            timeframe: '5 days to funding'
+            result: 'The agency could hire the additional staff needed to deliver the contract while retaining full ownership, with the option to repay early without penalty once the new revenue lands.',
+            timeframe: 'Typically 5 to 10 days to funding'
         },
         faqs: [
             {
@@ -161,7 +158,7 @@ For funding purposes, Tower Hamlets businesses should be aware that lenders view
         countySlug: 'greater-london',
         postcode: 'EC',
         population: '10,000',
-        description: 'Business finance for City of London companies. From established financial services firms to professional services and fintech startups, we connect Square Mile businesses with funding from £5,000 to £500,000.',
+        description: 'Business finance for City of London companies. From established financial services firms to professional services and fintech startups, we connect Square Mile businesses with funding from £25,000 to £500,000.',
         overview: 'The City of London - the Square Mile - is the historic heart of British finance and one of the world\'s leading financial centres, home to the Bank of England, Lloyd\'s of London, and hundreds of global financial institutions.',
         extendedOverview: `The City of London presents unique business finance requirements shaped by its position as a global financial hub. Despite having a tiny resident population of around 10,000, over 500,000 people work in the Square Mile daily.
 
@@ -227,7 +224,6 @@ For funding purposes, City businesses benefit from lenders' familiarity with the
         stats: [
             { label: 'Businesses', value: '24,000+', description: 'Registered in the Square Mile' },
             { label: 'Economic Output', value: '£85bn', description: 'Annual GVA from the City' },
-            { label: 'Average Loan', value: '£68,000', description: 'For City business applications' },
             { label: 'Workers', value: '500,000+', description: 'Commute to the City daily' }
         ],
         caseStudy: {
@@ -235,11 +231,11 @@ For funding purposes, City businesses benefit from lenders' familiarity with the
             businessType: 'Commercial Law Practice',
             location: 'City of London',
             challenge: 'A 15-partner commercial law firm faced cash flow pressure due to a major litigation case requiring significant upfront disbursements. The firm was healthy but the case created a temporary £280,000 funding gap.',
-            solution: 'We arranged a £300,000 invoice finance facility against the firm\'s receivables ledger. The facility released funds against unpaid invoices within 24 hours, with no requirement to finance the specific litigation case.',
+            solution: 'A £300,000 invoice finance facility against the firm\'s receivables ledger would be the likely route, releasing cash against unpaid invoices within 24 hours of each invoice being raised, without tying the facility to the specific litigation case.',
             fundingType: 'Invoice Finance',
             amount: '£300,000',
-            result: 'The firm managed the litigation costs without partner capital calls, won the case, and continues to use the invoice finance facility for ongoing cash flow management.',
-            timeframe: '7 days to facility setup'
+            result: 'The firm could carry the disbursements without partner capital calls and keep the facility running for ongoing cash flow management once the case concludes.',
+            timeframe: 'Typically 1 to 2 weeks to set up'
         },
         faqs: [
             {
@@ -284,7 +280,7 @@ For funding purposes, City businesses benefit from lenders' familiarity with the
         countySlug: 'greater-london',
         postcode: 'W',
         population: '260,000',
-        description: 'Business finance for Westminster companies from the West End to Victoria. We help retailers, hospitality businesses, and professional services firms access funding from £5,000 to £500,000.',
+        description: 'Business finance for Westminster companies from the West End to Victoria. We help retailers, hospitality businesses, and professional services firms access funding from £25,000 to £500,000.',
         overview: 'Westminster encompasses the West End, Mayfair, Marylebone, and Victoria - making it home to world-famous retail destinations, the UK\'s theatre industry, central government, and prestigious professional services.',
         extendedOverview: `Westminster presents one of London's most diverse business finance landscapes, from Oxford Street's flagship retailers to Soho's creative agencies and Mayfair's wealth management firms.
 
@@ -319,8 +315,7 @@ Westminster's extremely high operating costs - some of the UK's highest business
         stats: [
             { label: 'Businesses', value: '56,000+', description: 'Registered in Westminster' },
             { label: 'Tourism Spend', value: '£12bn', description: 'Annual visitor spending' },
-            { label: 'Retail Sales', value: '£8.5bn', description: 'Annual West End retail' },
-            { label: 'Average Loan', value: '£42,000', description: 'For Westminster applications' }
+            { label: 'Retail Sales', value: '£8.5bn', description: 'Annual West End retail' }
         ],
         faqs: [
             {
@@ -349,7 +344,7 @@ Westminster's extremely high operating costs - some of the UK's highest business
         countySlug: 'greater-london',
         postcode: 'NW',
         population: '270,000',
-        description: 'Business loans for Camden companies from King\'s Cross tech hub to Kentish Town creative studios. We connect Camden businesses with funding from £5,000 to £500,000.',
+        description: 'Business loans for Camden companies from King\'s Cross tech hub to Kentish Town creative studios. We connect Camden businesses with funding from £25,000 to £500,000.',
         overview: 'Camden is a global knowledge economy hub centred on King\'s Cross, home to Google, Meta, and world-class research institutions, alongside thriving creative industries and independent businesses.',
         extendedOverview: `Camden has transformed into one of London's most dynamic business locations, anchored by the King's Cross regeneration that brought Google, Meta, and Universal Music to the area.
 
@@ -384,8 +379,7 @@ The borough's mix of world-leading institutions and independent businesses creat
         stats: [
             { label: 'Tech Jobs', value: '45,000+', description: 'In Camden\'s knowledge economy' },
             { label: 'Market Traders', value: '1,000+', description: 'At Camden Market venues' },
-            { label: 'Research Output', value: 'Top 10', description: 'Global life sciences cluster' },
-            { label: 'Average Loan', value: '£51,000', description: 'For Camden business applications' }
+            { label: 'Research Output', value: 'Top 10', description: 'Global life sciences cluster' }
         ],
         faqs: [
             {
@@ -410,7 +404,7 @@ The borough's mix of world-leading institutions and independent businesses creat
         countySlug: 'greater-london',
         postcode: 'E',
         population: '280,000',
-        description: 'Business finance for Hackney\'s thriving startup and creative scene. From Shoreditch tech companies to Dalston independents, we connect Hackney businesses with funding from £5,000 to £500,000.',
+        description: 'Business finance for Hackney\'s thriving startup and creative scene. From Shoreditch tech companies to Dalston independents, we connect Hackney businesses with funding from £25,000 to £500,000.',
         overview: 'Hackney is London\'s leading startup hub, centred on Shoreditch\'s Silicon Roundabout, with a thriving creative, fashion, and hospitality scene extending through Dalston and Hackney Wick.',
         extendedOverview: `Hackney has become synonymous with London's startup culture, though the reality is more diverse than the Silicon Roundabout stereotype suggests.
 
@@ -445,8 +439,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Startups', value: '3,500+', description: 'Tech companies in Hackney' },
             { label: 'Creative Jobs', value: '25,000+', description: 'In creative industries' },
-            { label: 'New Restaurants', value: '200+', description: 'Opened since 2020' },
-            { label: 'Average Loan', value: '£38,000', description: 'For Hackney business applications' }
+            { label: 'New Restaurants', value: '200+', description: 'Opened since 2020' }
         ],
         faqs: [
             {
@@ -471,7 +464,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'N',
         population: '240,000',
-        description: 'Business loans for Islington companies from Angel to Highbury. We connect professional services, creative agencies, and hospitality businesses with funding from £5,000 to £500,000.',
+        description: 'Business loans for Islington companies from Angel to Highbury. We connect professional services, creative agencies, and hospitality businesses with funding from £25,000 to £500,000.',
         overview: 'Islington is a prosperous inner London borough combining strong professional services in Angel and Clerkenwell, thriving hospitality along Upper Street, and creative industries across the borough.',
         localEconomy: 'Professional services, creative industries, and hospitality drive Islington\'s economy. The Angel and Clerkenwell areas host agencies, consultancies, and tech companies, while Upper Street is one of London\'s most successful hospitality destinations.',
         businessTypes: [
@@ -495,8 +488,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '18,000+', description: 'Registered in Islington' },
             { label: 'Professional Services', value: '4,500+', description: 'Companies in the sector' },
-            { label: 'Restaurants', value: '450+', description: 'Licensed premises' },
-            { label: 'Average Loan', value: '£44,000', description: 'For Islington applications' }
+            { label: 'Restaurants', value: '450+', description: 'Licensed premises' }
         ],
         faqs: [
             {
@@ -517,7 +509,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'SE',
         population: '320,000',
-        description: 'Business finance for Southwark enterprises from London Bridge to Peckham. We help food businesses, creative companies, and professional services access funding from £5,000 to £500,000.',
+        description: 'Business finance for Southwark enterprises from London Bridge to Peckham. We help food businesses, creative companies, and professional services access funding from £25,000 to £500,000.',
         overview: 'Southwark spans from the business districts of London Bridge and Bankside to the creative energy of Peckham and Camberwell, with Borough Market anchoring one of London\'s most celebrated food scenes.',
         localEconomy: 'Professional services cluster around London Bridge and More London, while Borough Market drives food entrepreneurship. Peckham and Camberwell have become creative industry hubs with thriving independent businesses.',
         businessTypes: [
@@ -541,8 +533,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '16,500+', description: 'Registered in Southwark' },
             { label: 'Borough Market', value: '100+', description: 'Permanent traders' },
-            { label: 'Creative Jobs', value: '15,000+', description: 'In Peckham and Camberwell' },
-            { label: 'Average Loan', value: '£39,000', description: 'For Southwark applications' }
+            { label: 'Creative Jobs', value: '15,000+', description: 'In Peckham and Camberwell' }
         ],
         faqs: [
             {
@@ -563,7 +554,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'SE',
         population: '330,000',
-        description: 'Business finance for Lambeth companies from Vauxhall\'s emerging business district to Brixton\'s creative hub. We connect local businesses with funding from £5,000 to £500,000.',
+        description: 'Business finance for Lambeth companies from Vauxhall\'s emerging business district to Brixton\'s creative hub. We connect local businesses with funding from £25,000 to £500,000.',
         overview: 'Lambeth stretches from Vauxhall\'s growing business district through Brixton\'s famous market and creative scene to the residential areas of Streatham, offering diverse business opportunities.',
         localEconomy: 'Vauxhall\'s Nine Elms development has created a new business district. Brixton\'s creative economy and market trading continue to thrive, while healthcare is significant around St Thomas\' Hospital.',
         businessTypes: [
@@ -587,8 +578,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '14,000+', description: 'Registered in Lambeth' },
             { label: 'Brixton Market', value: '200+', description: 'Independent traders' },
-            { label: 'New Developments', value: '£15bn', description: 'Nine Elms investment' },
-            { label: 'Average Loan', value: '£35,000', description: 'For Lambeth applications' }
+            { label: 'New Developments', value: '£15bn', description: 'Nine Elms investment' }
         ],
         faqs: [
             {
@@ -605,7 +595,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'SW',
         population: '160,000',
-        description: 'Business finance for Kensington and Chelsea\'s luxury retail, professional services, and hospitality sectors. We connect local businesses with funding from £5,000 to £500,000.',
+        description: 'Business finance for Kensington and Chelsea\'s luxury retail, professional services, and hospitality sectors. We connect local businesses with funding from £25,000 to £500,000.',
         overview: 'Kensington and Chelsea is one of London\'s most affluent boroughs, home to world-famous luxury retail on Sloane Street and Brompton Road, cultural institutions, and high-end hospitality.',
         localEconomy: 'Luxury retail dominates the local economy, supported by high-end hospitality, professional services serving affluent clients, and significant cultural sector employment around the museums quarter.',
         businessTypes: [
@@ -629,8 +619,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '12,500+', description: 'Registered in the borough' },
             { label: 'Retail Sales', value: '£2.5bn+', description: 'Annual high street turnover' },
-            { label: 'Average Income', value: 'Highest UK', description: 'Resident affluence' },
-            { label: 'Average Loan', value: '£58,000', description: 'For RBKC applications' }
+            { label: 'Average Income', value: 'Highest UK', description: 'Resident affluence' }
         ],
         faqs: [
             {
@@ -647,7 +636,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'SE',
         population: '290,000',
-        description: 'Business finance for Greenwich enterprises from the World Heritage Site to Woolwich\'s regeneration zone. We connect local businesses with funding from £5,000 to £500,000.',
+        description: 'Business finance for Greenwich enterprises from the World Heritage Site to Woolwich\'s regeneration zone. We connect local businesses with funding from £25,000 to £500,000.',
         overview: 'Greenwich combines its UNESCO World Heritage tourism with growing business districts around North Greenwich and Woolwich, benefiting from Elizabeth Line connectivity.',
         localEconomy: 'Tourism around the Royal Borough generates significant hospitality employment. The O2 arena drives entertainment sector activity, while regeneration in Woolwich is creating new commercial opportunities.',
         businessTypes: [
@@ -671,8 +660,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Visitors', value: '12m+', description: 'Annual tourists to Greenwich' },
             { label: 'O2 Events', value: '200+', description: 'Annual events at the arena' },
-            { label: 'Businesses', value: '11,500+', description: 'Registered in Greenwich' },
-            { label: 'Average Loan', value: '£36,000', description: 'For Greenwich applications' }
+            { label: 'Businesses', value: '11,500+', description: 'Registered in Greenwich' }
         ],
         faqs: [
             {
@@ -689,7 +677,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'E',
         population: '350,000',
-        description: 'Business finance for Newham\'s Olympic Park businesses and beyond. We connect Stratford enterprises, ExCeL exhibitors, and local SMEs with funding from £5,000 to £500,000.',
+        description: 'Business finance for Newham\'s Olympic Park businesses and beyond. We connect Stratford enterprises, ExCeL exhibitors, and local SMEs with funding from £25,000 to £500,000.',
         overview: 'Newham has been transformed by Olympic investment, with Stratford becoming a major commercial centre and the ExCeL arena establishing East London as a key events destination.',
         localEconomy: 'The Queen Elizabeth Olympic Park has created a significant commercial cluster. ExCeL drives events and exhibitions business, while traditional sectors like manufacturing and logistics remain important in areas like Beckton.',
         businessTypes: [
@@ -713,8 +701,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Olympic Legacy', value: '£15bn+', description: 'Investment since 2012' },
             { label: 'ExCeL Events', value: '400+', description: 'Annual exhibitions' },
-            { label: 'Businesses', value: '14,000+', description: 'Registered in Newham' },
-            { label: 'Average Loan', value: '£34,000', description: 'For Newham applications' }
+            { label: 'Businesses', value: '14,000+', description: 'Registered in Newham' }
         ],
         faqs: [
             {
@@ -731,7 +718,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'W',
         population: '340,000',
-        description: 'Business finance for Ealing enterprises from the famous studios to local high streets. We connect film production, business services, and retail with funding from £5,000 to £500,000.',
+        description: 'Business finance for Ealing enterprises from the famous studios to local high streets. We connect film production, business services, and retail with funding from £25,000 to £500,000.',
         overview: 'Ealing combines its famous film studio heritage with a diverse local economy spanning business services, healthcare, retail, and the borough\'s strong South Asian business community.',
         localEconomy: 'Ealing Studios maintains the area\'s film heritage, while the local economy is driven by business services, retail across multiple high streets, and a significant South Asian business community particularly in Southall.',
         businessTypes: [
@@ -755,8 +742,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '16,000+', description: 'Registered in Ealing' },
             { label: 'Film Heritage', value: '1902', description: 'Studios founded' },
-            { label: 'High Streets', value: '10+', description: 'Major shopping areas' },
-            { label: 'Average Loan', value: '£37,000', description: 'For Ealing applications' }
+            { label: 'High Streets', value: '10+', description: 'Major shopping areas' }
         ],
         faqs: [
             {
@@ -773,7 +759,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'UB',
         population: '310,000',
-        description: 'Business finance for Hillingdon companies from Heathrow\'s aviation ecosystem to Uxbridge business parks. We connect local enterprises with funding from £5,000 to £500,000.',
+        description: 'Business finance for Hillingdon companies from Heathrow\'s aviation ecosystem to Uxbridge business parks. We connect local enterprises with funding from £25,000 to £500,000.',
         overview: 'Hillingdon is defined by Heathrow Airport, which drives aviation, logistics, and hospitality across the borough, while Uxbridge provides a more traditional commercial centre.',
         localEconomy: 'Heathrow creates a massive local economy: aviation services, logistics, hospitality, and corporate offices for companies requiring airport access. Beyond the airport, Uxbridge hosts professional services and retail.',
         businessTypes: [
@@ -797,8 +783,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Heathrow Jobs', value: '76,000+', description: 'Direct airport employment' },
             { label: 'Cargo', value: '1.5m tonnes', description: 'Annual freight through Heathrow' },
-            { label: 'Businesses', value: '13,000+', description: 'Registered in Hillingdon' },
-            { label: 'Average Loan', value: '£41,000', description: 'For Hillingdon applications' }
+            { label: 'Businesses', value: '13,000+', description: 'Registered in Hillingdon' }
         ],
         faqs: [
             {
@@ -815,7 +800,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'TW',
         population: '200,000',
-        description: 'Business finance for Richmond upon Thames enterprises. We connect professional services, hospitality, and independent retailers with funding from £5,000 to £500,000.',
+        description: 'Business finance for Richmond upon Thames enterprises. We connect professional services, hospitality, and independent retailers with funding from £25,000 to £500,000.',
         overview: 'Richmond upon Thames is one of London\'s most prosperous boroughs, with thriving high streets in Richmond, Twickenham, and Teddington serving an affluent local population.',
         localEconomy: 'Professional services, high-end hospitality, and independent retail serve the borough\'s affluent residents. Healthcare is significant around various private providers, while education employment centres on St Mary\'s University.',
         businessTypes: [
@@ -839,8 +824,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '15,000+', description: 'Registered in Richmond' },
             { label: 'Average Income', value: 'Top 5', description: 'London borough affluence' },
-            { label: 'Independent Shops', value: '500+', description: 'Local retailers' },
-            { label: 'Average Loan', value: '£46,000', description: 'For Richmond applications' }
+            { label: 'Independent Shops', value: '500+', description: 'Local retailers' }
         ],
         faqs: [
             {
@@ -857,7 +841,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         countySlug: 'greater-london',
         postcode: 'CR',
         population: '390,000',
-        description: 'Business finance for Croydon enterprises. From professional services in the town centre to independent businesses across the borough, we connect local companies with funding from £5,000 to £500,000.',
+        description: 'Business finance for Croydon enterprises. From professional services in the town centre to independent businesses across the borough, we connect local companies with funding from £25,000 to £500,000.',
         overview: 'Croydon is South London\'s largest commercial centre, with ongoing regeneration transforming the town centre while maintaining strong suburban business communities.',
         localEconomy: 'Professional services, retail, and the public sector anchor Croydon\'s economy. The ongoing regeneration is attracting tech and creative businesses, while healthcare and education remain significant employers.',
         businessTypes: [
@@ -881,8 +865,7 @@ Gentrification has pushed business rates higher across the borough, making effic
         stats: [
             { label: 'Businesses', value: '17,500+', description: 'Registered in Croydon' },
             { label: 'Office Space', value: '1.5m sqft', description: 'Commercial property' },
-            { label: 'Regeneration', value: '£5.25bn', description: 'Planned investment' },
-            { label: 'Average Loan', value: '£33,000', description: 'For Croydon applications' }
+            { label: 'Regeneration', value: '£5.25bn', description: 'Planned investment' }
         ],
         faqs: [
             {

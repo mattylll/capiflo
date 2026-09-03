@@ -9,7 +9,7 @@ export const northWestTowns: Town[] = [
         countySlug: 'greater-manchester',
         postcode: 'M',
         population: '550,000',
-        description: 'Business loans and commercial finance for Manchester SMEs. The UK\'s second-largest business hub, we connect Manchester companies with 120+ UK lenders for funding from £5,000 to £500,000.',
+        description: 'Business loans and commercial finance for Manchester SMEs. The UK\'s second-largest business hub, we connect Manchester companies with 120+ UK lenders for funding from £25,000 to £500,000.',
         overview: 'Manchester is the UK\'s second city and the economic powerhouse of the North, with a £70 billion economy spanning financial services, tech, creative industries, life sciences, and professional services.',
         extendedOverview: `Manchester has transformed from its industrial heritage into one of Europe's most dynamic business cities, consistently ranked among the best places to start and grow a business outside London.
 
@@ -97,7 +97,6 @@ For funding purposes, Manchester businesses benefit from lenders' strong familia
         stats: [
             { label: 'Economic Output', value: '£70bn', description: 'Greater Manchester GVA' },
             { label: 'Businesses', value: '115,000+', description: 'VAT-registered across Greater Manchester' },
-            { label: 'Average Loan', value: '£52,000', description: 'For Manchester business applications' },
             { label: 'Tech Jobs', value: '70,000+', description: 'In digital and creative sectors' }
         ],
         caseStudy: {
@@ -105,11 +104,11 @@ For funding purposes, Manchester businesses benefit from lenders' strong familia
             businessType: 'Digital Marketing Agency',
             location: 'MediaCityUK, Salford',
             challenge: 'A 20-person digital agency won a major contract with a national retailer but needed to hire 10 additional specialists within 6 weeks. The directors had equity offers but preferred to retain ownership.',
-            solution: 'We arranged a £120,000 unsecured business loan with a 48-month term. The lender understood digital agency cash flows and offered a 3-month repayment holiday to allow the team to be recruited and generating revenue.',
+            solution: 'A £120,000 unsecured business loan over 48 months would be the likely route, placed with a lender familiar with agency cash flows and open to a short repayment holiday while the new team is recruited.',
             fundingType: 'Unsecured Business Loan',
             amount: '£120,000',
-            result: 'The agency successfully hired the team, delivered the contract, and has grown to 45 staff. They\'ve since used the lender relationship for additional working capital as they\'ve scaled.',
-            timeframe: '6 days to funding'
+            result: 'The agency could hire the team and deliver the contract without giving up equity, building a lender relationship it can return to for working capital as it scales.',
+            timeframe: 'Typically 5 to 10 days to funding'
         },
         faqs: [
             {
@@ -162,7 +161,7 @@ For funding purposes, Manchester businesses benefit from lenders' strong familia
         countySlug: 'greater-manchester',
         postcode: 'M',
         population: '260,000',
-        description: 'Business funding for Salford companies, home to MediaCityUK and Europe\'s largest media hub. We connect Salford businesses with 120+ UK lenders for funding from £5,000 to £500,000.',
+        description: 'Business funding for Salford companies, home to MediaCityUK and Europe\'s largest media hub. We connect Salford businesses with 120+ UK lenders for funding from £25,000 to £500,000.',
         overview: 'Salford has transformed from industrial heartland to digital media powerhouse, anchored by MediaCityUK which hosts BBC, ITV, and hundreds of digital companies.',
         extendedOverview: `Salford's transformation is one of the UK's most remarkable regeneration stories, with MediaCityUK establishing the city as a global media and digital hub.
 
@@ -195,7 +194,6 @@ Salford Quays has become a prime commercial location with ongoing development br
         stats: [
             { label: 'Media Jobs', value: '25,000+', description: 'At MediaCityUK and surrounds' },
             { label: 'Digital Companies', value: '500+', description: 'Based at MediaCityUK' },
-            { label: 'Average Loan', value: '£45,000', description: 'For Salford business applications' },
             { label: 'Investment', value: '£1bn+', description: 'In Salford Quays development' }
         ],
         faqs: [
@@ -258,8 +256,7 @@ Retail and hospitality across Stockport's town centre and local high streets dri
         stats: [
             { label: 'Businesses', value: '15,000+', description: 'Registered in Stockport' },
             { label: 'Regeneration', value: '£1bn', description: 'Town centre investment' },
-            { label: 'Manufacturing', value: '2,000+', description: 'Manufacturing businesses' },
-            { label: 'Average Loan', value: '£38,000', description: 'For Stockport applications' }
+            { label: 'Manufacturing', value: '2,000+', description: 'Manufacturing businesses' }
         ],
         faqs: [
             {
@@ -317,8 +314,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         stats: [
             { label: 'Businesses', value: '12,000+', description: 'Registered in Bolton' },
             { label: 'Manufacturing', value: '1,500+', description: 'Manufacturing businesses' },
-            { label: 'University', value: '10,000+', description: 'Students at University of Bolton' },
-            { label: 'Average Loan', value: '£36,000', description: 'For Bolton applications' }
+            { label: 'University', value: '10,000+', description: 'Students at University of Bolton' }
         ],
         faqs: [
             {
@@ -351,8 +347,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for growth', 'Asset finance for machinery', 'Stock finance for retailers'],
         stats: [
             { label: 'Businesses', value: '8,000+', description: 'Registered in Oldham' },
-            { label: 'Manufacturing', value: '800+', description: 'Manufacturing businesses' },
-            { label: 'Average Loan', value: '£32,000', description: 'For Oldham applications' }
+            { label: 'Manufacturing', value: '800+', description: 'Manufacturing businesses' }
         ],
         faqs: [
             { question: 'Are there specific funding programmes for Oldham businesses?', answer: 'Oldham businesses can access regional funding programmes alongside standard business loans, with support available through local business growth hubs. We can help identify appropriate options.' },
@@ -375,8 +370,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         fundingHighlights: ['Equipment finance for manufacturers', 'Vehicle finance for distribution', 'Working capital for growth', 'Asset finance for machinery'],
         stats: [
             { label: 'Businesses', value: '9,500+', description: 'Registered in Rochdale' },
-            { label: 'Heritage', value: '1844', description: 'Rochdale Pioneers founded' },
-            { label: 'Average Loan', value: '£34,000', description: 'For Rochdale applications' }
+            { label: 'Heritage', value: '1844', description: 'Rochdale Pioneers founded' }
         ],
         faqs: [
             { question: 'What documentation do Rochdale businesses need for a loan?', answer: 'Typically 3-6 months bank statements, proof of trading, and details of business directors. Requirements vary by lender and loan amount.' },
@@ -399,8 +393,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         fundingHighlights: ['Merchant cash advances for retailers', 'Working capital for hospitality', 'Stock finance for market traders', 'Growth capital for expanding businesses'],
         stats: [
             { label: 'Famous Market', value: '1444', description: 'Market charter granted' },
-            { label: 'Businesses', value: '7,500+', description: 'Registered in Bury' },
-            { label: 'Average Loan', value: '£31,000', description: 'For Bury applications' }
+            { label: 'Businesses', value: '7,500+', description: 'Registered in Bury' }
         ],
         faqs: [
             { question: 'Can Bury retail businesses get cash advances?', answer: 'Yes, Bury retail businesses with card payment terminals can access merchant cash advances based on card turnover, with flexible repayment.' },
@@ -423,8 +416,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         fundingHighlights: ['Equipment finance for manufacturers', 'Vehicle finance for logistics', 'Working capital for growth', 'Merchant cash advances for retail'],
         stats: [
             { label: 'Businesses', value: '10,000+', description: 'Registered in Wigan borough' },
-            { label: 'Manufacturing', value: '900+', description: 'Manufacturing businesses' },
-            { label: 'Average Loan', value: '£33,000', description: 'For Wigan applications' }
+            { label: 'Manufacturing', value: '900+', description: 'Manufacturing businesses' }
         ],
         faqs: [
             { question: 'How quickly can Wigan businesses access emergency funding?', answer: 'Emergency business funding can often be arranged within 24-48 hours for Wigan businesses with urgent cash flow needs.' },
@@ -445,8 +437,8 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Professional Services', 'Retail', 'Hospitality', 'Healthcare', 'Property', 'Creative Industries'],
         nearbyTowns: ['manchester', 'stretford', 'altrincham', 'urmston'],
         fundingHighlights: ['Working capital for professional services', 'Merchant cash advances for hospitality', 'Growth capital for expanding businesses'],
-        stats: [{ label: 'Businesses', value: '5,500+', description: 'Registered in Sale' }, { label: 'Average Loan', value: '£42,000', description: 'For Sale applications' }],
-        faqs: [{ question: 'What business loans are available in Sale?', answer: 'Sale businesses can access loans from £5,000 to £500,000, merchant cash advances, asset finance, and invoice finance.' }]
+        stats: [{ label: 'Businesses', value: '5,500+', description: 'Registered in Sale' }],
+        faqs: [{ question: 'What business loans are available in Sale?', answer: 'Sale businesses can access loans from £25,000 to £500,000, merchant cash advances, asset finance, and invoice finance.' }]
     },
 
     {
@@ -461,7 +453,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Leisure & Entertainment', 'Retail', 'Hospitality', 'Professional Services', 'Property'],
         nearbyTowns: ['manchester', 'sale', 'urmston', 'old-trafford'],
         fundingHighlights: ['Merchant cash advances for hospitality', 'Working capital for retail', 'Equipment finance for leisure'],
-        stats: [{ label: 'Old Trafford', value: '74,000', description: 'Stadium capacity' }, { label: 'Average Loan', value: '£35,000', description: 'For Stretford applications' }],
+        stats: [{ label: 'Old Trafford', value: '74,000', description: 'Stadium capacity' }],
         faqs: [{ question: 'How can Stretford hospitality businesses access funding?', answer: 'Hospitality businesses can access merchant cash advances and working capital loans to manage match day cash flow peaks.' }]
     },
 
@@ -477,7 +469,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Manufacturing', 'Retail', 'Logistics', 'Healthcare', 'Professional Services', 'Construction'],
         nearbyTowns: ['wigan', 'manchester', 'warrington', 'bolton'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Vehicle finance for logistics', 'Working capital for growth'],
-        stats: [{ label: 'Businesses', value: '3,500+', description: 'Registered in Leigh' }, { label: 'Average Loan', value: '£30,000', description: 'For Leigh applications' }],
+        stats: [{ label: 'Businesses', value: '3,500+', description: 'Registered in Leigh' }],
         faqs: [{ question: 'What funding is available for Leigh manufacturers?', answer: 'Manufacturers can access equipment finance, working capital, and growth funding.' }]
     },
 
@@ -493,7 +485,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Hospitality', 'Professional Services', 'Food & Drink', 'Healthcare', 'Creative'],
         nearbyTowns: ['salford', 'manchester', 'swinton', 'stretford'],
         fundingHighlights: ['Merchant cash advances for hospitality', 'Working capital for retail', 'Growth capital for expanding businesses'],
-        stats: [{ label: 'Eccles Cakes', value: '1793', description: 'First documented' }, { label: 'Average Loan', value: '£29,000', description: 'For Eccles applications' }],
+        stats: [{ label: 'Eccles Cakes', value: '1793', description: 'First documented' }],
         faqs: [{ question: 'What funding suits Eccles retail businesses?', answer: 'Retail businesses can access merchant cash advances and working capital loans.' }]
     },
 
@@ -509,7 +501,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Manufacturing', 'Retail', 'Professional Services', 'Healthcare', 'Construction', 'Engineering'],
         nearbyTowns: ['stockport', 'ashton-under-lyne', 'denton', 'glossop'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for growth', 'Asset finance for machinery'],
-        stats: [{ label: 'Businesses', value: '2,800+', description: 'Registered in Hyde' }, { label: 'Average Loan', value: '£31,000', description: 'For Hyde applications' }],
+        stats: [{ label: 'Businesses', value: '2,800+', description: 'Registered in Hyde' }],
         faqs: [{ question: 'Can Hyde manufacturers access equipment finance?', answer: 'Yes, manufacturers can access asset finance and equipment leasing with flexible terms.' }]
     },
 
@@ -525,8 +517,8 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Manufacturing', 'Distribution', 'Healthcare', 'Professional Services'],
         nearbyTowns: ['rochdale', 'manchester', 'oldham', 'heywood'],
         fundingHighlights: ['Stock finance for retailers', 'Equipment finance for manufacturers', 'Working capital for growth'],
-        stats: [{ label: 'Businesses', value: '3,200+', description: 'Registered in Middleton' }, { label: 'Average Loan', value: '£28,000', description: 'For Middleton applications' }],
-        faqs: [{ question: 'What funding is available for Middleton businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' }]
+        stats: [{ label: 'Businesses', value: '3,200+', description: 'Registered in Middleton' }],
+        faqs: [{ question: 'What funding is available for Middleton businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' }]
     },
 
     {
@@ -541,7 +533,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Manufacturing', 'Retail', 'Professional Services', 'Healthcare', 'Logistics', 'Construction'],
         nearbyTowns: ['manchester', 'stockport', 'hyde', 'droylsden'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Vehicle finance for logistics', 'Working capital for growth'],
-        stats: [{ label: 'Businesses', value: '2,600+', description: 'Registered in Denton' }, { label: 'Average Loan', value: '£29,000', description: 'For Denton applications' }],
+        stats: [{ label: 'Businesses', value: '2,600+', description: 'Registered in Denton' }],
         faqs: [{ question: 'How can Denton businesses access working capital?', answer: 'Businesses can access working capital through loans, invoice finance, and overdrafts.' }]
     },
 
@@ -557,7 +549,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Manufacturing', 'Retail', 'Healthcare', 'Professional Services', 'Construction'],
         nearbyTowns: ['rochdale', 'bury', 'middleton', 'manchester'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for healthcare', 'Stock finance for retailers'],
-        stats: [{ label: 'Businesses', value: '2,100+', description: 'Registered in Heywood' }, { label: 'Average Loan', value: '£27,000', description: 'For Heywood applications' }],
+        stats: [{ label: 'Businesses', value: '2,100+', description: 'Registered in Heywood' }],
         faqs: [{ question: 'What funding suits Heywood healthcare businesses?', answer: 'Healthcare businesses can access practice loans, equipment finance, and working capital.' }]
     },
 
@@ -573,7 +565,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Independent Retail', 'Hospitality', 'Professional Services', 'Healthcare', 'Creative Industries'],
         nearbyTowns: ['manchester', 'bury', 'salford', 'whitefield'],
         fundingHighlights: ['Merchant cash advances for hospitality', 'Working capital for independent retailers', 'Growth capital for expanding businesses'],
-        stats: [{ label: 'Independent Shops', value: '150+', description: 'On the high street' }, { label: 'Average Loan', value: '£35,000', description: 'For Prestwich applications' }],
+        stats: [{ label: 'Independent Shops', value: '150+', description: 'On the high street' }],
         faqs: [{ question: 'What funding is available for Prestwich independent retailers?', answer: 'Independent retailers can access merchant cash advances and working capital loans.' }]
     },
 
@@ -589,7 +581,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Professional Services', 'Healthcare', 'Public Sector', 'Manufacturing', 'Construction'],
         nearbyTowns: ['manchester', 'oldham', 'stockport', 'stalybridge'],
         fundingHighlights: ['Working capital for growth', 'Merchant cash advances for retail', 'Equipment finance for manufacturers'],
-        stats: [{ label: 'Market', value: '1284', description: 'Market charter granted' }, { label: 'Average Loan', value: '£32,000', description: 'For Ashton applications' }],
+        stats: [{ label: 'Market', value: '1284', description: 'Market charter granted' }],
         faqs: [{ question: 'How can Ashton businesses access growth funding?', answer: 'Growing businesses can access loans, asset finance, and invoice finance.' }]
     },
 
@@ -605,7 +597,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Hospitality', 'Professional Services', 'Healthcare', 'Property'],
         nearbyTowns: ['manchester', 'stretford', 'sale', 'irlam'],
         fundingHighlights: ['Merchant cash advances for hospitality', 'Working capital for retail', 'Growth capital for expansion'],
-        stats: [{ label: 'Businesses', value: '2,400+', description: 'Registered in Urmston' }, { label: 'Average Loan', value: '£30,000', description: 'For Urmston applications' }],
+        stats: [{ label: 'Businesses', value: '2,400+', description: 'Registered in Urmston' }],
         faqs: [{ question: 'What funding suits Urmston hospitality businesses?', answer: 'Hospitality businesses can access merchant cash advances and seasonal working capital.' }]
     },
 
@@ -621,7 +613,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Manufacturing', 'Retail', 'Tourism', 'Healthcare', 'Professional Services', 'Hospitality'],
         nearbyTowns: ['ashton-under-lyne', 'hyde', 'glossop', 'mossley'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for tourism', 'Stock finance for retailers'],
-        stats: [{ label: 'Businesses', value: '1,800+', description: 'Registered in Stalybridge' }, { label: 'Average Loan', value: '£28,000', description: 'For Stalybridge applications' }],
+        stats: [{ label: 'Businesses', value: '1,800+', description: 'Registered in Stalybridge' }],
         faqs: [{ question: 'Can Stalybridge businesses access equipment finance?', answer: 'Yes, businesses can access asset finance and equipment leasing for machinery and vehicles.' }]
     },
 
@@ -637,8 +629,8 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Manufacturing', 'Healthcare', 'Professional Services', 'Construction'],
         nearbyTowns: ['bolton', 'manchester', 'bury', 'radcliffe'],
         fundingHighlights: ['Working capital for growth', 'Equipment finance for manufacturers', 'Stock finance for retailers'],
-        stats: [{ label: 'Businesses', value: '1,900+', description: 'Registered in Farnworth' }, { label: 'Average Loan', value: '£26,000', description: 'For Farnworth applications' }],
-        faqs: [{ question: 'What business loans are available in Farnworth?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' }]
+        stats: [{ label: 'Businesses', value: '1,900+', description: 'Registered in Farnworth' }],
+        faqs: [{ question: 'What business loans are available in Farnworth?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' }]
     },
 
     {
@@ -653,7 +645,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Manufacturing', 'Professional Services', 'Healthcare', 'Construction'],
         nearbyTowns: ['bury', 'bolton', 'manchester', 'prestwich'],
         fundingHighlights: ['Working capital for growth', 'Equipment finance for manufacturers', 'Merchant cash advances for retail'],
-        stats: [{ label: 'Businesses', value: '2,000+', description: 'Registered in Radcliffe' }, { label: 'Average Loan', value: '£27,000', description: 'For Radcliffe applications' }],
+        stats: [{ label: 'Businesses', value: '2,000+', description: 'Registered in Radcliffe' }],
         faqs: [{ question: 'How can Radcliffe businesses access working capital?', answer: 'Businesses can access working capital through loans, invoice finance, and overdrafts.' }]
     },
 
@@ -669,7 +661,7 @@ Retail and hospitality across Bolton town centre and local high streets need mer
         businessTypes: ['Retail', 'Leisure', 'Manufacturing', 'Professional Services', 'Hospitality', 'Engineering'],
         nearbyTowns: ['bolton', 'wigan', 'chorley', 'westhoughton'],
         fundingHighlights: ['Merchant cash advances for retail', 'Working capital for hospitality', 'Equipment finance for manufacturers'],
-        stats: [{ label: 'Stadium Capacity', value: '29,000', description: 'Bolton Wanderers' }, { label: 'Average Loan', value: '£29,000', description: 'For Horwich applications' }],
+        stats: [{ label: 'Stadium Capacity', value: '29,000', description: 'Bolton Wanderers' }],
         faqs: [{ question: 'What funding is available for Horwich retail businesses?', answer: 'Retail businesses can access merchant cash advances and working capital loans.' }]
     },
 
@@ -694,8 +686,7 @@ Beyond the market, Altrincham has strong professional services serving its afflu
         fundingHighlights: ['Merchant cash advances for market traders', 'Working capital for independents', 'Equipment finance for hospitality', 'Stock finance for retailers'],
         stats: [
             { label: 'Market Awards', value: 'Multiple', description: 'UK Market of the Year winner' },
-            { label: 'Independent Shops', value: '200+', description: 'On the high street' },
-            { label: 'Average Loan', value: '£38,000', description: 'For Altrincham applications' }
+            { label: 'Independent Shops', value: '200+', description: 'On the high street' }
         ],
         faqs: [
             { question: 'What funding suits Altrincham market traders?', answer: 'Market traders can access merchant cash advances based on card turnover, with flexible repayments.' },
@@ -728,19 +719,18 @@ Retail and hospitality in Preston city centre benefit from student spending and 
         fundingHighlights: ['Working capital for professional services', 'Equipment finance for manufacturers', 'Invoice finance for contractors', 'Growth capital for expanding businesses'],
         stats: [
             { label: 'UCLan Students', value: '32,000+', description: 'University population' },
-            { label: 'Businesses', value: '12,000+', description: 'Registered in Preston' },
-            { label: 'Average Loan', value: '£39,000', description: 'For Preston applications' }
+            { label: 'Businesses', value: '12,000+', description: 'Registered in Preston' }
         ],
         caseStudy: {
             title: 'Preston Manufacturing Growth',
             businessType: 'Precision Engineering',
             location: 'Preston, Lancashire',
             challenge: 'A 25-person precision engineering firm won a significant aerospace supply contract but needed to invest in CNC machinery to meet quality requirements.',
-            solution: 'We arranged £180,000 asset finance for the machinery with a 5-year term. The lender understood aerospace requirements and structured staged drawdowns.',
+            solution: 'Asset finance of around £180,000 secured on the machinery over a 5-year term would be the likely route, with a lender comfortable with aerospace-grade equipment and staged drawdowns if the kit arrives in phases.',
             fundingType: 'Asset Finance',
             amount: '£180,000',
-            result: 'The company successfully delivered the contract and has since won additional aerospace work. Employment has grown to 40 people.',
-            timeframe: '10 days to funding'
+            result: 'The firm could take on the contract with the machinery it needs while spreading the cost against the revenue the work generates.',
+            timeframe: 'Typically 1 to 2 weeks to funding'
         },
         faqs: [
             { question: 'What business support is available in Preston?', answer: 'Preston businesses can access Lancashire LEP support, local business growth hubs, and various funding programmes alongside commercial business loans.' },
@@ -772,8 +762,7 @@ Retail and hospitality in Blackburn town centre serve a wide catchment. Business
         fundingHighlights: ['Contract finance for aerospace suppliers', 'Equipment finance for manufacturers', 'Working capital for digital businesses', 'Growth funding for expansion'],
         stats: [
             { label: 'Enterprise Zone', value: 'Samlesbury', description: 'Aerospace hub' },
-            { label: 'Businesses', value: '9,000+', description: 'Registered in Blackburn' },
-            { label: 'Average Loan', value: '£37,000', description: 'For Blackburn applications' }
+            { label: 'Businesses', value: '9,000+', description: 'Registered in Blackburn' }
         ],
         faqs: [
             { question: 'Can Blackburn aerospace suppliers get contract finance?', answer: 'Yes, aerospace suppliers can access invoice finance and contract finance to manage cash flow when working on large contracts.' },
@@ -805,19 +794,18 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         stats: [
             { label: 'Annual Visitors', value: '18m', description: 'UK\'s most visited resort' },
             { label: 'Tourism Value', value: '£1.4bn', description: 'Annual economic impact' },
-            { label: 'Businesses', value: '8,500+', description: 'Registered in Blackpool' },
-            { label: 'Average Loan', value: '£34,000', description: 'For Blackpool applications' }
+            { label: 'Businesses', value: '8,500+', description: 'Registered in Blackpool' }
         ],
         caseStudy: {
             title: 'Blackpool Hotel Refurbishment',
             businessType: 'Seafront Hotel',
             location: 'Blackpool Promenade',
             challenge: 'A 50-room seafront hotel needed £75,000 to refurbish rooms before the summer season but had limited winter revenue.',
-            solution: 'We arranged a £75,000 business loan with a 6-month initial payment holiday, allowing the refurbishment to complete before summer trading began.',
+            solution: 'A £75,000 business loan with an initial payment holiday would be the likely route, so the refurbishment can complete before summer trading begins and repayments start once occupancy picks up.',
             fundingType: 'Business Loan with Holiday',
             amount: '£75,000',
-            result: 'The hotel achieved record summer occupancy with upgraded rooms commanding higher rates. The loan is being repaid from increased revenue.',
-            timeframe: '8 days to funding'
+            result: 'The hotel could open the season with upgraded rooms at higher rates and repay the facility from the stronger summer revenue.',
+            timeframe: 'Typically 1 to 2 weeks to funding'
         },
         faqs: [
             { question: 'How can Blackpool hotels access seasonal funding?', answer: 'Hotels can use merchant cash advances or flexible business loans to manage seasonal cash flow, with repayments that can flex with revenue.' },
@@ -840,8 +828,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         fundingHighlights: ['R&D funding for tech businesses', 'Working capital for spin-outs', 'Growth capital for expansion', 'Equipment finance for research'],
         stats: [
             { label: 'University Ranking', value: 'Top 15', description: 'UK university' },
-            { label: 'Businesses', value: '5,500+', description: 'Registered in Lancaster' },
-            { label: 'Average Loan', value: '£36,000', description: 'For Lancaster applications' }
+            { label: 'Businesses', value: '5,500+', description: 'Registered in Lancaster' }
         ],
         faqs: [
             { question: 'Can Lancaster tech startups access R&D funding?', answer: 'Yes, tech startups can access R&D tax credits, Innovate UK grants, and commercial funding tailored to high-growth businesses.' },
@@ -863,8 +850,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         fundingHighlights: ['Equipment finance for aerospace', 'Working capital for manufacturers', 'Growth funding for enterprises', 'Stock finance for retailers'],
         stats: [
             { label: 'Enterprise Award', value: 'Most Enterprising', description: 'UK recognition' },
-            { label: 'Businesses', value: '6,500+', description: 'Registered in Burnley' },
-            { label: 'Average Loan', value: '£33,000', description: 'For Burnley applications' }
+            { label: 'Businesses', value: '6,500+', description: 'Registered in Burnley' }
         ],
         faqs: [
             { question: 'What makes Burnley good for business funding?', answer: 'Burnley\'s enterprising culture and business support infrastructure means strong local knowledge and tailored funding solutions.' },
@@ -885,8 +871,8 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Manufacturing', 'Digital', 'Professional Services', 'Retail', 'Healthcare', 'Logistics'],
         nearbyTowns: ['preston', 'bolton', 'wigan', 'leyland'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for growth', 'Vehicle finance for logistics'],
-        stats: [{ label: 'Businesses', value: '5,000+', description: 'Registered in Chorley' }, { label: 'Average Loan', value: '£32,000', description: 'For Chorley applications' }],
-        faqs: [{ question: 'What business loans are available in Chorley?', answer: 'Chorley businesses can access loans from £5,000 to £500,000, asset finance, and working capital.' }]
+        stats: [{ label: 'Businesses', value: '5,000+', description: 'Registered in Chorley' }],
+        faqs: [{ question: 'What business loans are available in Chorley?', answer: 'Chorley businesses can access loans from £25,000 to £500,000, asset finance, and working capital.' }]
     },
 
     {
@@ -901,7 +887,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Manufacturing', 'Engineering', 'Retail', 'Healthcare', 'Professional Services'],
         nearbyTowns: ['blackburn', 'burnley', 'haslingden', 'oswaldtwistle'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for growth', 'Asset finance for machinery'],
-        stats: [{ label: 'Businesses', value: '3,500+', description: 'Registered in Accrington' }, { label: 'Average Loan', value: '£29,000', description: 'For Accrington applications' }],
+        stats: [{ label: 'Businesses', value: '3,500+', description: 'Registered in Accrington' }],
         faqs: [{ question: 'How can Accrington manufacturers access equipment finance?', answer: 'Manufacturers can access asset finance and equipment leasing with flexible repayment terms.' }]
     },
 
@@ -917,8 +903,8 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Manufacturing', 'Retail', 'Healthcare', 'Professional Services', 'Construction'],
         nearbyTowns: ['burnley', 'colne', 'barrowford', 'blackburn'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Working capital for growth', 'Stock finance for retailers'],
-        stats: [{ label: 'Businesses', value: '2,800+', description: 'Registered in Nelson' }, { label: 'Average Loan', value: '£27,000', description: 'For Nelson applications' }],
-        faqs: [{ question: 'What funding is available for Nelson businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £5,000 to £500,000.' }]
+        stats: [{ label: 'Businesses', value: '2,800+', description: 'Registered in Nelson' }],
+        faqs: [{ question: 'What funding is available for Nelson businesses?', answer: 'Businesses can access loans, asset finance, and working capital from £25,000 to £500,000.' }]
     },
 
     {
@@ -933,7 +919,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Retail', 'Tourism', 'Manufacturing', 'Healthcare', 'Professional Services', 'Hospitality'],
         nearbyTowns: ['nelson', 'burnley', 'skipton', 'keighley'],
         fundingHighlights: ['Working capital for tourism', 'Stock finance for retailers', 'Equipment finance for manufacturers'],
-        stats: [{ label: 'Businesses', value: '1,800+', description: 'Registered in Colne' }, { label: 'Average Loan', value: '£26,000', description: 'For Colne applications' }],
+        stats: [{ label: 'Businesses', value: '1,800+', description: 'Registered in Colne' }],
         faqs: [{ question: 'What funding suits Colne tourism businesses?', answer: 'Tourism businesses can access flexible funding with seasonal repayment structures.' }]
     },
 
@@ -949,7 +935,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Tourism', 'Golf & Leisure', 'Retail', 'Professional Services', 'Healthcare', 'Hospitality'],
         nearbyTowns: ['blackpool', 'preston', 'southport', 'kirkham'],
         fundingHighlights: ['Working capital for tourism', 'Equipment finance for golf businesses', 'Merchant cash advances for hospitality'],
-        stats: [{ label: 'Royal Lytham', value: 'Open Venue', description: 'Championship golf' }, { label: 'Average Loan', value: '£38,000', description: 'For Lytham applications' }],
+        stats: [{ label: 'Royal Lytham', value: 'Open Venue', description: 'Championship golf' }],
         faqs: [{ question: 'What funding is available for Lytham golf businesses?', answer: 'Golf and leisure businesses can access equipment finance, working capital, and growth funding.' }]
     },
 
@@ -965,7 +951,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Fishing', 'Food Processing', 'Tourism', 'Retail', 'Maritime', 'Hospitality'],
         nearbyTowns: ['blackpool', 'cleveleys', 'thornton', 'poulton-le-fylde'],
         fundingHighlights: ['Marine finance for vessels', 'Working capital for fishing', 'Equipment finance for processing'],
-        stats: [{ label: 'Fish Market', value: 'Active', description: 'One of UK\'s last' }, { label: 'Average Loan', value: '£30,000', description: 'For Fleetwood applications' }],
+        stats: [{ label: 'Fish Market', value: 'Active', description: 'One of UK\'s last' }],
         faqs: [{ question: 'What marine finance is available for Fleetwood boats?', answer: 'Fishing businesses can access marine finance for vessel purchase and equipment.' }]
     },
 
@@ -981,7 +967,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Manufacturing', 'Automotive', 'Retail', 'Professional Services', 'Logistics', 'Engineering'],
         nearbyTowns: ['preston', 'chorley', 'southport', 'ormskirk'],
         fundingHighlights: ['Equipment finance for automotive', 'Working capital for manufacturers', 'Vehicle finance for logistics'],
-        stats: [{ label: 'Heritage', value: 'Leyland Trucks', description: 'Automotive legacy' }, { label: 'Average Loan', value: '£34,000', description: 'For Leyland applications' }],
+        stats: [{ label: 'Heritage', value: 'Leyland Trucks', description: 'Automotive legacy' }],
         faqs: [{ question: 'What funding suits Leyland automotive businesses?', answer: 'Automotive businesses can access equipment finance, working capital, and growth funding.' }]
     },
 
@@ -997,7 +983,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Tourism', 'Hospitality', 'Retail', 'Healthcare', 'Leisure', 'Food & Drink'],
         nearbyTowns: ['lancaster', 'carnforth', 'heysham', 'kendal'],
         fundingHighlights: ['Seasonal working capital for hotels', 'Merchant cash advances for hospitality', 'Growth funding for Eden opportunity'],
-        stats: [{ label: 'Eden Project North', value: 'Coming', description: 'Major investment' }, { label: 'Average Loan', value: '£31,000', description: 'For Morecambe applications' }],
+        stats: [{ label: 'Eden Project North', value: 'Coming', description: 'Major investment' }],
         faqs: [{ question: 'How can Morecambe hotels access seasonal funding?', answer: 'Hotels can access merchant cash advances and flexible working capital to manage seasonal cash flow.' }]
     },
 
@@ -1013,7 +999,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Retail', 'Education', 'Hospitality', 'Professional Services', 'Healthcare', 'Food & Drink'],
         nearbyTowns: ['southport', 'liverpool', 'wigan', 'skelmersdale'],
         fundingHighlights: ['Working capital for term-time trade', 'Merchant cash advances for hospitality', 'Stock finance for retailers'],
-        stats: [{ label: 'Edge Hill', value: '25,000+', description: 'Students' }, { label: 'Average Loan', value: '£29,000', description: 'For Ormskirk applications' }],
+        stats: [{ label: 'Edge Hill', value: '25,000+', description: 'Students' }],
         faqs: [{ question: 'What funding suits Ormskirk student-focused businesses?', answer: 'Businesses can access working capital and growth funding to capitalise on term-time opportunities.' }]
     },
 
@@ -1029,7 +1015,7 @@ Retail across Blackpool serves both visitors and residents, requiring stock fina
         businessTypes: ['Distribution', 'Logistics', 'Manufacturing', 'Retail', 'Professional Services'],
         nearbyTowns: ['wigan', 'ormskirk', 'st-helens', 'liverpool'],
         fundingHighlights: ['Vehicle finance for logistics', 'Equipment finance for warehouses', 'Working capital for distribution'],
-        stats: [{ label: 'Distribution', value: 'Major Hub', description: 'National retailers' }, { label: 'Average Loan', value: '£35,000', description: 'For Skelmersdale applications' }],
+        stats: [{ label: 'Distribution', value: 'Major Hub', description: 'National retailers' }],
         faqs: [{ question: 'What fleet finance is available for Skelmersdale logistics?', answer: 'Logistics companies can access vehicle finance and fleet funding with flexible terms.' }]
     },
 
@@ -1058,19 +1044,18 @@ Professional services across the city centre serve the regional economy, requiri
         stats: [
             { label: 'Economic Output', value: '£35bn', description: 'Liverpool City Region GVA' },
             { label: 'Port Trade', value: '£13bn', description: 'Annual trade value' },
-            { label: 'Life Sciences Jobs', value: '7,000+', description: 'In Knowledge Quarter' },
-            { label: 'Average Loan', value: '£45,000', description: 'For Liverpool applications' }
+            { label: 'Life Sciences Jobs', value: '7,000+', description: 'In Knowledge Quarter' }
         ],
         caseStudy: {
             title: 'Liverpool Life Sciences Growth',
             businessType: 'Medical Devices',
             location: 'Liverpool Knowledge Quarter',
             challenge: 'A medical devices company needed £200,000 for regulatory approvals and initial production before NHS contract revenue would begin.',
-            solution: 'We arranged a £200,000 growth loan with interest-only payments for 12 months, structured around the expected contract start date.',
+            solution: 'A £200,000 growth loan with an interest-only period of up to 12 months would be the likely route, structured around the expected contract start date.',
             fundingType: 'Growth Loan',
             amount: '£200,000',
-            result: 'The company achieved regulatory approval, secured the NHS contract, and is now supplying multiple trusts. Employing 35 people.',
-            timeframe: '14 days to funding'
+            result: 'The company could fund approvals and initial production ahead of NHS revenue, moving to full repayments once the contract income begins.',
+            timeframe: 'Typically 2 to 3 weeks to funding'
         },
         faqs: [
             { question: 'What funding is available for Liverpool life science companies?', answer: 'Life science companies can access R&D funding, growth capital, and specialist technology loans. The Knowledge Quarter ecosystem provides additional support.' },
@@ -1092,7 +1077,7 @@ Professional services across the city centre serve the regional economy, requiri
         businessTypes: ['Maritime', 'Manufacturing', 'Retail', 'Professional Services', 'Healthcare', 'Logistics'],
         nearbyTowns: ['liverpool', 'wallasey', 'heswall', 'bebington'],
         fundingHighlights: ['Working capital for Freeport opportunities', 'Equipment finance for manufacturing', 'Vehicle finance for logistics'],
-        stats: [{ label: 'Freeport Status', value: 'Active', description: 'Liverpool City Region' }, { label: 'Average Loan', value: '£36,000', description: 'For Birkenhead applications' }],
+        stats: [{ label: 'Freeport Status', value: 'Active', description: 'Liverpool City Region' }],
         faqs: [{ question: 'How does Freeport status benefit Birkenhead businesses?', answer: 'Liverpool Freeport offers customs and tax benefits for businesses importing, exporting, or manufacturing in the zone.' }]
     },
 
@@ -1108,7 +1093,7 @@ Professional services across the city centre serve the regional economy, requiri
         businessTypes: ['Manufacturing', 'Glass Industry', 'Logistics', 'Retail', 'Healthcare', 'Professional Services'],
         nearbyTowns: ['liverpool', 'warrington', 'wigan', 'prescot'],
         fundingHighlights: ['Equipment finance for manufacturers', 'Vehicle finance for logistics', 'Working capital for growth'],
-        stats: [{ label: 'Glass Heritage', value: 'Pilkington', description: 'Global glass company' }, { label: 'Average Loan', value: '£34,000', description: 'For St Helens applications' }],
+        stats: [{ label: 'Glass Heritage', value: 'Pilkington', description: 'Global glass company' }],
         faqs: [{ question: 'Can St Helens manufacturers access machinery finance?', answer: 'Yes, manufacturers can access asset finance and equipment leasing with hire purchase and finance lease options.' }]
     },
 
@@ -1124,7 +1109,7 @@ Professional services across the city centre serve the regional economy, requiri
         businessTypes: ['Tourism', 'Hospitality', 'Retail', 'Healthcare', 'Professional Services', 'Golf & Leisure'],
         nearbyTowns: ['liverpool', 'ormskirk', 'formby', 'preston'],
         fundingHighlights: ['Seasonal working capital for tourism', 'Merchant cash advances for hospitality', 'Stock finance for retailers'],
-        stats: [{ label: 'Golf Courses', value: '12+', description: 'Championship quality' }, { label: 'Average Loan', value: '£33,000', description: 'For Southport applications' }],
+        stats: [{ label: 'Golf Courses', value: '12+', description: 'Championship quality' }],
         faqs: [{ question: 'What seasonal funding is available for Southport businesses?', answer: 'Tourism businesses can access flexible funding solutions that account for seasonal trading patterns.' }]
     },
 
@@ -1152,8 +1137,7 @@ Chester's proximity to North Wales and excellent transport links make it a natur
         fundingHighlights: ['Stock finance for retailers', 'Working capital for professional services', 'Merchant cash advances for hospitality', 'Fit-out finance for historic premises'],
         stats: [
             { label: 'Heritage', value: 'Roman City', description: '2000 years history' },
-            { label: 'Businesses', value: '8,500+', description: 'Registered in Chester' },
-            { label: 'Average Loan', value: '£42,000', description: 'For Chester applications' }
+            { label: 'Businesses', value: '8,500+', description: 'Registered in Chester' }
         ],
         faqs: [
             { question: 'What funding do Chester retailers need?', answer: 'Chester retailers often benefit from merchant cash advances for stock purchases and working capital loans to manage seasonal demand.' },
@@ -1182,8 +1166,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         fundingHighlights: ['Vehicle finance for logistics', 'Working capital for growth', 'Equipment finance for warehouses', 'Invoice finance for professional services'],
         stats: [
             { label: 'Location', value: 'Central UK', description: 'Motorway hub' },
-            { label: 'Financial Services', value: '15,000+', description: 'Jobs in sector' },
-            { label: 'Average Loan', value: '£44,000', description: 'For Warrington applications' }
+            { label: 'Financial Services', value: '15,000+', description: 'Jobs in sector' }
         ],
         faqs: [
             { question: 'Why is Warrington good for logistics businesses?', answer: 'Warrington\'s central UK location and motorway access make it ideal for logistics, with good access to funding for fleet and warehouse finance.' },
@@ -1203,7 +1186,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Automotive', 'Rail', 'Logistics', 'Manufacturing', 'Retail', 'Engineering'],
         nearbyTowns: ['nantwich', 'sandbach', 'congleton', 'stoke-on-trent'],
         fundingHighlights: ['Contract finance for automotive suppliers', 'Equipment finance for manufacturing', 'Working capital for growth'],
-        stats: [{ label: 'Bentley', value: '4,000+', description: 'Jobs at Crewe plant' }, { label: 'Average Loan', value: '£37,000', description: 'For Crewe applications' }],
+        stats: [{ label: 'Bentley', value: '4,000+', description: 'Jobs at Crewe plant' }],
         faqs: [{ question: 'Can Crewe automotive suppliers access supply chain finance?', answer: 'Yes, automotive suppliers can use invoice finance and supply chain finance to manage working capital when supplying large manufacturers.' }]
     },
 
@@ -1219,7 +1202,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Pharmaceuticals', 'Professional Services', 'Retail', 'Technology', 'Healthcare', 'Manufacturing'],
         nearbyTowns: ['stockport', 'congleton', 'wilmslow', 'buxton'],
         fundingHighlights: ['R&D funding for pharma', 'Working capital for growth', 'Equipment finance for laboratories'],
-        stats: [{ label: 'AstraZeneca', value: '2,500+', description: 'Jobs locally' }, { label: 'Average Loan', value: '£40,000', description: 'For Macclesfield applications' }],
+        stats: [{ label: 'AstraZeneca', value: '2,500+', description: 'Jobs locally' }],
         faqs: [{ question: 'What funding suits Macclesfield pharma companies?', answer: 'Pharmaceutical companies can access R&D funding, growth capital, and working capital for clinical trials and expansion.' }]
     },
 
@@ -1238,8 +1221,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         fundingHighlights: ['Working capital for food producers', 'Equipment finance for manufacturing', 'Agricultural finance', 'Stock finance for retailers'],
         stats: [
             { label: 'Catchment', value: '500,000+', description: 'Population served' },
-            { label: 'Businesses', value: '6,500+', description: 'Registered in Carlisle' },
-            { label: 'Average Loan', value: '£35,000', description: 'For Carlisle applications' }
+            { label: 'Businesses', value: '6,500+', description: 'Registered in Carlisle' }
         ],
         faqs: [
             { question: 'What funding is available for Carlisle food businesses?', answer: 'Food producers can access working capital loans, equipment finance, and growth funding to support production and distribution.' },
@@ -1261,8 +1243,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         fundingHighlights: ['Contract finance for defence suppliers', 'Equipment finance for engineering', 'Working capital for manufacturers'],
         stats: [
             { label: 'BAE Employment', value: '10,000+', description: 'Direct jobs' },
-            { label: 'Supply Chain', value: '£500m+', description: 'Annual spend locally' },
-            { label: 'Average Loan', value: '£38,000', description: 'For Barrow applications' }
+            { label: 'Supply Chain', value: '£500m+', description: 'Annual spend locally' }
         ],
         faqs: [
             { question: 'Can Barrow defence contractors access contract finance?', answer: 'Yes, defence contractors can use invoice finance and contract finance to manage cash flow on large government contracts.' },
@@ -1282,7 +1263,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Food & Drink', 'Tourism', 'Professional Services', 'Retail', 'Outdoor Recreation', 'Manufacturing'],
         nearbyTowns: ['windermere', 'lancaster', 'barrow-in-furness', 'penrith'],
         fundingHighlights: ['Working capital for food producers', 'Seasonal funding for tourism', 'Equipment finance for manufacturing'],
-        stats: [{ label: 'Food Heritage', value: 'Kendal Mint Cake', description: 'World famous' }, { label: 'Average Loan', value: '£33,000', description: 'For Kendal applications' }],
+        stats: [{ label: 'Food Heritage', value: 'Kendal Mint Cake', description: 'World famous' }],
         faqs: [{ question: 'How can Kendal tourism businesses manage seasonal cash flow?', answer: 'Tourism businesses can access flexible funding with seasonal repayment structures that align with peak trading periods.' }]
     },
 
@@ -1298,7 +1279,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Agriculture', 'Tourism', 'Retail', 'Food & Drink', 'Professional Services', 'Hospitality'],
         nearbyTowns: ['carlisle', 'kendal', 'keswick', 'appleby-in-westmorland'],
         fundingHighlights: ['Agricultural finance', 'Working capital for tourism', 'Stock finance for retailers'],
-        stats: [{ label: 'Eden Valley', value: 'Gateway', description: 'Market town' }, { label: 'Average Loan', value: '£30,000', description: 'For Penrith applications' }],
+        stats: [{ label: 'Eden Valley', value: 'Gateway', description: 'Market town' }],
         faqs: [{ question: 'What agricultural finance is available for Penrith farmers?', answer: 'Farmers can access agricultural loans, equipment finance for farm machinery, and working capital for seasonal needs.' }]
     },
 
@@ -1314,7 +1295,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Energy', 'Manufacturing', 'Retail', 'Tourism', 'Healthcare', 'Engineering'],
         nearbyTowns: ['whitehaven', 'cockermouth', 'maryport', 'carlisle'],
         fundingHighlights: ['Contract finance for energy sector', 'Equipment finance for manufacturing', 'Working capital for growth'],
-        stats: [{ label: 'Energy Sector', value: 'Growing', description: 'Sellafield proximity' }, { label: 'Average Loan', value: '£31,000', description: 'For Workington applications' }],
+        stats: [{ label: 'Energy Sector', value: 'Growing', description: 'Sellafield proximity' }],
         faqs: [{ question: 'Are there funding programmes for West Cumbria businesses?', answer: 'Yes, West Cumbria businesses can access regional funding programmes and commercial loans tailored to the local economy.' }]
     },
 
@@ -1330,7 +1311,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Nuclear', 'Energy', 'Tourism', 'Hospitality', 'Retail', 'Engineering'],
         nearbyTowns: ['workington', 'egremont', 'cockermouth', 'keswick'],
         fundingHighlights: ['Contract finance for nuclear sector', 'Working capital for energy businesses', 'Tourism investment'],
-        stats: [{ label: 'Sellafield', value: '10,000+', description: 'Jobs nearby' }, { label: 'Average Loan', value: '£33,000', description: 'For Whitehaven applications' }],
+        stats: [{ label: 'Sellafield', value: '10,000+', description: 'Jobs nearby' }],
         faqs: [{ question: 'What nuclear industry funding is available in Whitehaven?', answer: 'Nuclear sector businesses can access contract finance, working capital, and equipment loans for decommissioning and supply chain work.' }]
     },
 
@@ -1346,7 +1327,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Tourism', 'Hospitality', 'Outdoor Recreation', 'Retail', 'Food & Drink'],
         nearbyTowns: ['penrith', 'cockermouth', 'ambleside', 'whitehaven'],
         fundingHighlights: ['Seasonal working capital', 'Equipment finance for outdoor businesses', 'Merchant cash advances'],
-        stats: [{ label: 'Visitors', value: 'Millions', description: 'Annual tourism' }, { label: 'Average Loan', value: '£28,000', description: 'For Keswick applications' }],
+        stats: [{ label: 'Visitors', value: 'Millions', description: 'Annual tourism' }],
         faqs: [{ question: 'What seasonal funding is available for Keswick tourism businesses?', answer: 'Tourism businesses can access flexible working capital with repayment structures aligned to seasonal trading patterns.' }]
     },
 
@@ -1362,7 +1343,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Tourism', 'Hospitality', 'Leisure', 'Food & Drink', 'Retail', 'Property'],
         nearbyTowns: ['kendal', 'ambleside', 'bowness-on-windermere', 'keswick'],
         fundingHighlights: ['Premium hospitality finance', 'Property investment', 'Seasonal working capital'],
-        stats: [{ label: 'Lake Cruises', value: 'Major', description: 'Visitor attraction' }, { label: 'Average Loan', value: '£35,000', description: 'For Windermere applications' }],
+        stats: [{ label: 'Lake Cruises', value: 'Major', description: 'Visitor attraction' }],
         faqs: [{ question: 'What hospitality funding is available in Windermere?', answer: 'Hotels, restaurants, and leisure businesses can access property finance, equipment loans, and working capital for operations and upgrades.' }]
     },
 
@@ -1378,7 +1359,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Manufacturing', 'Pharmaceuticals', 'Tourism', 'Retail', 'Hospitality'],
         nearbyTowns: ['barrow-in-furness', 'kendal', 'grange-over-sands', 'coniston'],
         fundingHighlights: ['Equipment finance for manufacturing', 'Working capital for growth', 'Tourism business support'],
-        stats: [{ label: 'GSK', value: 'Major', description: 'Local employer' }, { label: 'Average Loan', value: '£30,000', description: 'For Ulverston applications' }],
+        stats: [{ label: 'GSK', value: 'Major', description: 'Local employer' }],
         faqs: [{ question: 'What manufacturing funding is available in Ulverston?', answer: 'Manufacturers can access equipment finance, working capital, and growth loans for business expansion.' }]
     },
 
@@ -1394,7 +1375,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Tourism', 'Food & Drink', 'Retail', 'Hospitality', 'Professional Services'],
         nearbyTowns: ['keswick', 'workington', 'whitehaven', 'maryport'],
         fundingHighlights: ['Working capital for tourism', 'Stock finance for retailers', 'Equipment finance for food businesses'],
-        stats: [{ label: 'Wordsworth', value: 'Birthplace', description: 'Heritage attraction' }, { label: 'Average Loan', value: '£27,000', description: 'For Cockermouth applications' }],
+        stats: [{ label: 'Wordsworth', value: 'Birthplace', description: 'Heritage attraction' }],
         faqs: [{ question: 'What tourism funding is available in Cockermouth?', answer: 'Tourism and hospitality businesses can access working capital, property finance, and growth loans.' }]
     },
 
@@ -1410,7 +1391,7 @@ Technology and digital businesses have grown alongside the major corporates, ben
         businessTypes: ['Outdoor Recreation', 'Tourism', 'Hospitality', 'Retail', 'Education'],
         nearbyTowns: ['windermere', 'keswick', 'grasmere', 'kendal'],
         fundingHighlights: ['Equipment finance for outdoor businesses', 'Seasonal working capital', 'Merchant cash advances'],
-        stats: [{ label: 'Outdoor Hub', value: 'Major', description: 'Walking and climbing' }, { label: 'Average Loan', value: '£26,000', description: 'For Ambleside applications' }],
+        stats: [{ label: 'Outdoor Hub', value: 'Major', description: 'Walking and climbing' }],
         faqs: [{ question: 'What outdoor business funding is available in Ambleside?', answer: 'Outdoor recreation businesses can access equipment finance, working capital, and growth loans for expansion.' }]
     }
 ];

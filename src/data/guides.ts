@@ -18,6 +18,8 @@ export type Guide = {
     relatedCalculator?: string;
     relatedFunding?: string;
     relatedGuides?: string[];
+    /** Platform-name disclaimer, shown under the guide CTA. */
+    platformDisclaimer?: boolean;
 };
 
 export const guideCategories: Record<GuideCategory, { label: string; description: string }> = {
@@ -150,7 +152,7 @@ export const guides: Guide[] = [
         updatedAt: '2026-06-03',
         relatedCalculator: 'vat-loan',
         relatedFunding: 'business-loans',
-        relatedGuides: ['what-is-invoice-finance', 'how-to-get-a-business-loan-uk']
+        relatedGuides: ['what-is-invoice-finance', 'how-to-get-a-business-loan-uk', 'serviced-accommodation-business-loans']
     },
     {
         slug: 'merchant-cash-advance-vs-loan',
@@ -166,7 +168,28 @@ export const guides: Guide[] = [
         updatedAt: '2026-06-03',
         relatedCalculator: 'merchant-cash-advance',
         relatedFunding: 'merchant-cash-advance',
-        relatedGuides: ['business-loan-credit-score', 'what-is-working-capital-finance']
+        relatedGuides: ['business-loan-credit-score', 'what-is-working-capital-finance', 'serviced-accommodation-business-loans']
+    },
+    {
+        slug: 'serviced-accommodation-business-loans',
+        category: 'cash-flow',
+        h1: 'Working capital for serviced accommodation operators',
+        metaTitle: 'Serviced Accommodation Business Loans | Operator Working Capital | Capiflo',
+        metaDescription:
+            'Working capital for UK serviced accommodation operators. How lenders read booking income and occupancy, and why this funds the business rather than a mortgage.',
+        excerpt:
+            'How working capital for a serviced accommodation operator differs from a mortgage, and which facilities fit booking income.',
+        keywords: [
+            'serviced accommodation business loan',
+            'serviced accommodation finance',
+            'working capital for serviced apartments',
+            'holiday let business finance'
+        ],
+        publishedAt: '2026-10-25',
+        updatedAt: '2026-10-25',
+        relatedFunding: 'business-loans',
+        relatedGuides: ['what-is-working-capital-finance', 'merchant-cash-advance-vs-loan'],
+        platformDisclaimer: true
     }
 ];
 

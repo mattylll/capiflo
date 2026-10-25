@@ -2,6 +2,7 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
 
 import FundingCalculatorCard, { type CalculatorVariant } from '@/components/funding/calculator-card';
+import { RichText } from '@/components/content/rich-text';
 import type { FundingSector } from '@/data/funding';
 import { Badge } from '@/registry/new-york-v4/ui/badge';
 import { Button } from '@/registry/new-york-v4/ui/button';
@@ -104,7 +105,9 @@ const SectorPage = ({ sector }: Props) => {
                     <div className='grid gap-6 lg:grid-cols-2'>
                         <Card className='rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 duration-500'>
                             <h2 className='text-2xl font-semibold text-foreground'>What is it?</h2>
-                            <p className='mt-4 text-muted-foreground'>{sector.whatItIs}</p>
+                            <p className='mt-4 text-muted-foreground'>
+                                <RichText text={sector.whatItIs} />
+                            </p>
                         </Card>
                         <Card className='rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 delay-100 duration-500'>
                             <h2 className='text-2xl font-semibold text-foreground'>Who it suits</h2>

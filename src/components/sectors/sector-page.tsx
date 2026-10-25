@@ -19,6 +19,7 @@ import {
     Users
 } from 'lucide-react';
 
+import { RichText } from '@/components/content/rich-text';
 import type { BusinessSector } from '@/data/sectors';
 import { sectorMap } from '@/data/sectors';
 import { FAQJsonLd, BreadcrumbJsonLd, ServiceJsonLd } from '@/components/seo/json-ld';
@@ -222,9 +223,13 @@ const SectorPage = ({ sector }: Props) => {
                         </h2>
                     </div>
                     <div className="prose prose-lg max-w-none text-muted-foreground">
-                        <p className="text-lg leading-relaxed">{sector.overview}</p>
+                        <p className="text-lg leading-relaxed">
+                            <RichText text={sector.overview} />
+                        </p>
                         {sector.overviewExtended?.map((paragraph, index) => (
-                            <p key={index} className="mt-4 text-base leading-relaxed">{paragraph}</p>
+                            <p key={index} className="mt-4 text-base leading-relaxed">
+                                <RichText text={paragraph} />
+                            </p>
                         ))}
                     </div>
                 </div>

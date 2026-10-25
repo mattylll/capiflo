@@ -5,6 +5,7 @@ import commercialMortgageDeposit from './commercial-mortgage-deposit';
 import howToGetABusinessLoanUk from './how-to-get-a-business-loan-uk';
 import invoiceFinanceVsFactoring from './invoice-finance-vs-factoring';
 import merchantCashAdvanceVsLoan from './merchant-cash-advance-vs-loan';
+import servicedAccommodationBusinessLoans from './serviced-accommodation-business-loans';
 import whatIsABridgingLoan from './what-is-a-bridging-loan';
 import whatIsInvoiceFinance from './what-is-invoice-finance';
 import whatIsWorkingCapitalFinance from './what-is-working-capital-finance';
@@ -18,5 +19,6 @@ export const guideContent: Record<string, ArticleContent> = {
     'what-is-a-bridging-loan': whatIsABridgingLoan,
     'commercial-mortgage-deposit': commercialMortgageDeposit,
     'what-is-working-capital-finance': whatIsWorkingCapitalFinance,
-    'merchant-cash-advance-vs-loan': merchantCashAdvanceVsLoan
+    'merchant-cash-advance-vs-loan': merchantCashAdvanceVsLoan,
+    'serviced-accommodation-business-loans': servicedAccommodationBusinessLoans
 };

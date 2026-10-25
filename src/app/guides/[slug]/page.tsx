@@ -10,6 +10,7 @@ import { fundingSectorMap } from '@/data/funding';
 import { getGuideContent, guideBySlug, guides } from '@/data/guides';
 import { ArticleBody } from '@/components/content/article-body';
 import { FaqSection } from '@/components/content/faq-section';
+import { RichText } from '@/components/content/rich-text';
 import { BreadcrumbJsonLd, FAQJsonLd, GuideArticleJsonLd } from '@/components/seo/json-ld';
 import { Button } from '@/registry/new-york-v4/ui/button';
 import { Card } from '@/registry/new-york-v4/ui/card';
@@ -56,7 +57,11 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
     const funding = guide.relatedFunding ? fundingSectorMap[guide.relatedFunding] : undefined;
     const related = (guide.relatedGuides ?? []).map(guideBySlug).filter(Boolean);
 
-    const wordCount = content.intro.concat(content.sections.flatMap((s) => s.body)).join(' ').split(/\s+/).length;
+    const wordCount = content.intro
+        .concat(content.sections.flatMap((s) => [...s.body, ...(s.subsections ?? []).flatMap((sub) => sub.body)]))
+        .join(' ')
+        .split(/\s+/)
+        .filter(Boolean).length;
     const readingTime = Math.max(1, Math.ceil(wordCount / 200));
 
     const breadcrumb = [
@@ -119,7 +124,7 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
                     <div className='space-y-4'>
                         {content.intro.map((p, i) => (
                             <p key={i} className='text-lg leading-relaxed text-muted-foreground'>
-                                {p}
+                                <RichText text={p} />
                             </p>
                         ))}
                     </div>
@@ -165,6 +170,12 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
                                 </Button>
                             )}
                         </div>
+                        {guide.platformDisclaimer ? (
+                            <p className='mt-4 text-xs leading-relaxed text-muted-foreground'>
+                                Capiflo is an independent third party and is not endorsed by or associated with Airbnb,
+                                Inc. or its affiliates.
+                            </p>
+                        ) : null}
                     </Card>
 
                     {related.length > 0 && (

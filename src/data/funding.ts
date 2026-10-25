@@ -32,7 +32,7 @@ export const fundingSectors: FundingSector[] = [
             'Compare high-street lenders, specialist funds, and alternative business finance options. Borrow between £25k and £5m with terms from 12 to 72 months and rapid underwriting for established firms.',
         keywords: ['business loans uk', 'uk business finance', 'compare business loans uk', 'best small business loans uk'],
         whatItIs:
-            'Traditional and alternative business loans that support growth, cash flow, projects, and refinancing. Choices include unsecured loans, secured lending, and cash-flow backed facilities.',
+            'Traditional and alternative business loans that support growth, cash flow, projects, and refinancing. Choices include unsecured loans, secured lending, and cash-flow backed facilities. Operators who need working capital for a serviced accommodation business, rather than a mortgage on the property, can read our [serviced accommodation business loans guide](/guides/serviced-accommodation-business-loans).',
         whoItsFor: [
             'Limited companies and LLPs with £75k–£20m turnover',
             'SMEs seeking business expansion funding or working capital',
@@ -74,7 +74,7 @@ export const fundingSectors: FundingSector[] = [
             'Ideal for card-heavy sectors such as hospitality and retail. Fund £25k–£500k with repayments linked to PDQ or e-commerce sales.',
         keywords: ['merchant cash advance uk', 'card machine loans uk', 'cash advance for SMEs', 'merchant cash advance vs loan'],
         whatItIs:
-            'A flexible funding facility where a provider advances a lump sum and recovers it via an agreed percentage of future card revenue. Capiflo arranges the advance; it does not provide the funds.',
+            'A flexible funding facility where a provider advances a lump sum and recovers it via an agreed percentage of future card revenue. Capiflo arranges the advance; it does not provide the funds. Where income arrives as platform payouts rather than card takings, see how that changes the product in our [serviced accommodation business loans guide](/guides/serviced-accommodation-business-loans).',
         whoItsFor: ['Hospitality, retail, and e-commerce brands', 'Businesses with £5k+ monthly card volume', 'Owners wanting repayments that flex with sales'],
         criteria: ['3+ months trading with card terminals', 'Consistent monthly revenue', 'Card processor statements'],
         calculator: {

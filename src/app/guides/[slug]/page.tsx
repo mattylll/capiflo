@@ -2,18 +2,18 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import { ArrowLeft, ArrowRight, CalendarCheck, ChevronRight } from 'lucide-react';
+
+import { calculatorBySlug } from '@/data/calculators';
+import { editorialAuthor } from '@/data/authors';
+import { fundingSectorMap } from '@/data/funding';
+import { getGuideContent, guideBySlug, guides } from '@/data/guides';
 import { ArticleBody } from '@/components/content/article-body';
 import { FaqSection } from '@/components/content/faq-section';
 import { RichText } from '@/components/content/rich-text';
 import { BreadcrumbJsonLd, FAQJsonLd, GuideArticleJsonLd } from '@/components/seo/json-ld';
-import { editorialAuthor } from '@/data/authors';
-import { calculatorBySlug } from '@/data/calculators';
-import { fundingSectorMap } from '@/data/funding';
-import { getGuideContent, guideBySlug, guides } from '@/data/guides';
 import { Button } from '@/registry/new-york-v4/ui/button';
 import { Card } from '@/registry/new-york-v4/ui/card';
-
-import { ArrowLeft, ArrowRight, CalendarCheck, ChevronRight } from 'lucide-react';
 
 type Params = Promise<{ slug: string }>;
 
@@ -82,34 +82,32 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
                 keywords={guide.keywords}
             />
             <BreadcrumbJsonLd items={breadcrumb} />
-            {content.faqs.length ? (
-                <FAQJsonLd faqs={content.faqs.map((f) => ({ question: f.q, answer: f.a }))} />
-            ) : null}
+            {content.faqs.length ? <FAQJsonLd faqs={content.faqs.map((f) => ({ question: f.q, answer: f.a }))} /> : null}
 
             {/* Header */}
             <section className='px-4 pt-12 lg:px-8 lg:pt-16'>
                 <article className='mx-auto max-w-3xl'>
-                    <nav className='text-muted-foreground flex items-center gap-1.5 text-sm' aria-label='Breadcrumb'>
+                    <nav className='flex items-center gap-1.5 text-sm text-muted-foreground' aria-label='Breadcrumb'>
                         {breadcrumb.map((item, i) => (
                             <span key={item.href} className='flex items-center gap-1.5'>
                                 {i > 0 && <ChevronRight className='h-3.5 w-3.5' />}
                                 {i < breadcrumb.length - 1 ? (
-                                    <Link href={item.href} className='hover:text-primary transition-colors'>
+                                    <Link href={item.href} className='transition-colors hover:text-primary'>
                                         {item.name}
                                     </Link>
                                 ) : (
-                                    <span className='text-foreground truncate'>{item.name}</span>
+                                    <span className='truncate text-foreground'>{item.name}</span>
                                 )}
                             </span>
                         ))}
                     </nav>
 
-                    <h1 className='text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tight sm:text-4xl lg:text-5xl'>
+                    <h1 className='mt-6 text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl'>
                         {guide.h1}
                     </h1>
-                    <p className='text-muted-foreground mt-5 text-lg leading-relaxed'>{guide.excerpt}</p>
+                    <p className='mt-5 text-lg leading-relaxed text-muted-foreground'>{guide.excerpt}</p>
 
-                    <div className='text-muted-foreground mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm'>
+                    <div className='mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground'>
                         <span>By {editorialAuthor.name}</span>
                         <span className='flex items-center gap-1.5'>
                             <CalendarCheck className='h-4 w-4' />
@@ -125,19 +123,17 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
                 <article className='mx-auto max-w-3xl'>
                     <div className='space-y-4'>
                         {content.intro.map((p, i) => (
-                            <p key={i} className='text-muted-foreground text-lg leading-relaxed'>
+                            <p key={i} className='text-lg leading-relaxed text-muted-foreground'>
                                 <RichText text={p} />
                             </p>
                         ))}
                     </div>
 
                     {calc && (
-                        <div className='border-primary/20 bg-primary/5 my-10 rounded-2xl border p-5'>
-                            <p className='text-muted-foreground text-sm'>
+                        <div className='my-10 rounded-2xl border border-primary/20 bg-primary/5 p-5'>
+                            <p className='text-sm text-muted-foreground'>
                                 Prefer to run the numbers?{' '}
-                                <Link
-                                    href={`/calculators/${calc.slug}`}
-                                    className='text-primary font-medium hover:underline'>
+                                <Link href={`/calculators/${calc.slug}`} className='font-medium text-primary hover:underline'>
                                     Try the {calc.shortName.toLowerCase()} calculator
                                 </Link>
                                 .
@@ -158,14 +154,14 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
             {/* Related + CTA */}
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-3xl space-y-12'>
-                    <Card className='border-primary/20 from-primary/10 via-primary/5 rounded-3xl bg-gradient-to-br to-transparent p-8 md:p-10'>
-                        <h2 className='text-foreground text-2xl font-semibold'>Talk it through with a specialist</h2>
-                        <p className='text-muted-foreground mt-4'>
-                            We compare options from 120+ UK lenders to find a fit for your business. No obligation, and
-                            it will not affect your credit score.
+                    <Card className='rounded-3xl border-primary/20 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent p-8 md:p-10'>
+                        <h2 className='text-2xl font-semibold text-foreground'>Talk it through with a specialist</h2>
+                        <p className='mt-4 text-muted-foreground'>
+                            We compare options from 120+ UK lenders to find a fit for your business. No obligation, and it
+                            will not affect your credit score.
                         </p>
                         <div className='mt-6 flex flex-col gap-3 sm:flex-row'>
-                            <Button size='lg' className='shadow-primary/25 h-12 px-8 text-base shadow-lg' asChild>
+                            <Button size='lg' className='h-12 px-8 text-base shadow-lg shadow-primary/25' asChild>
                                 <Link href='/contact'>Book a Funding Call</Link>
                             </Button>
                             {funding && (
@@ -175,7 +171,7 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
                             )}
                         </div>
                         {guide.platformDisclaimer ? (
-                            <p className='text-muted-foreground mt-4 text-xs leading-relaxed'>
+                            <p className='mt-4 text-xs leading-relaxed text-muted-foreground'>
                                 Capiflo is an independent third party and is not endorsed by or associated with Airbnb,
                                 Inc. or its affiliates.
                             </p>
@@ -184,15 +180,15 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
 
                     {related.length > 0 && (
                         <div>
-                            <h2 className='text-muted-foreground text-sm font-semibold tracking-wider uppercase'>
+                            <h2 className='text-sm font-semibold uppercase tracking-wider text-muted-foreground'>
                                 Related guides
                             </h2>
                             <div className='mt-4 grid gap-4 sm:grid-cols-2'>
                                 {related.map((g) => (
                                     <Link key={g!.slug} href={`/guides/${g!.slug}`} className='group'>
-                                        <Card className='border-border/50 hover:border-primary/30 hover:shadow-card-hover h-full rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1'>
-                                            <p className='text-foreground font-semibold'>{g!.h1}</p>
-                                            <p className='text-muted-foreground mt-2 text-sm'>{g!.excerpt}</p>
+                                        <Card className='h-full rounded-2xl border-border/50 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-card-hover'>
+                                            <p className='font-semibold text-foreground'>{g!.h1}</p>
+                                            <p className='mt-2 text-sm text-muted-foreground'>{g!.excerpt}</p>
                                         </Card>
                                     </Link>
                                 ))}
@@ -202,7 +198,7 @@ const GuideDetailPage = async ({ params }: { params: Params }) => {
 
                     <Link
                         href='/guides'
-                        className='text-muted-foreground hover:text-primary inline-flex items-center gap-2 text-sm transition-colors'>
+                        className='inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary'>
                         <ArrowLeft className='h-4 w-4' />
                         All guides
                     </Link>

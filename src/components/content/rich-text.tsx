@@ -33,13 +33,13 @@ export function RichText({ text }: { text: string }) {
         const href = match[2];
         if (isInternal(href)) {
             nodes.push(
-                <Link key={key} href={href} className='text-primary font-medium hover:underline'>
+                <Link key={key} href={href} className='font-medium text-primary hover:underline'>
                     {label}
                 </Link>
             );
         } else if (isAllowedExternal(href)) {
             nodes.push(
-                <a key={key} href={href} className='text-primary font-medium hover:underline'>
+                <a key={key} href={href} className='font-medium text-primary hover:underline'>
                     {label}
                 </a>
             );

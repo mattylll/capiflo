@@ -1,5 +1,5 @@
-import { guideContent } from '@/content/guides';
 import type { ArticleContent } from '@/data/content-types';
+import { guideContent } from '@/content/guides';
 
 export type GuideCategory = 'getting-funded' | 'invoice-finance' | 'property-finance' | 'cash-flow';
 
@@ -81,12 +81,9 @@ export const guides: Guide[] = [
         metaTitle: 'Invoice Discounting vs Factoring: Key Differences | Capiflo',
         metaDescription:
             'Invoice discounting and factoring both release cash from invoices, but differ on credit control, confidentiality and cost. Compare the two and see which fits.',
-        excerpt: 'The practical differences between invoice discounting and factoring, and how to choose between them.',
-        keywords: [
-            'invoice discounting vs factoring',
-            'invoice factoring vs discounting',
-            'difference between factoring and invoice discounting'
-        ],
+        excerpt:
+            'The practical differences between invoice discounting and factoring, and how to choose between them.',
+        keywords: ['invoice discounting vs factoring', 'invoice factoring vs discounting', 'difference between factoring and invoice discounting'],
         publishedAt: '2026-06-03',
         updatedAt: '2026-06-03',
         relatedCalculator: 'invoice-finance',
@@ -116,7 +113,8 @@ export const guides: Guide[] = [
         metaTitle: 'What Is a Bridging Loan? How They Work, Costs & Uses | Capiflo',
         metaDescription:
             'A bridging loan is short-term, property-secured finance. Learn how bridging loans work, what they cost, the role of the exit, and when they make sense.',
-        excerpt: 'How short-term bridging finance works, what it costs, and why the exit matters most.',
+        excerpt:
+            'How short-term bridging finance works, what it costs, and why the exit matters most.',
         keywords: ['what is a bridging loan', 'bridging loan uk', 'how do bridging loans work'],
         publishedAt: '2026-06-03',
         updatedAt: '2026-06-03',
@@ -131,12 +129,9 @@ export const guides: Guide[] = [
         metaTitle: 'Commercial Mortgage Deposit: How Much Do You Need? | Capiflo',
         metaDescription:
             'How much deposit do you need for a commercial mortgage? Typical loan-to-value limits, what affects the deposit, and where the money can come from.',
-        excerpt: 'Typical deposit and loan-to-value limits on a commercial mortgage, and how to fund the deposit.',
-        keywords: [
-            'commercial mortgage deposit',
-            'commercial mortgage deposit uk',
-            'how much deposit for commercial mortgage'
-        ],
+        excerpt:
+            'Typical deposit and loan-to-value limits on a commercial mortgage, and how to fund the deposit.',
+        keywords: ['commercial mortgage deposit', 'commercial mortgage deposit uk', 'how much deposit for commercial mortgage'],
         publishedAt: '2026-06-03',
         updatedAt: '2026-06-03',
         relatedCalculator: 'commercial-mortgage',
@@ -150,17 +145,14 @@ export const guides: Guide[] = [
         metaTitle: 'Working Capital Finance: Types, Uses & How It Works | Capiflo',
         metaDescription:
             'Working capital finance funds the day-to-day running of a business. Learn the main types, how each works, what they cost, and how to choose the right one.',
-        excerpt: 'The main types of working capital finance, what each is for, and how to pick the right facility.',
+        excerpt:
+            'The main types of working capital finance, what each is for, and how to pick the right facility.',
         keywords: ['working capital finance', 'what is working capital finance', 'working capital loan uk'],
         publishedAt: '2026-06-03',
         updatedAt: '2026-06-03',
         relatedCalculator: 'vat-loan',
         relatedFunding: 'business-loans',
-        relatedGuides: [
-            'what-is-invoice-finance',
-            'how-to-get-a-business-loan-uk',
-            'serviced-accommodation-business-loans'
-        ]
+        relatedGuides: ['what-is-invoice-finance', 'how-to-get-a-business-loan-uk', 'serviced-accommodation-business-loans']
     },
     {
         slug: 'merchant-cash-advance-vs-loan',
@@ -169,21 +161,14 @@ export const guides: Guide[] = [
         metaTitle: 'Merchant Cash Advance vs Loan: Which Suits Your SME? | Capiflo',
         metaDescription:
             'Compare a merchant cash advance with a traditional business loan: repayment structure, cost, speed, eligibility and when each option makes sense for UK SMEs.',
-        excerpt: 'Repayment structure, cost and speed compared, so you know when an advance beats a loan.',
-        keywords: [
-            'merchant cash advance vs loan',
-            'merchant cash advance vs business loan',
-            'is a merchant cash advance a loan'
-        ],
+        excerpt:
+            'Repayment structure, cost and speed compared, so you know when an advance beats a loan.',
+        keywords: ['merchant cash advance vs loan', 'merchant cash advance vs business loan', 'is a merchant cash advance a loan'],
         publishedAt: '2026-06-03',
         updatedAt: '2026-06-03',
         relatedCalculator: 'merchant-cash-advance',
         relatedFunding: 'merchant-cash-advance',
-        relatedGuides: [
-            'business-loan-credit-score',
-            'what-is-working-capital-finance',
-            'serviced-accommodation-business-loans'
-        ]
+        relatedGuides: ['business-loan-credit-score', 'what-is-working-capital-finance', 'serviced-accommodation-business-loans']
     },
     {
         slug: 'serviced-accommodation-business-loans',
@@ -212,4 +197,5 @@ export const guideBySlug = (slug: string): Guide | undefined => guides.find((g) 
 
 export const getGuideContent = (slug: string): ArticleContent | undefined => guideContent[slug];
 
-export const guidesByCategory = (category: GuideCategory): Guide[] => guides.filter((g) => g.category === category);
+export const guidesByCategory = (category: GuideCategory): Guide[] =>
+    guides.filter((g) => g.category === category);

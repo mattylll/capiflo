@@ -11,11 +11,11 @@ export function ArticleBody({ sections }: { sections: ArticleContent['sections']
         <div className='space-y-12'>
             {sections.map((section) => (
                 <section key={section.h}>
-                    <h2 className='text-foreground text-2xl font-semibold tracking-tight'>{section.h}</h2>
+                    <h2 className='text-2xl font-semibold tracking-tight text-foreground'>{section.h}</h2>
                     {section.body.length > 0 && (
                         <div className='mt-4 space-y-4'>
                             {section.body.map((paragraph, i) => (
-                                <p key={i} className='text-muted-foreground text-lg leading-relaxed'>
+                                <p key={i} className='text-lg leading-relaxed text-muted-foreground'>
                                     <RichText text={paragraph} />
                                 </p>
                             ))}
@@ -23,10 +23,10 @@ export function ArticleBody({ sections }: { sections: ArticleContent['sections']
                     )}
                     {section.subsections?.map((sub) => (
                         <div key={sub.h} className='mt-8'>
-                            <h3 className='text-foreground text-xl font-semibold tracking-tight'>{sub.h}</h3>
+                            <h3 className='text-xl font-semibold tracking-tight text-foreground'>{sub.h}</h3>
                             <div className='mt-4 space-y-4'>
                                 {sub.body.map((paragraph, i) => (
-                                    <p key={i} className='text-muted-foreground text-lg leading-relaxed'>
+                                    <p key={i} className='text-lg leading-relaxed text-muted-foreground'>
                                         <RichText text={paragraph} />
                                     </p>
                                 ))}

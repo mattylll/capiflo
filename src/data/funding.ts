@@ -30,12 +30,7 @@ export const fundingSectors: FundingSector[] = [
         hero: 'Flexible unsecured and secured business loans for SMEs trading in the UK.',
         description:
             'Compare high-street lenders, specialist funds, and alternative business finance options. Borrow between £25k and £5m with terms from 12 to 72 months and rapid underwriting for established firms.',
-        keywords: [
-            'business loans uk',
-            'uk business finance',
-            'compare business loans uk',
-            'best small business loans uk'
-        ],
+        keywords: ['business loans uk', 'uk business finance', 'compare business loans uk', 'best small business loans uk'],
         whatItIs:
             'Traditional and alternative business loans that support growth, cash flow, projects, and refinancing. Choices include unsecured loans, secured lending, and cash-flow backed facilities. Operators who need working capital for a serviced accommodation business, rather than a mortgage on the property, can read our [serviced accommodation business loans guide](/guides/serviced-accommodation-business-loans).',
         whoItsFor: [
@@ -51,15 +46,10 @@ export const fundingSectors: FundingSector[] = [
         ],
         calculator: {
             name: 'Business funding calculator',
-            description:
-                'Estimate borrowing capacity and headline repayments using revenue, profitability, and credit strength.',
+            description: 'Estimate borrowing capacity and headline repayments using revenue, profitability, and credit strength.',
             anchor: 'loan-range'
         },
-        useCases: [
-            'Refinance short-term business loans',
-            'Fund new hires or marketing',
-            'Bridge VAT or corporation tax bills'
-        ],
+        useCases: ['Refinance short-term business loans', 'Fund new hires or marketing', 'Bridge VAT or corporation tax bills'],
         faqs: [
             {
                 question: 'How fast can I receive funds?',
@@ -82,19 +72,10 @@ export const fundingSectors: FundingSector[] = [
         hero: 'Repay as a percentage of daily card takings with a UK merchant cash advance.',
         description:
             'Ideal for card-heavy sectors such as hospitality and retail. Fund £25k–£500k with repayments linked to PDQ or e-commerce sales.',
-        keywords: [
-            'merchant cash advance uk',
-            'card machine loans uk',
-            'cash advance for SMEs',
-            'merchant cash advance vs loan'
-        ],
+        keywords: ['merchant cash advance uk', 'card machine loans uk', 'cash advance for SMEs', 'merchant cash advance vs loan'],
         whatItIs:
             'A flexible funding facility where a provider advances a lump sum and recovers it via an agreed percentage of future card revenue. Capiflo arranges the advance; it does not provide the funds. Where income arrives as platform payouts rather than card takings, see how that changes the product in our [serviced accommodation business loans guide](/guides/serviced-accommodation-business-loans).',
-        whoItsFor: [
-            'Hospitality, retail, and e-commerce brands',
-            'Businesses with £5k+ monthly card volume',
-            'Owners wanting repayments that flex with sales'
-        ],
+        whoItsFor: ['Hospitality, retail, and e-commerce brands', 'Businesses with £5k+ monthly card volume', 'Owners wanting repayments that flex with sales'],
         criteria: ['3+ months trading with card terminals', 'Consistent monthly revenue', 'Card processor statements'],
         calculator: {
             name: 'Merchant cash advance calculator UK',
@@ -127,22 +108,14 @@ export const fundingSectors: FundingSector[] = [
         keywords: ['invoice finance uk', 'invoice discounting uk', 'invoice factoring uk', 'what is invoice finance'],
         whatItIs:
             'A revolving facility that advances cash against approved invoices. Choose confidential invoice discounting or full-service factoring.',
-        whoItsFor: [
-            'B2B companies invoicing on credit terms',
-            'Agencies, wholesalers, logistics firms',
-            'Businesses waiting 30–90 days for payment'
-        ],
+        whoItsFor: ['B2B companies invoicing on credit terms', 'Agencies, wholesalers, logistics firms', 'Businesses waiting 30–90 days for payment'],
         criteria: ['Minimum £250k annual turnover', 'Creditworthy debtors', 'Robust invoicing practices'],
         calculator: {
             name: 'Invoice finance calculator',
             description: 'Enter invoice value, advance %, and service fees to view upfront cash and total cost.',
             anchor: 'invoice'
         },
-        useCases: [
-            'Bridge long payment terms',
-            'Fund larger contracts without overdrafts',
-            'Support rapid hiring after big wins'
-        ],
+        useCases: ['Bridge long payment terms', 'Fund larger contracts without overdrafts', 'Support rapid hiring after big wins'],
         faqs: [
             {
                 question: 'Invoice factoring vs discounting?',
@@ -166,19 +139,9 @@ export const fundingSectors: FundingSector[] = [
         description:
             'Unlock equipment financing solutions that spread payments and keep capital free for hiring, R&D, or marketing.',
         keywords: ['asset finance', 'equipment financing', 'machinery finance', 'how does asset finance work'],
-        whatItIs:
-            'Funding structured around the asset you are buying. Includes hire purchase, finance lease, and operating lease.',
-        whoItsFor: [
-            'Manufacturing, construction, transport, healthcare',
-            'SMEs upgrading kit without large deposits',
-            'Businesses wanting predictable payments'
-        ],
-        criteria: [
-            'Asset located in the UK',
-            'Deposit 5–10%',
-            'Equipment age less than 7 years',
-            'Clean credit or additional security'
-        ],
+        whatItIs: 'Funding structured around the asset you are buying. Includes hire purchase, finance lease, and operating lease.',
+        whoItsFor: ['Manufacturing, construction, transport, healthcare', 'SMEs upgrading kit without large deposits', 'Businesses wanting predictable payments'],
+        criteria: ['Asset located in the UK', 'Deposit 5–10%', 'Equipment age less than 7 years', 'Clean credit or additional security'],
         calculator: {
             name: 'Asset finance calculator',
             description: 'Predict lease or hire purchase repayments using amount, deposit, and term.',
@@ -208,24 +171,15 @@ export const fundingSectors: FundingSector[] = [
         description:
             'Use tax funding facilities to protect cash flow, avoid HMRC penalties, and invest in growth during peak tax periods.',
         keywords: ['vat loans uk', 'vat loan calculator', 'fund vat bills', 'best loan for vat bill uk'],
-        whatItIs:
-            'Short-term business loans tailored to HMRC liabilities. Funds are paid directly to HMRC or to the business to settle upcoming VAT.',
-        whoItsFor: [
-            'Product businesses with seasonal spikes',
-            'Companies facing large VAT on imports',
-            'Fast-growing digital agencies'
-        ],
+        whatItIs: 'Short-term business loans tailored to HMRC liabilities. Funds are paid directly to HMRC or to the business to settle upcoming VAT.',
+        whoItsFor: ['Product businesses with seasonal spikes', 'Companies facing large VAT on imports', 'Fast-growing digital agencies'],
         criteria: ['Proof of VAT liability', 'Next return due within 60 days', 'Director guarantee'],
         calculator: {
             name: 'VAT loan calculator',
             description: 'Show repayments for 3–12 month VAT finance options.',
             anchor: 'vat'
         },
-        useCases: [
-            'Cover VAT on equipment purchases',
-            'Smooth cash flow during slower quarters',
-            'Avoid dipping into overdrafts'
-        ],
+        useCases: ['Cover VAT on equipment purchases', 'Smooth cash flow during slower quarters', 'Avoid dipping into overdrafts'],
         faqs: [
             {
                 question: 'Will you pay HMRC directly?',
@@ -250,11 +204,7 @@ export const fundingSectors: FundingSector[] = [
             'Corporation tax funding lets SMEs pay HMRC on time while preserving cash for payroll, stock, or acquisitions.',
         keywords: ['corporation tax loans uk', 'tax funding', 'finance my tax bill calculator', 'business tax funding'],
         whatItIs: 'Short-term loan tailored to upcoming corporation tax, repaid over 3–12 months.',
-        whoItsFor: [
-            'Profitable SMEs hit by lumpy tax payments',
-            'Companies with long debtor cycles',
-            'Businesses investing in expansion'
-        ],
+        whoItsFor: ['Profitable SMEs hit by lumpy tax payments', 'Companies with long debtor cycles', 'Businesses investing in expansion'],
         criteria: ['Confirmed tax liability with HMRC reference', 'Up-to-date accounts', 'Director guarantees'],
         calculator: {
             name: 'Corporation tax funding calculator',
@@ -285,13 +235,8 @@ export const fundingSectors: FundingSector[] = [
         description:
             'Move beyond bank declines with UK government-backed programs, angel-friendly debt, and crowdfunding style facilities.',
         keywords: ['start-up finance', 'funding for new businesses', 'loans for new company uk', 'start-up loans uk'],
-        whatItIs:
-            'Blended finance options aimed at companies trading under three years: Start Up Loans, secured lending, merchant cash, and revenue-share.',
-        whoItsFor: [
-            'Newly incorporated firms with viable plans',
-            'Companies needing fast approval after bank declines',
-            'Entrepreneurs with minimal assets'
-        ],
+        whatItIs: 'Blended finance options aimed at companies trading under three years: Start Up Loans, secured lending, merchant cash, and revenue-share.',
+        whoItsFor: ['Newly incorporated firms with viable plans', 'Companies needing fast approval after bank declines', 'Entrepreneurs with minimal assets'],
         criteria: ['Robust business plan and forecasts', 'Directors based in the UK', 'Personal credit review'],
         calculator: {
             name: 'How much can my business borrow?',
@@ -321,25 +266,10 @@ export const fundingSectors: FundingSector[] = [
         hero: 'Use commercial or investment property to access bridging or development finance.',
         description:
             'Short-term bridging loans, development finance, and property investment facilities for acquisitions, refurbishments, or ground-up schemes.',
-        keywords: [
-            'bridging loans uk',
-            'commercial bridging loans',
-            'development finance uk',
-            'property investment loans uk'
-        ],
-        whatItIs:
-            'Fast, asset-backed lending secured against residential, commercial, or mixed-use property, often interest-rollup.',
-        whoItsFor: [
-            'Developers needing quick completions',
-            'Businesses purchasing premises',
-            'Investors refinancing existing sites'
-        ],
-        criteria: [
-            'Property with UK title',
-            'Exit strategy (sale/refinance)',
-            'Valuation report',
-            'Planning consent for development'
-        ],
+        keywords: ['bridging loans uk', 'commercial bridging loans', 'development finance uk', 'property investment loans uk'],
+        whatItIs: 'Fast, asset-backed lending secured against residential, commercial, or mixed-use property, often interest-rollup.',
+        whoItsFor: ['Developers needing quick completions', 'Businesses purchasing premises', 'Investors refinancing existing sites'],
+        criteria: ['Property with UK title', 'Exit strategy (sale/refinance)', 'Valuation report', 'Planning consent for development'],
         calculator: {
             name: 'Bridging loan calculator',
             description: 'Review monthly interest, rolled-up cost, and exit requirements.',
@@ -368,29 +298,16 @@ export const fundingSectors: FundingSector[] = [
         hero: 'Specialist support for businesses facing cash flow stress, arrears, or urgent liabilities.',
         description:
             'Combine emergency business funding, restructuring partners, and alternative lenders to stabilise trading and protect jobs.',
-        keywords: [
-            'business struggling with cash flow',
-            'emergency business funding uk',
-            'declined business loan options uk',
-            'business rejected for loan'
-        ],
+        keywords: ['business struggling with cash flow', 'emergency business funding uk', 'declined business loan options uk', 'business rejected for loan'],
         whatItIs: 'Short-term bridge loans, secured facilities, and structured turnaround plans.',
-        whoItsFor: [
-            'Companies with pressing HMRC or supplier arrears',
-            'Businesses rejected by mainstream banks',
-            'Directors seeking breathing space'
-        ],
+        whoItsFor: ['Companies with pressing HMRC or supplier arrears', 'Businesses rejected by mainstream banks', 'Directors seeking breathing space'],
         criteria: ['Realistic turnaround plan', 'Visibility on debtor pipeline', 'Security or guarantees'],
         calculator: {
             name: 'Working capital calculator',
             description: 'Estimate the cash gap and funding needed to stabilise trading.',
             anchor: 'recovery'
         },
-        useCases: [
-            'Cover payroll during restructures',
-            'Pay down critical suppliers',
-            'Execute Company Voluntary Arrangements'
-        ],
+        useCases: ['Cover payroll during restructures', 'Pay down critical suppliers', 'Execute Company Voluntary Arrangements'],
         faqs: [
             {
                 question: 'Can you help with HMRC Time To Pay?',
@@ -413,18 +330,9 @@ export const fundingSectors: FundingSector[] = [
         hero: 'Scale faster with working capital loans, revenue finance, and strategic credit lines.',
         description:
             'Blend unsecured loans, revolving credit, and non-dilutive funding to fuel marketing, hiring, or acquisitions.',
-        keywords: [
-            'business growth loans',
-            'working capital loans uk',
-            'scale up funding',
-            'small business funding uk'
-        ],
+        keywords: ['business growth loans', 'working capital loans uk', 'scale up funding', 'small business funding uk'],
         whatItIs: 'Flexible growth loans tailored to high-performing SMEs needing capital for expansion.',
-        whoItsFor: [
-            'Scale-ups with recurring revenue',
-            'Regional businesses opening new locations',
-            'Companies seeking quick funding for campaigns'
-        ],
+        whoItsFor: ['Scale-ups with recurring revenue', 'Regional businesses opening new locations', 'Companies seeking quick funding for campaigns'],
         criteria: ['Consistent revenue and margins', 'Growth plan and KPIs', 'Directors with UK residency'],
         calculator: {
             name: 'Business growth calculator',

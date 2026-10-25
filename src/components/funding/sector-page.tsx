@@ -1,11 +1,13 @@
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
 
+import { RichText } from '@/components/content/rich-text';
 import FundingCalculatorCard, { type CalculatorVariant } from '@/components/funding/calculator-card';
 import type { FundingSector } from '@/data/funding';
 import { Badge } from '@/registry/new-york-v4/ui/badge';
 import { Button } from '@/registry/new-york-v4/ui/button';
 import { Card } from '@/registry/new-york-v4/ui/card';
+
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 type Props = {
     sector: FundingSector;
@@ -13,34 +15,32 @@ type Props = {
 
 const SectorPage = ({ sector }: Props) => {
     return (
-        <div className='space-y-20 md:space-y-24 pb-24'>
+        <div className='space-y-20 pb-24 md:space-y-24'>
             {/* Hero Section */}
             <section className='relative px-4 pt-20 lg:px-8 lg:pt-24'>
                 <div className='absolute inset-0 -z-10 opacity-60 blur-3xl'>
-                    <div className='absolute left-1/2 top-1/4 h-[400px] w-[400px] -translate-x-1/2 rounded-full bg-gradient-to-r from-primary/30 via-primary/20 to-transparent' />
+                    <div className='from-primary/30 via-primary/20 absolute top-1/4 left-1/2 h-[400px] w-[400px] -translate-x-1/2 rounded-full bg-gradient-to-r to-transparent' />
                 </div>
 
                 <div className='mx-auto max-w-6xl'>
                     <div className='grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-16'>
-                        <div className='flex flex-col justify-center animate-in fade-in slide-in-from-bottom-6 duration-700'>
+                        <div className='animate-in fade-in slide-in-from-bottom-6 flex flex-col justify-center duration-700'>
                             <div className='flex flex-wrap items-center gap-3'>
-                                <Badge variant='outline' className='text-xs uppercase tracking-widest'>
+                                <Badge variant='outline' className='text-xs tracking-widest uppercase'>
                                     Funding guide
                                 </Badge>
-                                <span className='text-sm text-muted-foreground'>
-                                    Updated for 2025 · UK SMEs
-                                </span>
+                                <span className='text-muted-foreground text-sm'>Updated for 2025 · UK SMEs</span>
                             </div>
-                            <h1 className='mt-6 text-4xl font-semibold leading-[1.1] tracking-tight text-foreground sm:text-5xl'>
+                            <h1 className='text-foreground mt-6 text-4xl leading-[1.1] font-semibold tracking-tight sm:text-5xl'>
                                 {sector.title}
                             </h1>
-                            <p className='mt-4 text-xl text-muted-foreground'>{sector.hero}</p>
-                            <p className='mt-4 text-muted-foreground'>{sector.description}</p>
+                            <p className='text-muted-foreground mt-4 text-xl'>{sector.hero}</p>
+                            <p className='text-muted-foreground mt-4'>{sector.description}</p>
                             <div className='mt-6 flex flex-wrap gap-2'>
                                 {sector.keywords.map((keyword) => (
                                     <span
                                         key={keyword}
-                                        className='rounded-full border border-border px-3 py-1 text-xs text-muted-foreground'>
+                                        className='border-border text-muted-foreground rounded-full border px-3 py-1 text-xs'>
                                         {keyword}
                                     </span>
                                 ))}
@@ -48,7 +48,7 @@ const SectorPage = ({ sector }: Props) => {
                             <div className='mt-8 flex flex-col gap-4 sm:flex-row'>
                                 <Button
                                     size='lg'
-                                    className='h-12 px-8 text-base shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/30'
+                                    className='shadow-primary/25 hover:shadow-primary/30 h-12 px-8 text-base shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-xl'
                                     asChild>
                                     <Link href='/contact'>Get Started</Link>
                                 </Button>
@@ -59,36 +59,30 @@ const SectorPage = ({ sector }: Props) => {
                         </div>
 
                         {/* Stats Card */}
-                        <Card className='rounded-3xl border-border/50 p-6 animate-in fade-in slide-in-from-bottom-8 delay-150 duration-700'>
-                            <h3 className='text-sm font-semibold uppercase tracking-wider text-primary'>
-                                Key stats
-                            </h3>
+                        <Card className='border-border/50 animate-in fade-in slide-in-from-bottom-8 rounded-3xl p-6 delay-150 duration-700'>
+                            <h3 className='text-primary text-sm font-semibold tracking-wider uppercase'>Key stats</h3>
                             <div className='mt-6 space-y-4'>
                                 {sector.stats.map((stat, index) => (
                                     <div
                                         key={stat.label}
-                                        className='rounded-2xl border border-border/50 bg-muted/30 p-4 animate-in fade-in slide-in-from-bottom-4 duration-500'
+                                        className='border-border/50 bg-muted/30 animate-in fade-in slide-in-from-bottom-4 rounded-2xl border p-4 duration-500'
                                         style={{ animationDelay: `${index * 100 + 200}ms` }}>
-                                        <p className='text-xs uppercase tracking-widest text-muted-foreground'>
+                                        <p className='text-muted-foreground text-xs tracking-widest uppercase'>
                                             {stat.label}
                                         </p>
-                                        <p className='mt-1 text-2xl font-semibold text-foreground'>
-                                            {stat.value}
-                                        </p>
+                                        <p className='text-foreground mt-1 text-2xl font-semibold'>{stat.value}</p>
                                     </div>
                                 ))}
                             </div>
-                            <div className='mt-6 border-t border-border/50 pt-6'>
-                                <p className='text-xs uppercase tracking-widest text-muted-foreground'>
+                            <div className='border-border/50 mt-6 border-t pt-6'>
+                                <p className='text-muted-foreground text-xs tracking-widest uppercase'>
                                     Recommended tool
                                 </p>
-                                <p className='mt-2 font-semibold text-foreground'>{sector.calculator.name}</p>
-                                <p className='mt-1 text-sm text-muted-foreground'>
-                                    {sector.calculator.description}
-                                </p>
+                                <p className='text-foreground mt-2 font-semibold'>{sector.calculator.name}</p>
+                                <p className='text-muted-foreground mt-1 text-sm'>{sector.calculator.description}</p>
                                 <Link
                                     href={`/calculators#${sector.calculator.anchor}`}
-                                    className='mt-3 inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline'>
+                                    className='text-primary mt-3 inline-flex items-center gap-2 text-sm font-medium hover:underline'>
                                     Jump to calculator
                                     <ArrowRight className='h-4 w-4' />
                                 </Link>
@@ -102,16 +96,18 @@ const SectorPage = ({ sector }: Props) => {
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-6xl'>
                     <div className='grid gap-6 lg:grid-cols-2'>
-                        <Card className='rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 duration-500'>
-                            <h2 className='text-2xl font-semibold text-foreground'>What is it?</h2>
-                            <p className='mt-4 text-muted-foreground'>{sector.whatItIs}</p>
+                        <Card className='border-border/50 animate-in fade-in slide-in-from-bottom-6 rounded-3xl p-8 duration-500'>
+                            <h2 className='text-foreground text-2xl font-semibold'>What is it?</h2>
+                            <p className='text-muted-foreground mt-4'>
+                                <RichText text={sector.whatItIs} />
+                            </p>
                         </Card>
-                        <Card className='rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 delay-100 duration-500'>
-                            <h2 className='text-2xl font-semibold text-foreground'>Who it suits</h2>
+                        <Card className='border-border/50 animate-in fade-in slide-in-from-bottom-6 rounded-3xl p-8 delay-100 duration-500'>
+                            <h2 className='text-foreground text-2xl font-semibold'>Who it suits</h2>
                             <ul className='mt-4 space-y-3'>
                                 {sector.whoItsFor.map((item) => (
                                     <li key={item} className='flex items-start gap-3'>
-                                        <CheckCircle2 className='mt-0.5 h-5 w-5 shrink-0 text-primary' />
+                                        <CheckCircle2 className='text-primary mt-0.5 h-5 w-5 shrink-0' />
                                         <span className='text-muted-foreground'>{item}</span>
                                     </li>
                                 ))}
@@ -135,20 +131,18 @@ const SectorPage = ({ sector }: Props) => {
             {/* Criteria */}
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-6xl'>
-                    <div className='mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700'>
-                        <p className='text-sm font-medium uppercase tracking-widest text-primary'>
-                            Requirements
-                        </p>
-                        <h2 className='mt-2 text-2xl font-semibold text-foreground'>Typical criteria</h2>
+                    <div className='animate-in fade-in slide-in-from-bottom-6 mb-8 duration-700'>
+                        <p className='text-primary text-sm font-medium tracking-widest uppercase'>Requirements</p>
+                        <h2 className='text-foreground mt-2 text-2xl font-semibold'>Typical criteria</h2>
                     </div>
-                    <Card className='rounded-3xl border-border/50 p-8 animate-in fade-in slide-in-from-bottom-6 duration-500'>
+                    <Card className='border-border/50 animate-in fade-in slide-in-from-bottom-6 rounded-3xl p-8 duration-500'>
                         <ul className='grid gap-4 md:grid-cols-2'>
                             {sector.criteria.map((item, index) => (
                                 <li
                                     key={item}
-                                    className='flex items-start gap-3 animate-in fade-in slide-in-from-bottom-4 duration-500'
+                                    className='animate-in fade-in slide-in-from-bottom-4 flex items-start gap-3 duration-500'
                                     style={{ animationDelay: `${index * 50}ms` }}>
-                                    <CheckCircle2 className='mt-0.5 h-5 w-5 shrink-0 text-primary' />
+                                    <CheckCircle2 className='text-primary mt-0.5 h-5 w-5 shrink-0' />
                                     <span className='text-muted-foreground'>{item}</span>
                                 </li>
                             ))}
@@ -160,17 +154,15 @@ const SectorPage = ({ sector }: Props) => {
             {/* Use Cases */}
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-6xl'>
-                    <div className='mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700'>
-                        <p className='text-sm font-medium uppercase tracking-widest text-primary'>
-                            Applications
-                        </p>
-                        <h2 className='mt-2 text-2xl font-semibold text-foreground'>Use cases</h2>
+                    <div className='animate-in fade-in slide-in-from-bottom-6 mb-8 duration-700'>
+                        <p className='text-primary text-sm font-medium tracking-widest uppercase'>Applications</p>
+                        <h2 className='text-foreground mt-2 text-2xl font-semibold'>Use cases</h2>
                     </div>
                     <div className='grid gap-4 md:grid-cols-3'>
                         {sector.useCases.map((item, index) => (
                             <Card
                                 key={item}
-                                className='rounded-3xl border-border/50 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover animate-in fade-in slide-in-from-bottom-6 duration-500'
+                                className='border-border/50 hover:shadow-card-hover animate-in fade-in slide-in-from-bottom-6 rounded-3xl p-6 transition-all duration-300 duration-500 hover:-translate-y-1'
                                 style={{ animationDelay: `${index * 100}ms` }}>
                                 <p className='text-foreground'>{item}</p>
                             </Card>
@@ -182,22 +174,18 @@ const SectorPage = ({ sector }: Props) => {
             {/* FAQs */}
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-6xl'>
-                    <div className='mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700'>
-                        <p className='text-sm font-medium uppercase tracking-widest text-primary'>
-                            Questions
-                        </p>
-                        <h2 className='mt-2 text-2xl font-semibold text-foreground'>
-                            Frequently asked questions
-                        </h2>
+                    <div className='animate-in fade-in slide-in-from-bottom-6 mb-8 duration-700'>
+                        <p className='text-primary text-sm font-medium tracking-widest uppercase'>Questions</p>
+                        <h2 className='text-foreground mt-2 text-2xl font-semibold'>Frequently asked questions</h2>
                     </div>
                     <div className='space-y-4'>
                         {sector.faqs.map((faq, index) => (
                             <Card
                                 key={faq.question}
-                                className='rounded-3xl border-border/50 p-6 animate-in fade-in slide-in-from-bottom-6 duration-500'
+                                className='border-border/50 animate-in fade-in slide-in-from-bottom-6 rounded-3xl p-6 duration-500'
                                 style={{ animationDelay: `${index * 100}ms` }}>
-                                <h3 className='text-lg font-semibold text-foreground'>{faq.question}</h3>
-                                <p className='mt-3 text-muted-foreground'>{faq.answer}</p>
+                                <h3 className='text-foreground text-lg font-semibold'>{faq.question}</h3>
+                                <p className='text-muted-foreground mt-3'>{faq.answer}</p>
                             </Card>
                         ))}
                     </div>
@@ -207,28 +195,25 @@ const SectorPage = ({ sector }: Props) => {
             {/* CTA */}
             <section className='px-4 lg:px-8'>
                 <div className='mx-auto max-w-6xl'>
-                    <Card className='rounded-3xl border-primary/20 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent p-8 md:p-12 animate-in fade-in slide-in-from-bottom-6 duration-700'>
+                    <Card className='border-primary/20 from-primary/10 via-primary/5 animate-in fade-in slide-in-from-bottom-6 rounded-3xl bg-gradient-to-br to-transparent p-8 duration-700 md:p-12'>
                         <div className='grid gap-8 lg:grid-cols-2 lg:items-center'>
                             <div>
-                                <h2 className='text-3xl font-semibold text-foreground'>
-                                    Talk to a specialist
-                                </h2>
-                                <p className='mt-4 text-muted-foreground'>
-                                    We benchmark lenders daily so you can compare options without repeating
-                                    yourself. Get matched with the right {sector.title.toLowerCase()} providers
-                                    for your business.
+                                <h2 className='text-foreground text-3xl font-semibold'>Talk to a specialist</h2>
+                                <p className='text-muted-foreground mt-4'>
+                                    We benchmark lenders daily so you can compare options without repeating yourself.
+                                    Get matched with the right {sector.title.toLowerCase()} providers for your business.
                                 </p>
-                                <ul className='mt-6 space-y-2 text-sm text-muted-foreground'>
+                                <ul className='text-muted-foreground mt-6 space-y-2 text-sm'>
                                     <li className='flex items-center gap-2'>
-                                        <CheckCircle2 className='h-4 w-4 text-primary' />
+                                        <CheckCircle2 className='text-primary h-4 w-4' />
                                         Dedicated UK broker network and lender partners
                                     </li>
                                     <li className='flex items-center gap-2'>
-                                        <CheckCircle2 className='h-4 w-4 text-primary' />
+                                        <CheckCircle2 className='text-primary h-4 w-4' />
                                         Structured data capture for higher approval odds
                                     </li>
                                     <li className='flex items-center gap-2'>
-                                        <CheckCircle2 className='h-4 w-4 text-primary' />
+                                        <CheckCircle2 className='text-primary h-4 w-4' />
                                         CRM-ready summaries for your team
                                     </li>
                                 </ul>
@@ -236,7 +221,7 @@ const SectorPage = ({ sector }: Props) => {
                             <div className='flex flex-col gap-4 sm:flex-row lg:justify-end'>
                                 <Button
                                     size='lg'
-                                    className='h-12 px-8 text-base shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/30'
+                                    className='shadow-primary/25 hover:shadow-primary/30 h-12 px-8 text-base shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-xl'
                                     asChild>
                                     <Link href='/contact'>
                                         Send My Application

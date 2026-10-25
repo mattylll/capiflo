@@ -5,10 +5,18 @@
  * word-count, entity-density and PAA targets each body is written against.
  */
 
+export type ArticleSubsection = {
+    /** H3 sub-point under a question-led H2. */
+    h: string;
+    body: string[];
+};
+
 export type ArticleSection = {
     /** Question-led, entity-distinct H2. */
     h: string;
     body: string[];
+    /** Optional H3 sub-points. Paragraphs may contain markdown links: [label](/path). */
+    subsections?: ArticleSubsection[];
 };
 
 export type FAQ = {
